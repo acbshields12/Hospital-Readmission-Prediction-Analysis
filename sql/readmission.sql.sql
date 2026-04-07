@@ -85,5 +85,13 @@ where age > 60
 and readmitted = 'Yes'
 and comorbidities >= 2;
 
+-- Readmission Rate by Department --
+select hospital_department,
+count(*) as total_patients,
+sum(readmitted = 'Yes') as readmitted_count,
+sum(readmitted = 'Yes') * 100.0 / COUNT(*) as readmission_rate
+from readmission_data
+group by hospital_department;
+
 
 
