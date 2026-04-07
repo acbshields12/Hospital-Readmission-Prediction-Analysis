@@ -1,0 +1,2001 @@
+﻿Patient_ID,Age,Gender,Admission_Date,Discharge_Date,Diagnosis,Treatment_Type,Length_of_stay,Readmitted,Comorbidities,Insurance_Type,Hospital_dept
+1,71,Female,2024-11-06,2024-11-09,Diabetes,Surgery,3,Yes,3,Private,General
+2,27,Female,2024-07-08,2024-07-18,Hypertension,Medication,10,No,0,None,General
+3,60,Male,2024-05-26,2024-06-07,Stroke,Medication,12,No,1,None,General
+4,34,Male,2024-02-13,2024-02-19,Pneumonia,Surgery,6,Yes,1,None,ER
+5,23,Female,2024-08-28,2024-09-04,Pneumonia,Therapy,7,No,1,Private,General
+6,37,Female,2024-08-08,2024-08-10,Hypertension,Surgery,2,Yes,1,None,ICU
+7,75,Male,2024-08-13,2024-08-22,Diabetes,Therapy,9,No,1,Private,ER
+8,23,Male,2024-11-02,2024-11-08,Stroke,Therapy,6,No,1,Public,ER
+9,73,Male,2024-08-17,2024-08-23,Stroke,Therapy,6,Yes,2,Public,General
+10,53,Female,2024-07-05,2024-07-07,Heart Failure,Surgery,2,No,1,Private,ICU
+11,36,Male,2024-02-27,2024-03-04,Stroke,Therapy,6,No,2,Public,ICU
+12,25,Female,2024-04-26,2024-04-30,Diabetes,Medication,4,Yes,2,None,General
+13,61,Male,2024-03-29,2024-04-11,Pneumonia,Medication,13,No,0,Public,General
+14,56,Male,2024-04-10,2024-04-23,Pneumonia,Medication,13,No,2,Private,ICU
+15,46,Female,2024-02-13,2024-02-25,Stroke,Surgery,12,No,0,None,ICU
+16,39,Male,2024-11-11,2024-11-15,Pneumonia,Medication,4,No,1,None,Neurology
+17,29,Male,2024-01-17,2024-01-30,Diabetes,Surgery,13,No,0,Private,Cardiology
+18,59,Female,2024-02-11,2024-02-20,Hypertension,Therapy,9,No,0,Private,Neurology
+19,26,Female,2024-01-22,2024-01-31,Diabetes,Medication,9,No,0,Private,Cardiology
+20,89,Female,2024-10-22,2024-10-29,Pneumonia,Surgery,7,Yes,1,Private,Cardiology
+21,54,Male,2024-03-27,2024-04-07,Diabetes,Medication,11,No,0,Public,ICU
+22,39,Male,2024-12-22,2024-12-24,Heart Failure,Medication,2,No,1,Private,ER
+23,90,Male,2024-01-04,2024-01-06,Heart Failure,Surgery,2,Yes,1,Public,Cardiology
+24,63,Female,2024-12-12,2024-12-15,Heart Failure,Therapy,3,No,3,None,General
+25,86,Male,2024-08-07,2024-08-12,Pneumonia,Medication,5,No,1,None,Cardiology
+26,64,Male,2024-02-16,2024-03-01,Heart Failure,Medication,14,No,2,Private,Cardiology
+27,62,Male,2024-05-21,2024-06-04,Stroke,Medication,14,No,2,None,ICU
+28,28,Male,2024-09-27,2024-10-07,Hypertension,Medication,10,No,2,Private,Neurology
+29,69,Female,2024-11-15,2024-11-22,Stroke,Medication,7,No,1,None,General
+30,88,Male,2024-09-28,2024-10-12,Pneumonia,Surgery,14,No,0,Private,ICU
+31,73,Male,2024-11-14,2024-11-17,Hypertension,Surgery,3,No,4,None,ICU
+32,26,Male,2024-01-03,2024-01-11,Hypertension,Medication,8,No,4,Public,General
+33,36,Female,2024-11-05,2024-11-19,Pneumonia,Medication,14,Yes,1,Private,General
+34,32,Male,2024-04-27,2024-04-30,Hypertension,Medication,3,Yes,1,None,Neurology
+35,67,Male,2024-01-03,2024-01-10,Diabetes,Surgery,7,Yes,3,Private,Cardiology
+36,41,Female,2024-06-07,2024-06-21,Pneumonia,Therapy,14,No,4,None,General
+37,33,Female,2024-01-11,2024-01-12,Stroke,Medication,1,No,0,Public,Cardiology
+38,55,Male,2024-10-13,2024-10-19,Diabetes,Medication,6,No,0,Private,General
+39,58,Female,2024-01-13,2024-01-23,Stroke,Therapy,10,No,4,None,Neurology
+40,45,Male,2024-08-09,2024-08-15,Diabetes,Therapy,6,No,3,Private,General
+41,35,Male,2024-03-08,2024-03-15,Diabetes,Surgery,7,No,3,Public,Neurology
+42,22,Male,2024-10-17,2024-10-25,Heart Failure,Medication,8,No,0,None,Neurology
+43,89,Female,2024-11-07,2024-11-12,Hypertension,Medication,5,No,2,Private,General
+44,28,Female,2024-09-24,2024-10-05,Heart Failure,Therapy,11,No,3,None,Cardiology
+45,73,Male,2024-11-02,2024-11-08,Pneumonia,Therapy,6,No,1,None,ER
+46,82,Female,2024-12-16,2024-12-30,Pneumonia,Therapy,14,No,4,Public,Cardiology
+47,44,Male,2024-09-20,2024-09-23,Hypertension,Therapy,3,No,1,None,General
+48,76,Female,2024-04-08,2024-04-13,Hypertension,Medication,5,No,4,Public,General
+49,53,Male,2024-08-02,2024-08-15,Diabetes,Therapy,13,No,0,Public,Cardiology
+50,81,Male,2024-05-04,2024-05-09,Pneumonia,Medication,5,Yes,2,Private,ER
+51,83,Female,2024-01-01,2024-01-15,Diabetes,Medication,14,No,4,None,Neurology
+52,38,Male,2024-11-14,2024-11-17,Diabetes,Therapy,3,No,2,None,General
+53,30,Female,2024-10-19,2024-11-02,Diabetes,Therapy,14,No,0,None,Cardiology
+54,42,Male,2024-04-24,2024-04-26,Stroke,Surgery,2,No,3,None,ICU
+55,44,Female,2024-10-03,2024-10-05,Heart Failure,Medication,2,Yes,1,None,Cardiology
+56,47,Male,2024-12-19,2024-12-22,Pneumonia,Medication,3,No,3,Private,ICU
+57,43,Female,2024-08-12,2024-08-15,Pneumonia,Therapy,3,No,0,Public,ICU
+58,48,Female,2024-10-20,2024-11-02,Hypertension,Therapy,13,Yes,1,Public,ICU
+59,20,Male,2024-09-19,2024-10-04,Stroke,Therapy,15,Yes,3,Private,General
+60,71,Female,2024-10-31,2024-11-05,Heart Failure,Medication,5,Yes,2,None,Cardiology
+61,66,Male,2024-11-19,2024-11-30,Pneumonia,Surgery,11,No,3,Private,Cardiology
+62,73,Female,2024-10-14,2024-10-21,Heart Failure,Medication,7,Yes,3,Public,Neurology
+63,53,Male,2024-05-31,2024-06-01,Heart Failure,Medication,1,No,0,None,Neurology
+64,57,Male,2024-06-14,2024-06-22,Pneumonia,Medication,8,Yes,2,Public,ER
+65,28,Male,2024-07-02,2024-07-07,Stroke,Therapy,5,Yes,4,Private,General
+66,45,Male,2024-04-12,2024-04-25,Pneumonia,Medication,13,No,2,None,Cardiology
+67,82,Male,2024-04-25,2024-05-09,Stroke,Therapy,14,Yes,1,Public,General
+68,48,Male,2024-06-17,2024-06-20,Diabetes,Medication,3,No,4,Private,ER
+69,47,Female,2024-08-22,2024-08-29,Diabetes,Medication,7,No,3,None,Cardiology
+70,57,Male,2024-10-11,2024-10-20,Stroke,Medication,9,No,4,Private,Neurology
+71,66,Female,2024-03-09,2024-03-23,Diabetes,Surgery,14,Yes,0,Private,ICU
+72,38,Female,2024-04-13,2024-04-17,Diabetes,Therapy,4,No,3,Public,ER
+73,74,Female,2024-12-17,2024-12-20,Pneumonia,Medication,3,No,4,None,ICU
+74,49,Female,2024-08-30,2024-09-09,Pneumonia,Therapy,10,No,2,Private,Neurology
+75,21,Male,2024-06-20,2024-07-05,Pneumonia,Surgery,15,Yes,2,None,Neurology
+76,28,Female,2024-01-16,2024-01-29,Hypertension,Medication,13,Yes,3,None,ICU
+77,43,Female,2024-11-16,2024-11-19,Stroke,Therapy,3,No,1,None,Cardiology
+78,69,Female,2024-02-11,2024-02-21,Diabetes,Medication,10,No,1,None,ICU
+79,61,Female,2024-02-16,2024-02-21,Stroke,Surgery,5,Yes,4,Private,ICU
+80,39,Male,2024-09-18,2024-10-01,Pneumonia,Surgery,13,Yes,1,Public,Cardiology
+81,56,Male,2024-01-09,2024-01-22,Stroke,Medication,13,No,4,None,Cardiology
+82,39,Male,2024-07-26,2024-08-09,Diabetes,Therapy,14,No,0,Private,Cardiology
+83,45,Male,2024-04-26,2024-05-02,Hypertension,Therapy,6,No,4,None,Neurology
+84,22,Female,2024-12-23,2025-01-05,Heart Failure,Therapy,13,No,2,Private,General
+85,86,Female,2024-10-11,2024-10-14,Pneumonia,Therapy,3,No,2,Public,Cardiology
+86,25,Female,2024-08-27,2024-09-02,Pneumonia,Therapy,6,Yes,3,Private,General
+87,58,Male,2024-09-28,2024-10-11,Stroke,Medication,13,Yes,0,Public,ER
+88,83,Male,2024-10-26,2024-10-28,Pneumonia,Therapy,2,No,2,Public,Cardiology
+89,43,Male,2024-10-18,2024-10-25,Pneumonia,Medication,7,Yes,2,None,Cardiology
+90,76,Female,2024-09-11,2024-09-21,Hypertension,Medication,10,Yes,4,Public,General
+91,21,Female,2024-07-20,2024-07-30,Diabetes,Medication,10,No,4,Private,ER
+92,48,Male,2024-04-06,2024-04-20,Stroke,Medication,14,No,2,None,ICU
+93,38,Female,2024-12-10,2024-12-17,Hypertension,Surgery,7,No,1,Public,Neurology
+94,49,Female,2024-04-14,2024-04-18,Diabetes,Therapy,4,Yes,2,None,Cardiology
+95,24,Female,2024-11-20,2024-11-27,Diabetes,Surgery,7,No,2,Public,ER
+96,67,Female,2024-04-11,2024-04-23,Heart Failure,Medication,12,No,4,None,ICU
+97,88,Male,2024-09-06,2024-09-15,Heart Failure,Surgery,9,Yes,3,Public,Cardiology
+98,75,Female,2024-03-05,2024-03-14,Pneumonia,Therapy,9,No,1,None,ER
+99,73,Female,2024-02-26,2024-03-08,Stroke,Therapy,11,No,4,Private,ER
+100,37,Male,2024-03-24,2024-04-08,Hypertension,Therapy,15,No,1,Public,General
+101,28,Female,2024-09-30,2024-10-10,Stroke,Surgery,10,No,3,Public,ICU
+102,38,Female,2024-02-15,2024-02-18,Diabetes,Therapy,3,No,4,Public,General
+103,89,Female,2024-01-27,2024-01-28,Pneumonia,Surgery,1,No,2,Public,ER
+104,55,Male,2024-08-12,2024-08-19,Heart Failure,Surgery,7,No,2,Public,Cardiology
+105,23,Male,2024-01-23,2024-02-03,Hypertension,Therapy,11,No,3,Public,Neurology
+106,23,Male,2024-11-06,2024-11-11,Diabetes,Medication,5,No,0,None,General
+107,66,Male,2024-03-13,2024-03-28,Stroke,Surgery,15,Yes,1,Private,General
+108,80,Male,2024-12-16,2024-12-23,Pneumonia,Medication,7,No,4,None,General
+109,39,Male,2024-07-17,2024-07-30,Hypertension,Therapy,13,No,2,None,ICU
+110,75,Female,2024-06-29,2024-07-05,Pneumonia,Therapy,6,Yes,0,Private,Neurology
+111,58,Male,2024-12-16,2024-12-27,Stroke,Surgery,11,No,2,Public,ER
+112,83,Female,2024-02-08,2024-02-20,Hypertension,Therapy,12,No,3,None,Neurology
+113,22,Male,2024-05-16,2024-05-18,Pneumonia,Medication,2,No,3,Private,Cardiology
+114,48,Male,2024-04-17,2024-05-02,Stroke,Therapy,15,No,1,Private,General
+115,89,Female,2024-07-11,2024-07-19,Stroke,Therapy,8,Yes,4,Public,ER
+116,85,Male,2024-12-13,2024-12-27,Heart Failure,Medication,14,Yes,1,Public,Neurology
+117,83,Female,2024-12-25,2025-01-08,Stroke,Therapy,14,No,1,None,Cardiology
+118,39,Female,2024-09-01,2024-09-03,Hypertension,Medication,2,No,0,Public,Cardiology
+119,29,Female,2024-05-13,2024-05-22,Heart Failure,Therapy,9,No,2,Public,Cardiology
+120,58,Male,2024-09-24,2024-10-08,Pneumonia,Therapy,14,No,4,Private,Cardiology
+121,62,Female,2024-10-30,2024-11-14,Diabetes,Medication,15,Yes,3,None,ICU
+122,31,Female,2024-12-17,2024-12-30,Diabetes,Surgery,13,Yes,4,None,ER
+123,55,Male,2024-09-09,2024-09-22,Heart Failure,Medication,13,No,4,Public,General
+124,69,Male,2024-07-16,2024-07-30,Stroke,Surgery,14,No,2,None,Neurology
+125,49,Male,2024-03-02,2024-03-04,Heart Failure,Medication,2,No,4,Public,ICU
+126,67,Male,2024-10-28,2024-11-10,Pneumonia,Surgery,13,No,2,None,Neurology
+127,28,Male,2024-08-03,2024-08-16,Stroke,Medication,13,No,1,Public,Neurology
+128,74,Female,2024-10-23,2024-10-26,Pneumonia,Therapy,3,No,2,Private,ICU
+129,79,Female,2024-12-06,2024-12-16,Stroke,Medication,10,No,4,Public,General
+130,69,Male,2024-06-27,2024-07-12,Heart Failure,Surgery,15,No,3,Private,General
+131,59,Male,2024-09-03,2024-09-07,Hypertension,Medication,4,Yes,4,Private,General
+132,26,Female,2024-09-02,2024-09-09,Hypertension,Therapy,7,Yes,2,None,Cardiology
+133,31,Male,2024-04-08,2024-04-15,Stroke,Therapy,7,No,1,Private,ER
+134,28,Female,2024-05-13,2024-05-26,Pneumonia,Medication,13,No,0,Public,Cardiology
+135,24,Male,2024-10-04,2024-10-14,Diabetes,Medication,10,Yes,1,Private,ER
+136,82,Male,2024-05-14,2024-05-18,Hypertension,Surgery,4,No,1,Private,ER
+137,38,Female,2024-07-04,2024-07-09,Pneumonia,Surgery,5,Yes,3,None,Cardiology
+138,78,Female,2024-03-18,2024-03-19,Heart Failure,Medication,1,No,2,None,Neurology
+139,69,Female,2024-03-28,2024-03-29,Heart Failure,Medication,1,No,4,None,Cardiology
+140,40,Female,2024-05-10,2024-05-16,Stroke,Therapy,6,No,3,Private,Neurology
+141,35,Female,2024-03-10,2024-03-21,Diabetes,Therapy,11,No,3,None,ICU
+142,60,Female,2024-10-26,2024-11-10,Diabetes,Medication,15,No,1,Private,ICU
+143,37,Female,2024-05-19,2024-05-23,Hypertension,Medication,4,No,1,Private,ER
+144,59,Female,2024-05-22,2024-05-25,Diabetes,Surgery,3,No,2,None,Cardiology
+145,30,Male,2024-02-06,2024-02-20,Hypertension,Medication,14,No,1,Private,ICU
+146,50,Female,2024-07-24,2024-07-28,Heart Failure,Surgery,4,Yes,1,Private,ER
+147,53,Female,2024-11-06,2024-11-19,Heart Failure,Surgery,13,Yes,4,Public,Cardiology
+148,88,Female,2024-01-29,2024-02-07,Diabetes,Therapy,9,No,3,Public,General
+149,36,Male,2024-10-29,2024-11-07,Heart Failure,Surgery,9,No,3,None,ER
+150,46,Male,2024-01-21,2024-02-02,Heart Failure,Medication,12,No,2,Public,ICU
+151,33,Male,2024-03-04,2024-03-16,Diabetes,Medication,12,No,4,Private,General
+152,54,Male,2024-08-14,2024-08-18,Stroke,Therapy,4,Yes,3,None,Neurology
+153,66,Female,2024-03-25,2024-04-02,Hypertension,Medication,8,No,0,Public,ICU
+154,79,Female,2024-04-28,2024-05-13,Hypertension,Therapy,15,No,3,None,General
+155,89,Female,2024-02-23,2024-02-27,Pneumonia,Surgery,4,No,4,None,Cardiology
+156,57,Male,2024-12-13,2024-12-14,Diabetes,Therapy,1,No,0,Private,ICU
+157,30,Female,2024-06-09,2024-06-20,Hypertension,Medication,11,Yes,3,Private,Cardiology
+158,32,Female,2024-04-29,2024-05-05,Pneumonia,Surgery,6,Yes,2,Private,Neurology
+159,28,Female,2024-10-10,2024-10-19,Heart Failure,Surgery,9,No,3,None,ER
+160,23,Male,2024-01-18,2024-02-01,Hypertension,Medication,14,No,4,None,ER
+161,49,Male,2024-12-03,2024-12-17,Pneumonia,Surgery,14,Yes,0,Private,ER
+162,37,Male,2024-03-03,2024-03-15,Diabetes,Surgery,12,Yes,4,Public,ER
+163,59,Male,2024-11-17,2024-11-23,Pneumonia,Surgery,6,No,0,Private,Cardiology
+164,46,Female,2024-05-16,2024-05-18,Diabetes,Therapy,2,No,0,None,Cardiology
+165,83,Male,2024-04-12,2024-04-19,Heart Failure,Surgery,7,No,0,Public,Neurology
+166,48,Female,2024-06-17,2024-06-30,Heart Failure,Therapy,13,No,1,Public,Cardiology
+167,57,Female,2024-04-22,2024-04-25,Hypertension,Therapy,3,No,4,Private,Neurology
+168,73,Female,2024-09-19,2024-09-24,Stroke,Therapy,5,Yes,4,None,ICU
+169,85,Female,2024-04-26,2024-05-09,Stroke,Surgery,13,No,3,Public,ICU
+170,55,Male,2024-05-06,2024-05-19,Heart Failure,Therapy,13,No,3,Private,ICU
+171,82,Male,2024-10-30,2024-10-31,Pneumonia,Medication,1,No,3,None,General
+172,65,Female,2024-11-24,2024-12-06,Pneumonia,Medication,12,No,4,None,Cardiology
+173,85,Male,2024-03-06,2024-03-11,Diabetes,Medication,5,Yes,1,None,ICU
+174,84,Male,2024-02-25,2024-03-05,Pneumonia,Surgery,9,Yes,4,Private,General
+175,55,Female,2024-12-26,2024-12-30,Heart Failure,Medication,4,No,0,Public,Cardiology
+176,36,Female,2024-01-02,2024-01-06,Diabetes,Surgery,4,No,0,None,ER
+177,58,Male,2024-11-15,2024-11-17,Diabetes,Therapy,2,No,0,None,ER
+178,66,Male,2024-12-17,2024-12-27,Pneumonia,Therapy,10,No,1,Public,ICU
+179,58,Female,2024-09-23,2024-10-06,Heart Failure,Surgery,13,Yes,4,Public,Neurology
+180,26,Female,2024-03-28,2024-04-04,Hypertension,Therapy,7,No,2,None,ICU
+181,34,Male,2024-02-27,2024-03-12,Diabetes,Therapy,14,No,1,Private,ER
+182,62,Female,2024-01-26,2024-02-03,Stroke,Therapy,8,No,0,Private,General
+183,63,Female,2024-12-27,2024-12-29,Diabetes,Medication,2,Yes,4,Private,General
+184,69,Female,2024-11-15,2024-11-22,Diabetes,Medication,7,No,1,Public,Cardiology
+185,85,Male,2024-05-02,2024-05-17,Stroke,Therapy,15,Yes,4,None,Neurology
+186,70,Female,2024-05-05,2024-05-10,Hypertension,Therapy,5,No,0,None,Cardiology
+187,42,Female,2024-02-07,2024-02-11,Hypertension,Medication,4,No,0,Private,ICU
+188,36,Female,2024-10-30,2024-11-03,Stroke,Medication,4,Yes,1,Public,Cardiology
+189,50,Female,2024-10-10,2024-10-11,Diabetes,Medication,1,No,1,None,ICU
+190,84,Female,2024-10-06,2024-10-09,Pneumonia,Therapy,3,Yes,3,None,General
+191,68,Male,2024-09-05,2024-09-17,Hypertension,Surgery,12,No,2,Private,Cardiology
+192,31,Female,2024-01-13,2024-01-20,Hypertension,Surgery,7,No,1,None,General
+193,53,Male,2024-08-20,2024-09-03,Diabetes,Medication,14,No,0,Public,Neurology
+194,63,Male,2024-10-03,2024-10-14,Pneumonia,Therapy,11,Yes,3,Private,ICU
+195,45,Female,2024-12-19,2024-12-25,Diabetes,Therapy,6,No,0,Public,General
+196,69,Female,2024-12-06,2024-12-19,Hypertension,Therapy,13,No,4,Public,ICU
+197,39,Female,2024-07-06,2024-07-09,Heart Failure,Therapy,3,No,4,Private,General
+198,83,Male,2024-03-08,2024-03-21,Stroke,Surgery,13,No,3,Private,Neurology
+199,51,Female,2024-04-26,2024-05-06,Pneumonia,Therapy,10,No,0,Public,ER
+200,71,Female,2024-08-16,2024-08-26,Pneumonia,Therapy,10,No,3,None,Neurology
+201,52,Male,2024-01-10,2024-01-23,Heart Failure,Therapy,13,No,4,None,Neurology
+202,46,Male,2024-01-13,2024-01-26,Heart Failure,Medication,13,No,2,None,General
+203,74,Male,2024-11-11,2024-11-12,Stroke,Medication,1,Yes,3,Public,General
+204,65,Male,2024-07-26,2024-08-10,Stroke,Medication,15,Yes,0,Public,Cardiology
+205,29,Male,2024-12-30,2024-12-31,Stroke,Medication,1,No,3,None,General
+206,54,Male,2024-07-02,2024-07-03,Pneumonia,Medication,1,No,4,Private,ICU
+207,81,Female,2024-12-09,2024-12-14,Diabetes,Medication,5,No,2,Public,Cardiology
+208,37,Male,2024-10-11,2024-10-13,Diabetes,Surgery,2,Yes,0,Public,ICU
+209,52,Female,2024-09-11,2024-09-17,Diabetes,Therapy,6,No,1,None,General
+210,61,Male,2024-03-14,2024-03-20,Diabetes,Therapy,6,No,1,Private,General
+211,63,Male,2024-12-30,2025-01-02,Hypertension,Surgery,3,No,4,Private,ER
+212,80,Female,2024-04-17,2024-04-27,Diabetes,Therapy,10,Yes,4,None,Neurology
+213,90,Female,2024-08-03,2024-08-06,Pneumonia,Therapy,3,No,3,Private,ER
+214,23,Female,2024-12-27,2025-01-02,Hypertension,Medication,6,Yes,3,None,Neurology
+215,84,Female,2024-03-30,2024-04-09,Heart Failure,Surgery,10,No,3,Private,General
+216,59,Male,2024-05-15,2024-05-18,Pneumonia,Therapy,3,Yes,1,None,Cardiology
+217,55,Female,2024-07-12,2024-07-20,Hypertension,Surgery,8,No,3,None,Cardiology
+218,37,Male,2024-02-23,2024-02-26,Heart Failure,Medication,3,No,1,Public,Cardiology
+219,25,Female,2024-08-25,2024-09-05,Stroke,Therapy,11,No,2,Public,Cardiology
+220,26,Male,2024-04-16,2024-04-19,Pneumonia,Medication,3,No,4,Public,ICU
+221,83,Female,2024-04-27,2024-05-06,Diabetes,Medication,9,Yes,4,None,ICU
+222,77,Female,2024-02-21,2024-02-26,Heart Failure,Surgery,5,No,4,Public,ER
+223,68,Female,2024-05-24,2024-06-06,Diabetes,Surgery,13,No,0,Public,ICU
+224,43,Female,2024-05-07,2024-05-21,Stroke,Surgery,14,No,4,None,Cardiology
+225,65,Male,2024-04-01,2024-04-07,Pneumonia,Therapy,6,No,3,Public,ICU
+226,65,Male,2024-03-02,2024-03-09,Hypertension,Surgery,7,No,0,Public,ER
+227,43,Male,2024-06-02,2024-06-06,Pneumonia,Therapy,4,Yes,2,None,Cardiology
+228,68,Female,2024-07-27,2024-08-08,Heart Failure,Therapy,12,No,4,Public,General
+229,71,Female,2024-07-10,2024-07-23,Pneumonia,Surgery,13,No,3,None,Neurology
+230,65,Male,2024-08-30,2024-09-01,Diabetes,Therapy,2,No,3,Public,Neurology
+231,44,Female,2024-01-04,2024-01-10,Heart Failure,Surgery,6,No,1,None,General
+232,23,Male,2024-01-01,2024-01-09,Diabetes,Therapy,8,No,2,Public,General
+233,69,Female,2024-10-17,2024-10-23,Stroke,Medication,6,No,4,Private,General
+234,22,Male,2024-05-21,2024-05-22,Pneumonia,Medication,1,No,1,Private,ER
+235,57,Female,2024-06-15,2024-06-28,Heart Failure,Therapy,13,No,4,Private,General
+236,87,Male,2024-02-12,2024-02-26,Diabetes,Medication,14,Yes,3,None,Neurology
+237,88,Female,2024-12-05,2024-12-19,Heart Failure,Medication,14,Yes,2,Private,ICU
+238,68,Male,2024-01-04,2024-01-18,Pneumonia,Medication,14,No,4,Private,General
+239,36,Male,2024-08-22,2024-08-30,Pneumonia,Medication,8,No,2,None,ER
+240,34,Female,2024-07-25,2024-08-07,Heart Failure,Surgery,13,No,2,None,Cardiology
+241,55,Female,2024-04-17,2024-04-30,Pneumonia,Surgery,13,No,3,Public,General
+242,80,Male,2024-01-24,2024-01-26,Hypertension,Medication,2,No,3,None,General
+243,28,Female,2024-03-27,2024-04-02,Heart Failure,Therapy,6,Yes,0,Private,Neurology
+244,90,Female,2024-05-18,2024-05-29,Heart Failure,Medication,11,Yes,3,Private,Cardiology
+245,75,Female,2024-06-25,2024-07-07,Stroke,Therapy,12,No,0,Private,General
+246,50,Female,2024-06-29,2024-07-06,Stroke,Therapy,7,No,3,None,ICU
+247,79,Female,2024-03-02,2024-03-14,Diabetes,Therapy,12,Yes,3,Public,Neurology
+248,39,Male,2024-02-09,2024-02-11,Heart Failure,Medication,2,No,1,None,General
+249,73,Male,2024-06-29,2024-07-11,Diabetes,Therapy,12,No,1,Public,ER
+250,63,Male,2024-08-11,2024-08-26,Diabetes,Therapy,15,No,3,Public,General
+251,68,Female,2024-05-11,2024-05-21,Pneumonia,Surgery,10,No,1,None,Cardiology
+252,28,Male,2024-03-25,2024-03-26,Hypertension,Medication,1,Yes,4,None,ER
+253,85,Female,2024-10-10,2024-10-19,Heart Failure,Medication,9,No,1,Private,Neurology
+254,56,Female,2024-01-25,2024-02-05,Hypertension,Therapy,11,No,1,None,ER
+255,25,Female,2024-08-04,2024-08-19,Pneumonia,Medication,15,No,3,Private,ER
+256,20,Female,2024-08-14,2024-08-28,Diabetes,Therapy,14,No,1,None,General
+257,40,Female,2024-03-28,2024-04-10,Heart Failure,Therapy,13,No,4,Public,General
+258,72,Female,2024-04-09,2024-04-18,Heart Failure,Medication,9,No,0,None,Cardiology
+259,22,Female,2024-02-18,2024-02-26,Diabetes,Surgery,8,Yes,3,Public,Cardiology
+260,66,Female,2024-08-10,2024-08-13,Hypertension,Surgery,3,No,0,Private,ICU
+261,39,Male,2024-09-08,2024-09-11,Heart Failure,Therapy,3,No,4,None,ER
+262,88,Male,2024-10-23,2024-11-05,Hypertension,Surgery,13,No,0,Private,ICU
+263,64,Male,2024-12-04,2024-12-05,Pneumonia,Surgery,1,No,1,None,ER
+264,87,Female,2024-01-07,2024-01-17,Pneumonia,Therapy,10,No,2,Private,Cardiology
+265,68,Male,2024-02-03,2024-02-07,Pneumonia,Surgery,4,No,0,Public,Cardiology
+266,69,Female,2024-03-16,2024-03-19,Hypertension,Surgery,3,No,1,None,Cardiology
+267,67,Female,2024-10-06,2024-10-14,Diabetes,Surgery,8,Yes,2,Private,ER
+268,84,Female,2024-01-31,2024-02-08,Diabetes,Surgery,8,Yes,4,Public,General
+269,66,Male,2024-02-02,2024-02-09,Heart Failure,Surgery,7,No,1,Private,ER
+270,27,Male,2024-06-05,2024-06-13,Heart Failure,Medication,8,No,4,Public,Neurology
+271,22,Female,2024-11-06,2024-11-07,Stroke,Therapy,1,Yes,2,Private,Neurology
+272,67,Female,2024-02-09,2024-02-18,Stroke,Therapy,9,No,1,Private,ICU
+273,39,Male,2024-12-05,2024-12-18,Stroke,Therapy,13,No,2,None,General
+274,59,Female,2024-04-22,2024-05-05,Hypertension,Medication,13,Yes,2,Public,Cardiology
+275,68,Male,2024-12-26,2025-01-05,Hypertension,Therapy,10,No,1,Public,ER
+276,28,Female,2024-02-25,2024-03-07,Pneumonia,Surgery,11,Yes,3,None,ICU
+277,72,Female,2024-07-12,2024-07-19,Diabetes,Therapy,7,Yes,1,None,ER
+278,46,Male,2024-10-05,2024-10-12,Stroke,Therapy,7,Yes,0,Private,ER
+279,38,Male,2024-12-24,2025-01-05,Heart Failure,Surgery,12,Yes,3,None,ICU
+280,44,Male,2024-08-06,2024-08-14,Hypertension,Medication,8,No,0,Private,General
+281,40,Female,2024-07-19,2024-07-24,Heart Failure,Therapy,5,No,3,Private,ER
+282,22,Female,2024-01-16,2024-01-25,Stroke,Medication,9,No,3,None,ER
+283,68,Female,2024-03-28,2024-04-01,Heart Failure,Therapy,4,No,4,Private,Neurology
+284,81,Male,2024-04-07,2024-04-13,Hypertension,Medication,6,Yes,2,Public,ER
+285,88,Male,2024-10-25,2024-11-03,Pneumonia,Medication,9,Yes,3,Private,General
+286,35,Male,2024-08-22,2024-09-03,Hypertension,Surgery,12,No,2,Public,General
+287,87,Male,2024-08-11,2024-08-24,Heart Failure,Surgery,13,No,4,Private,Cardiology
+288,44,Female,2024-07-16,2024-07-19,Pneumonia,Surgery,3,No,0,Private,General
+289,27,Female,2024-02-14,2024-02-22,Hypertension,Surgery,8,No,3,Private,ER
+290,49,Male,2024-11-17,2024-11-20,Pneumonia,Therapy,3,Yes,2,Private,ICU
+291,50,Female,2024-05-05,2024-05-17,Heart Failure,Surgery,12,Yes,0,None,ER
+292,81,Female,2024-07-20,2024-07-27,Pneumonia,Surgery,7,Yes,2,Private,Neurology
+293,49,Male,2024-04-20,2024-04-28,Hypertension,Surgery,8,No,2,Private,Cardiology
+294,23,Male,2024-08-12,2024-08-15,Stroke,Surgery,3,Yes,0,Private,ER
+295,46,Female,2024-01-09,2024-01-10,Stroke,Surgery,1,No,1,Private,General
+296,32,Male,2024-07-15,2024-07-22,Diabetes,Surgery,7,Yes,0,Public,Neurology
+297,65,Female,2024-08-01,2024-08-10,Stroke,Therapy,9,Yes,2,None,ICU
+298,65,Female,2024-08-12,2024-08-13,Diabetes,Surgery,1,No,2,Private,Neurology
+299,66,Male,2024-05-06,2024-05-13,Heart Failure,Surgery,7,No,4,None,Neurology
+300,83,Female,2024-05-01,2024-05-05,Pneumonia,Surgery,4,No,2,None,ER
+301,38,Male,2024-01-28,2024-02-10,Hypertension,Surgery,13,Yes,0,Public,Cardiology
+302,32,Male,2024-02-28,2024-03-10,Diabetes,Medication,11,No,2,None,ICU
+303,44,Male,2024-10-09,2024-10-16,Pneumonia,Surgery,7,No,2,None,Cardiology
+304,64,Male,2024-05-05,2024-05-20,Hypertension,Medication,15,Yes,4,Private,ICU
+305,70,Male,2024-11-06,2024-11-18,Stroke,Medication,12,No,3,None,Neurology
+306,89,Male,2024-09-06,2024-09-12,Diabetes,Surgery,6,Yes,1,Public,ER
+307,68,Male,2024-07-29,2024-08-02,Stroke,Therapy,4,No,1,None,ER
+308,26,Male,2024-07-01,2024-07-08,Heart Failure,Surgery,7,Yes,0,Private,Neurology
+309,90,Female,2024-09-05,2024-09-18,Heart Failure,Therapy,13,Yes,2,None,ER
+310,62,Male,2024-12-20,2024-12-24,Pneumonia,Therapy,4,No,4,Private,ER
+311,60,Female,2024-05-19,2024-05-27,Heart Failure,Medication,8,No,2,Private,Cardiology
+312,79,Male,2024-06-15,2024-06-29,Pneumonia,Therapy,14,Yes,3,None,General
+313,83,Male,2024-07-15,2024-07-28,Hypertension,Therapy,13,Yes,3,None,Cardiology
+314,53,Male,2024-11-03,2024-11-04,Hypertension,Surgery,1,No,0,Private,General
+315,66,Male,2024-09-23,2024-09-30,Stroke,Therapy,7,Yes,3,Private,ICU
+316,32,Female,2024-06-20,2024-07-04,Hypertension,Therapy,14,No,1,None,ICU
+317,31,Female,2024-09-15,2024-09-24,Pneumonia,Therapy,9,No,2,None,ER
+318,48,Male,2024-02-07,2024-02-16,Hypertension,Surgery,9,No,3,Private,ER
+319,66,Male,2024-02-03,2024-02-09,Hypertension,Surgery,6,Yes,4,None,Cardiology
+320,72,Female,2024-02-11,2024-02-16,Hypertension,Therapy,5,No,1,Private,General
+321,40,Female,2024-01-29,2024-02-09,Stroke,Medication,11,Yes,4,Public,General
+322,62,Male,2024-12-29,2025-01-03,Diabetes,Therapy,5,No,1,None,ER
+323,85,Male,2024-10-05,2024-10-18,Stroke,Medication,13,No,2,Public,ICU
+324,26,Female,2024-05-21,2024-05-28,Pneumonia,Medication,7,No,0,None,General
+325,87,Female,2024-09-08,2024-09-10,Pneumonia,Medication,2,No,3,Public,ICU
+326,58,Male,2024-09-05,2024-09-19,Diabetes,Therapy,14,Yes,4,Private,Neurology
+327,48,Male,2024-03-22,2024-03-30,Diabetes,Surgery,8,Yes,3,Public,ER
+328,24,Female,2024-10-27,2024-11-08,Hypertension,Therapy,12,No,1,None,ER
+329,30,Female,2024-07-09,2024-07-19,Heart Failure,Surgery,10,No,4,Public,Cardiology
+330,38,Male,2024-01-24,2024-02-03,Heart Failure,Surgery,10,No,2,Private,General
+331,28,Female,2024-12-15,2024-12-27,Heart Failure,Medication,12,No,0,Public,ICU
+332,55,Female,2024-08-27,2024-09-04,Hypertension,Surgery,8,No,2,None,ICU
+333,32,Male,2024-12-01,2024-12-14,Pneumonia,Medication,13,No,2,Public,General
+334,29,Female,2024-03-10,2024-03-20,Pneumonia,Medication,10,No,1,None,General
+335,33,Male,2024-02-12,2024-02-24,Heart Failure,Medication,12,No,0,Private,ER
+336,81,Male,2024-07-23,2024-07-31,Diabetes,Surgery,8,No,2,None,ICU
+337,49,Female,2024-08-07,2024-08-09,Stroke,Medication,2,No,2,Private,Cardiology
+338,51,Female,2024-03-17,2024-03-19,Diabetes,Medication,2,Yes,0,Public,ICU
+339,21,Male,2024-06-22,2024-07-02,Pneumonia,Surgery,10,Yes,2,Private,General
+340,43,Male,2024-12-04,2024-12-17,Pneumonia,Medication,13,Yes,4,Private,ER
+341,68,Male,2024-08-24,2024-09-04,Diabetes,Surgery,11,Yes,1,Private,Neurology
+342,79,Male,2024-12-28,2025-01-01,Pneumonia,Surgery,4,No,3,Public,Neurology
+343,33,Male,2024-10-14,2024-10-21,Pneumonia,Medication,7,No,3,Public,ER
+344,53,Male,2024-08-11,2024-08-21,Stroke,Medication,10,Yes,2,None,Cardiology
+345,31,Male,2024-12-13,2024-12-26,Stroke,Surgery,13,Yes,0,None,ER
+346,69,Male,2024-10-29,2024-11-06,Hypertension,Therapy,8,No,1,Private,ER
+347,64,Female,2024-10-29,2024-11-01,Diabetes,Medication,3,No,1,Private,Cardiology
+348,37,Male,2024-05-24,2024-06-03,Hypertension,Medication,10,Yes,2,Private,Neurology
+349,31,Male,2024-01-06,2024-01-20,Stroke,Medication,14,No,2,None,General
+350,37,Female,2024-12-10,2024-12-21,Pneumonia,Surgery,11,No,4,Public,Cardiology
+351,88,Male,2024-11-11,2024-11-12,Diabetes,Medication,1,No,0,Public,ICU
+352,23,Female,2024-07-01,2024-07-09,Hypertension,Therapy,8,No,3,Private,ICU
+353,30,Male,2024-12-20,2024-12-21,Diabetes,Medication,1,No,2,None,General
+354,53,Female,2024-11-22,2024-11-29,Heart Failure,Therapy,7,Yes,3,Public,Neurology
+355,44,Male,2024-08-25,2024-09-08,Diabetes,Medication,14,No,4,Private,ICU
+356,53,Male,2024-09-24,2024-10-04,Pneumonia,Therapy,10,No,0,Private,ICU
+357,86,Female,2024-05-30,2024-06-11,Pneumonia,Medication,12,No,2,None,Neurology
+358,84,Female,2024-12-04,2024-12-09,Diabetes,Medication,5,No,1,None,Neurology
+359,68,Male,2024-02-02,2024-02-07,Pneumonia,Therapy,5,No,3,Public,ER
+360,67,Male,2024-09-20,2024-09-30,Hypertension,Therapy,10,No,3,None,General
+361,76,Female,2024-03-01,2024-03-13,Stroke,Surgery,12,Yes,2,Public,ICU
+362,24,Female,2024-10-01,2024-10-08,Hypertension,Surgery,7,No,1,None,Cardiology
+363,25,Female,2024-12-03,2024-12-09,Heart Failure,Medication,6,No,2,Private,Neurology
+364,84,Male,2024-03-29,2024-04-12,Heart Failure,Therapy,14,No,0,None,ER
+365,64,Female,2024-08-16,2024-08-17,Heart Failure,Surgery,1,No,1,Public,General
+366,78,Female,2024-08-20,2024-08-29,Stroke,Medication,9,No,2,Public,ER
+367,42,Female,2024-09-18,2024-09-23,Heart Failure,Surgery,5,No,2,Private,Neurology
+368,44,Female,2024-03-21,2024-03-26,Hypertension,Medication,5,No,0,None,ICU
+369,68,Male,2024-01-25,2024-02-04,Hypertension,Therapy,10,No,3,Public,General
+370,77,Female,2024-12-10,2024-12-13,Heart Failure,Therapy,3,No,1,Public,ER
+371,73,Female,2024-12-21,2024-12-25,Stroke,Medication,4,Yes,4,Private,ICU
+372,35,Female,2024-04-30,2024-05-08,Hypertension,Medication,8,No,0,Private,ICU
+373,88,Male,2024-09-29,2024-09-30,Stroke,Therapy,1,Yes,2,Public,ICU
+374,51,Male,2024-04-18,2024-04-21,Pneumonia,Therapy,3,Yes,4,Private,Neurology
+375,47,Male,2024-01-17,2024-02-01,Pneumonia,Therapy,15,Yes,2,None,ER
+376,32,Female,2024-06-03,2024-06-15,Pneumonia,Therapy,12,No,3,None,Cardiology
+377,44,Male,2024-04-08,2024-04-23,Heart Failure,Surgery,15,Yes,3,None,ER
+378,89,Male,2024-03-04,2024-03-06,Stroke,Therapy,2,No,4,Private,ICU
+379,36,Female,2024-12-03,2024-12-11,Heart Failure,Medication,8,No,2,Private,Neurology
+380,86,Female,2024-11-07,2024-11-21,Diabetes,Surgery,14,No,0,Public,Cardiology
+381,90,Female,2024-02-10,2024-02-11,Stroke,Medication,1,No,1,None,General
+382,43,Male,2024-10-21,2024-10-28,Hypertension,Surgery,7,Yes,4,Public,Cardiology
+383,39,Female,2024-12-19,2024-12-20,Pneumonia,Therapy,1,Yes,1,Private,ICU
+384,71,Male,2024-02-02,2024-02-07,Heart Failure,Surgery,5,Yes,4,Public,General
+385,45,Male,2024-10-23,2024-11-02,Heart Failure,Medication,10,Yes,0,Private,Cardiology
+386,30,Male,2024-07-17,2024-07-23,Pneumonia,Medication,6,No,4,Private,Cardiology
+387,77,Female,2024-01-29,2024-02-05,Heart Failure,Medication,7,Yes,0,Public,Neurology
+388,36,Female,2024-08-08,2024-08-12,Diabetes,Medication,4,No,4,Public,ICU
+389,83,Male,2024-06-09,2024-06-12,Heart Failure,Medication,3,No,4,None,ICU
+390,31,Male,2024-06-24,2024-07-01,Hypertension,Medication,7,No,4,Public,ER
+391,81,Female,2024-05-24,2024-05-29,Heart Failure,Therapy,5,No,0,None,ER
+392,44,Female,2024-10-13,2024-10-23,Hypertension,Medication,10,Yes,0,None,ER
+393,48,Female,2024-07-04,2024-07-06,Pneumonia,Medication,2,No,0,Private,Cardiology
+394,35,Female,2024-08-10,2024-08-14,Hypertension,Medication,4,No,4,Public,Cardiology
+395,77,Male,2024-02-17,2024-02-27,Pneumonia,Therapy,10,Yes,4,Public,ER
+396,70,Male,2024-11-30,2024-12-01,Pneumonia,Surgery,1,No,2,Private,Cardiology
+397,27,Male,2024-02-25,2024-03-02,Heart Failure,Surgery,6,No,2,None,ICU
+398,56,Female,2024-04-18,2024-05-02,Hypertension,Medication,14,Yes,4,Private,Neurology
+399,38,Female,2024-05-01,2024-05-05,Heart Failure,Therapy,4,No,1,Public,ER
+400,76,Male,2024-09-09,2024-09-14,Heart Failure,Surgery,5,Yes,1,Private,General
+401,27,Female,2024-01-21,2024-01-27,Diabetes,Therapy,6,No,1,None,Neurology
+402,41,Male,2024-11-23,2024-11-28,Stroke,Surgery,5,No,3,None,Neurology
+403,48,Male,2024-05-20,2024-05-25,Pneumonia,Surgery,5,No,1,Public,General
+404,70,Female,2024-03-24,2024-04-06,Pneumonia,Therapy,13,Yes,1,Private,General
+405,43,Female,2024-12-22,2024-12-30,Diabetes,Therapy,8,No,1,None,ICU
+406,20,Male,2024-05-10,2024-05-15,Heart Failure,Surgery,5,No,2,None,ICU
+407,34,Female,2024-04-20,2024-04-22,Diabetes,Surgery,2,No,4,Private,ICU
+408,37,Female,2024-03-13,2024-03-23,Hypertension,Surgery,10,No,3,Private,Cardiology
+409,51,Male,2024-10-15,2024-10-27,Heart Failure,Medication,12,Yes,4,None,Cardiology
+410,84,Female,2024-12-15,2024-12-26,Stroke,Surgery,11,No,4,None,Neurology
+411,32,Male,2024-10-14,2024-10-19,Stroke,Surgery,5,Yes,0,Public,Cardiology
+412,49,Female,2024-07-20,2024-07-26,Heart Failure,Medication,6,No,2,Private,Neurology
+413,32,Male,2024-06-28,2024-07-07,Diabetes,Medication,9,No,3,None,Cardiology
+414,30,Male,2024-11-17,2024-12-01,Hypertension,Medication,14,Yes,1,None,General
+415,83,Male,2024-09-21,2024-10-02,Pneumonia,Therapy,11,No,0,Private,General
+416,70,Female,2024-09-16,2024-09-25,Pneumonia,Surgery,9,No,0,Public,Neurology
+417,56,Female,2024-09-04,2024-09-08,Diabetes,Medication,4,No,4,None,Cardiology
+418,36,Male,2024-05-18,2024-05-29,Diabetes,Surgery,11,Yes,0,None,Neurology
+419,27,Female,2024-01-23,2024-01-28,Stroke,Surgery,5,Yes,4,Public,Cardiology
+420,82,Female,2024-09-05,2024-09-07,Pneumonia,Therapy,2,No,0,None,ICU
+421,36,Female,2024-05-06,2024-05-12,Stroke,Medication,6,No,1,Private,Cardiology
+422,27,Male,2024-01-07,2024-01-15,Pneumonia,Medication,8,No,2,Public,Neurology
+423,29,Male,2024-03-10,2024-03-11,Pneumonia,Therapy,1,No,0,Public,General
+424,47,Male,2024-05-18,2024-06-01,Stroke,Medication,14,No,4,Public,Neurology
+425,30,Female,2024-06-30,2024-07-15,Heart Failure,Medication,15,No,3,Public,ER
+426,41,Female,2024-02-11,2024-02-26,Diabetes,Therapy,15,Yes,2,None,ER
+427,55,Female,2024-01-23,2024-02-07,Diabetes,Surgery,15,No,0,Private,Neurology
+428,62,Male,2024-01-24,2024-01-26,Pneumonia,Medication,2,Yes,2,Private,Cardiology
+429,25,Male,2024-11-27,2024-11-30,Diabetes,Therapy,3,No,2,Private,Neurology
+430,46,Male,2024-02-23,2024-02-27,Diabetes,Medication,4,Yes,2,Private,General
+431,45,Male,2024-03-09,2024-03-17,Stroke,Therapy,8,Yes,4,Private,Neurology
+432,73,Male,2024-06-07,2024-06-08,Stroke,Medication,1,No,3,Public,Cardiology
+433,83,Male,2024-06-27,2024-07-09,Stroke,Medication,12,No,2,None,Cardiology
+434,25,Female,2024-11-19,2024-11-30,Hypertension,Surgery,11,Yes,3,Public,ICU
+435,80,Female,2024-02-29,2024-03-04,Pneumonia,Surgery,4,No,2,Public,Neurology
+436,90,Female,2024-02-17,2024-03-01,Stroke,Medication,13,No,1,Private,ER
+437,47,Male,2024-01-02,2024-01-05,Hypertension,Therapy,3,No,4,None,ER
+438,44,Female,2024-06-04,2024-06-06,Hypertension,Medication,2,Yes,0,Public,ER
+439,77,Male,2024-01-09,2024-01-12,Diabetes,Surgery,3,Yes,2,None,Neurology
+440,31,Male,2024-03-25,2024-03-26,Heart Failure,Medication,1,No,2,Public,General
+441,22,Female,2024-12-11,2024-12-22,Diabetes,Surgery,11,No,0,Private,Cardiology
+442,90,Male,2024-04-17,2024-04-28,Stroke,Medication,11,No,1,Private,ICU
+443,44,Female,2024-03-20,2024-03-23,Diabetes,Surgery,3,No,3,Private,ICU
+444,81,Female,2024-12-23,2025-01-04,Heart Failure,Medication,12,No,0,Public,ICU
+445,87,Female,2024-10-07,2024-10-13,Diabetes,Medication,6,No,3,Private,General
+446,35,Female,2024-08-25,2024-09-02,Hypertension,Surgery,8,No,4,None,Cardiology
+447,44,Female,2024-07-05,2024-07-15,Diabetes,Therapy,10,No,2,Private,Cardiology
+448,77,Female,2024-01-28,2024-02-03,Diabetes,Surgery,6,No,0,Public,General
+449,23,Female,2024-06-08,2024-06-19,Heart Failure,Therapy,11,No,3,None,ICU
+450,57,Male,2024-07-31,2024-08-05,Hypertension,Therapy,5,No,2,Public,General
+451,51,Male,2024-10-15,2024-10-19,Diabetes,Therapy,4,No,2,Private,ER
+452,49,Female,2024-02-03,2024-02-18,Diabetes,Surgery,15,Yes,2,Public,Neurology
+453,84,Female,2024-04-01,2024-04-06,Stroke,Medication,5,No,3,None,General
+454,20,Female,2024-08-01,2024-08-04,Heart Failure,Therapy,3,No,4,Public,ICU
+455,83,Female,2024-12-04,2024-12-07,Heart Failure,Surgery,3,No,2,None,General
+456,86,Male,2024-01-09,2024-01-20,Hypertension,Medication,11,Yes,4,Public,General
+457,20,Male,2024-06-11,2024-06-19,Stroke,Therapy,8,No,1,Private,ICU
+458,27,Male,2024-04-21,2024-04-27,Hypertension,Surgery,6,No,3,Private,General
+459,40,Female,2024-08-15,2024-08-22,Stroke,Surgery,7,No,2,Private,General
+460,33,Female,2024-05-29,2024-05-31,Stroke,Medication,2,Yes,2,None,ER
+461,41,Male,2024-01-30,2024-02-14,Stroke,Therapy,15,No,4,Public,General
+462,49,Female,2024-06-28,2024-07-01,Heart Failure,Medication,3,No,0,None,Neurology
+463,28,Male,2024-06-15,2024-06-20,Pneumonia,Surgery,5,No,4,None,Neurology
+464,65,Female,2024-02-02,2024-02-16,Diabetes,Therapy,14,Yes,0,None,ICU
+465,42,Female,2024-09-29,2024-10-06,Diabetes,Surgery,7,No,2,Public,Cardiology
+466,50,Male,2024-05-20,2024-06-01,Hypertension,Therapy,12,No,1,Public,General
+467,34,Female,2024-01-13,2024-01-14,Hypertension,Surgery,1,No,2,Public,Neurology
+468,59,Female,2024-04-30,2024-05-07,Hypertension,Therapy,7,No,3,Private,Neurology
+469,74,Male,2024-02-28,2024-03-01,Heart Failure,Medication,2,No,0,Private,ICU
+470,25,Male,2024-02-20,2024-03-05,Pneumonia,Medication,14,No,2,Private,General
+471,34,Male,2024-08-02,2024-08-08,Diabetes,Surgery,6,No,4,None,ER
+472,34,Female,2024-04-29,2024-05-07,Pneumonia,Medication,8,No,2,Private,ER
+473,27,Female,2024-09-13,2024-09-17,Heart Failure,Surgery,4,Yes,0,Private,Neurology
+474,30,Female,2024-06-14,2024-06-28,Hypertension,Surgery,14,Yes,3,Public,ER
+475,43,Female,2024-06-27,2024-06-28,Hypertension,Medication,1,No,4,Public,ER
+476,62,Female,2024-02-16,2024-02-25,Hypertension,Medication,9,No,0,None,General
+477,71,Female,2024-10-14,2024-10-19,Hypertension,Medication,5,No,2,None,General
+478,84,Male,2024-12-24,2024-12-27,Pneumonia,Medication,3,No,1,Private,Neurology
+479,57,Male,2024-08-17,2024-08-27,Heart Failure,Therapy,10,No,0,Private,General
+480,51,Male,2024-05-06,2024-05-13,Hypertension,Surgery,7,No,0,None,Cardiology
+481,75,Male,2024-08-20,2024-08-22,Pneumonia,Surgery,2,Yes,3,None,ICU
+482,25,Male,2024-10-16,2024-10-18,Hypertension,Therapy,2,No,1,None,ICU
+483,31,Female,2024-03-06,2024-03-16,Hypertension,Surgery,10,No,1,Private,General
+484,87,Male,2024-01-02,2024-01-04,Stroke,Therapy,2,No,0,None,ICU
+485,29,Female,2024-11-15,2024-11-24,Diabetes,Surgery,9,Yes,1,Private,ICU
+486,63,Female,2024-03-03,2024-03-15,Stroke,Medication,12,No,4,Public,ER
+487,50,Male,2024-04-25,2024-04-28,Diabetes,Therapy,3,No,0,None,Neurology
+488,73,Female,2024-06-14,2024-06-21,Diabetes,Surgery,7,No,3,None,Cardiology
+489,34,Male,2024-10-17,2024-10-26,Heart Failure,Medication,9,Yes,3,None,Neurology
+490,33,Female,2024-06-26,2024-07-01,Pneumonia,Medication,5,No,2,Private,Cardiology
+491,42,Female,2024-09-28,2024-09-29,Stroke,Therapy,1,No,0,None,General
+492,84,Female,2024-11-03,2024-11-17,Heart Failure,Therapy,14,No,1,None,Neurology
+493,41,Male,2024-12-28,2025-01-07,Hypertension,Therapy,10,No,4,None,ICU
+494,82,Female,2024-02-28,2024-03-01,Pneumonia,Therapy,2,Yes,2,None,ICU
+495,46,Female,2024-01-11,2024-01-18,Hypertension,Surgery,7,No,3,Public,General
+496,29,Female,2024-02-11,2024-02-13,Hypertension,Surgery,2,No,0,Public,ER
+497,70,Female,2024-01-11,2024-01-23,Pneumonia,Surgery,12,No,0,Public,ICU
+498,56,Female,2024-03-29,2024-04-01,Pneumonia,Surgery,3,No,4,Private,ER
+499,29,Male,2024-03-01,2024-03-12,Stroke,Therapy,11,Yes,2,Public,ER
+500,46,Female,2024-04-12,2024-04-17,Heart Failure,Surgery,5,Yes,0,None,Cardiology
+501,86,Male,2024-06-03,2024-06-15,Diabetes,Surgery,12,No,4,None,ICU
+502,74,Male,2024-03-22,2024-04-04,Pneumonia,Medication,13,No,1,None,Neurology
+503,50,Female,2024-02-27,2024-03-06,Heart Failure,Medication,8,No,1,None,ER
+504,37,Female,2024-08-29,2024-09-09,Diabetes,Therapy,11,Yes,2,None,General
+505,73,Female,2024-05-30,2024-06-06,Pneumonia,Therapy,7,Yes,3,Public,ER
+506,45,Female,2024-10-06,2024-10-11,Hypertension,Medication,5,Yes,2,None,Neurology
+507,72,Male,2024-09-02,2024-09-03,Pneumonia,Medication,1,No,1,None,Neurology
+508,21,Female,2024-03-11,2024-03-25,Diabetes,Surgery,14,No,4,Public,ER
+509,32,Male,2024-05-13,2024-05-25,Hypertension,Therapy,12,No,0,Public,ICU
+510,33,Male,2024-08-27,2024-09-01,Heart Failure,Therapy,5,No,2,Public,ICU
+511,67,Male,2024-08-28,2024-09-03,Pneumonia,Medication,6,Yes,3,Private,Cardiology
+512,53,Male,2024-10-01,2024-10-02,Stroke,Therapy,1,Yes,1,Public,ER
+513,22,Male,2024-04-26,2024-05-10,Heart Failure,Medication,14,No,1,Public,Neurology
+514,35,Female,2024-07-26,2024-08-07,Pneumonia,Surgery,12,No,3,Public,ICU
+515,83,Male,2024-02-12,2024-02-17,Diabetes,Therapy,5,No,1,Private,General
+516,80,Male,2024-11-12,2024-11-14,Stroke,Medication,2,No,1,Private,Neurology
+517,21,Female,2024-12-12,2024-12-13,Stroke,Therapy,1,No,4,Public,ER
+518,62,Male,2024-04-10,2024-04-19,Diabetes,Medication,9,No,4,Private,Cardiology
+519,85,Female,2024-04-11,2024-04-15,Diabetes,Surgery,4,No,2,Public,ICU
+520,87,Male,2024-09-11,2024-09-13,Stroke,Surgery,2,No,0,None,Neurology
+521,48,Male,2024-07-23,2024-07-29,Heart Failure,Surgery,6,Yes,3,Public,ER
+522,42,Male,2024-10-06,2024-10-18,Diabetes,Medication,12,No,1,Public,ICU
+523,58,Male,2024-05-22,2024-05-26,Hypertension,Surgery,4,Yes,1,None,Cardiology
+524,28,Male,2024-02-05,2024-02-10,Diabetes,Therapy,5,No,3,Private,ICU
+525,72,Female,2024-02-02,2024-02-16,Pneumonia,Therapy,14,No,2,Public,Neurology
+526,30,Male,2024-03-09,2024-03-13,Stroke,Surgery,4,No,1,None,Cardiology
+527,52,Female,2024-01-11,2024-01-24,Hypertension,Therapy,13,Yes,0,Private,Cardiology
+528,66,Female,2024-12-25,2025-01-06,Stroke,Therapy,12,No,3,Public,General
+529,67,Female,2024-09-02,2024-09-15,Hypertension,Surgery,13,No,3,Private,ER
+530,40,Female,2024-05-13,2024-05-16,Diabetes,Surgery,3,No,1,Public,ICU
+531,28,Female,2024-05-22,2024-05-30,Heart Failure,Therapy,8,No,1,None,General
+532,89,Male,2024-12-26,2025-01-09,Pneumonia,Surgery,14,No,2,None,ICU
+533,26,Male,2024-03-26,2024-04-06,Pneumonia,Therapy,11,Yes,3,Public,ER
+534,34,Male,2024-02-06,2024-02-07,Heart Failure,Medication,1,Yes,2,Private,Neurology
+535,81,Male,2024-10-28,2024-11-07,Hypertension,Therapy,10,No,0,Private,General
+536,84,Male,2024-05-06,2024-05-10,Diabetes,Therapy,4,No,0,Public,General
+537,26,Female,2024-01-17,2024-01-22,Heart Failure,Medication,5,No,1,Public,ICU
+538,75,Female,2024-05-25,2024-05-28,Heart Failure,Therapy,3,No,3,Public,ER
+539,45,Female,2024-06-11,2024-06-24,Hypertension,Surgery,13,No,4,Private,ICU
+540,23,Male,2024-08-16,2024-08-19,Pneumonia,Therapy,3,No,2,None,General
+541,49,Female,2024-03-09,2024-03-20,Stroke,Surgery,11,No,1,Private,ER
+542,22,Female,2024-12-15,2024-12-17,Diabetes,Therapy,2,Yes,2,None,ER
+543,27,Female,2024-07-27,2024-08-10,Hypertension,Medication,14,No,0,None,Cardiology
+544,64,Female,2024-11-05,2024-11-12,Heart Failure,Therapy,7,No,3,None,Cardiology
+545,55,Female,2024-09-10,2024-09-25,Hypertension,Surgery,15,No,1,Private,ER
+546,80,Male,2024-09-23,2024-09-26,Pneumonia,Therapy,3,No,4,Private,General
+547,50,Male,2024-12-03,2024-12-17,Pneumonia,Medication,14,No,1,Private,ICU
+548,86,Female,2024-06-08,2024-06-15,Pneumonia,Medication,7,No,1,None,Neurology
+549,36,Male,2024-09-06,2024-09-12,Stroke,Surgery,6,No,4,Private,Cardiology
+550,38,Male,2024-12-25,2024-12-27,Hypertension,Therapy,2,Yes,4,None,ICU
+551,36,Male,2024-01-07,2024-01-17,Hypertension,Surgery,10,No,4,None,ICU
+552,63,Female,2024-06-02,2024-06-07,Hypertension,Therapy,5,No,4,Public,Cardiology
+553,50,Male,2024-01-16,2024-01-20,Hypertension,Medication,4,No,3,None,ER
+554,36,Male,2024-08-15,2024-08-20,Stroke,Therapy,5,No,2,Public,Cardiology
+555,49,Female,2024-10-09,2024-10-21,Diabetes,Therapy,12,Yes,1,Public,ER
+556,87,Female,2024-05-16,2024-05-18,Hypertension,Medication,2,Yes,3,None,ICU
+557,88,Female,2024-06-02,2024-06-04,Hypertension,Therapy,2,No,0,Public,Neurology
+558,54,Female,2024-11-14,2024-11-16,Hypertension,Surgery,2,No,0,Public,Cardiology
+559,52,Female,2024-12-15,2024-12-24,Stroke,Surgery,9,No,2,None,General
+560,29,Male,2024-01-06,2024-01-11,Pneumonia,Medication,5,No,4,None,Neurology
+561,61,Male,2024-12-28,2025-01-09,Hypertension,Therapy,12,Yes,1,None,ER
+562,42,Male,2024-03-27,2024-03-31,Diabetes,Therapy,4,No,2,None,ICU
+563,21,Male,2024-10-30,2024-11-02,Hypertension,Medication,3,No,3,Public,ER
+564,56,Male,2024-02-15,2024-03-01,Hypertension,Therapy,15,Yes,1,Public,ER
+565,82,Male,2024-05-26,2024-05-31,Stroke,Medication,5,Yes,0,None,ER
+566,57,Male,2024-03-08,2024-03-23,Pneumonia,Medication,15,No,4,Public,Cardiology
+567,52,Female,2024-08-04,2024-08-13,Stroke,Surgery,9,No,0,Private,General
+568,68,Female,2024-04-03,2024-04-04,Heart Failure,Medication,1,No,3,Private,Neurology
+569,62,Male,2024-07-22,2024-07-25,Heart Failure,Therapy,3,No,4,Public,ICU
+570,73,Female,2024-09-08,2024-09-12,Heart Failure,Medication,4,No,3,Private,Neurology
+571,44,Female,2024-05-29,2024-06-11,Diabetes,Medication,13,No,2,None,Cardiology
+572,85,Female,2024-02-09,2024-02-12,Heart Failure,Therapy,3,Yes,1,Public,Neurology
+573,50,Female,2024-11-14,2024-11-29,Diabetes,Surgery,15,No,1,None,General
+574,89,Male,2024-11-22,2024-12-04,Stroke,Medication,12,No,4,None,General
+575,25,Female,2024-04-12,2024-04-19,Pneumonia,Surgery,7,No,1,Public,Neurology
+576,22,Male,2024-04-12,2024-04-14,Stroke,Surgery,2,Yes,0,None,ER
+577,46,Male,2024-11-13,2024-11-26,Hypertension,Surgery,13,No,2,None,ICU
+578,54,Male,2024-09-26,2024-10-09,Heart Failure,Medication,13,No,3,Public,ICU
+579,37,Male,2024-09-13,2024-09-20,Hypertension,Surgery,7,No,3,None,ICU
+580,85,Female,2024-07-30,2024-08-07,Stroke,Surgery,8,No,4,Private,General
+581,50,Female,2024-11-27,2024-12-04,Pneumonia,Surgery,7,No,2,Public,ER
+582,24,Male,2024-12-09,2024-12-15,Pneumonia,Surgery,6,No,0,Public,General
+583,40,Male,2024-07-11,2024-07-22,Stroke,Therapy,11,Yes,4,Private,Cardiology
+584,35,Female,2024-09-03,2024-09-04,Stroke,Therapy,1,No,3,Public,ICU
+585,25,Female,2024-02-26,2024-03-10,Hypertension,Medication,13,Yes,2,Public,Neurology
+586,80,Female,2024-01-15,2024-01-21,Pneumonia,Medication,6,Yes,2,None,Neurology
+587,44,Male,2024-03-27,2024-04-03,Pneumonia,Surgery,7,No,2,Private,Neurology
+588,24,Male,2024-09-23,2024-10-06,Heart Failure,Therapy,13,Yes,1,Public,Cardiology
+589,70,Female,2024-07-07,2024-07-16,Heart Failure,Medication,9,Yes,1,None,Neurology
+590,62,Male,2024-05-04,2024-05-15,Pneumonia,Medication,11,No,1,Public,General
+591,57,Male,2024-03-16,2024-03-24,Diabetes,Therapy,8,No,2,Public,ER
+592,80,Female,2024-05-08,2024-05-22,Heart Failure,Surgery,14,No,1,Private,General
+593,54,Male,2024-12-15,2024-12-18,Diabetes,Therapy,3,No,3,Private,General
+594,39,Female,2024-08-11,2024-08-15,Pneumonia,Medication,4,Yes,1,Private,ICU
+595,26,Female,2024-07-23,2024-07-29,Diabetes,Surgery,6,Yes,4,None,ER
+596,85,Female,2024-05-02,2024-05-16,Hypertension,Surgery,14,Yes,2,Public,Neurology
+597,36,Male,2024-09-29,2024-10-10,Hypertension,Surgery,11,No,1,Private,ER
+598,23,Male,2024-07-16,2024-07-20,Stroke,Therapy,4,Yes,3,None,ER
+599,23,Female,2024-09-19,2024-09-20,Heart Failure,Medication,1,No,3,Public,Cardiology
+600,85,Male,2024-03-17,2024-03-28,Pneumonia,Surgery,11,No,2,None,ICU
+601,62,Female,2024-03-04,2024-03-07,Diabetes,Medication,3,Yes,3,Private,ICU
+602,89,Male,2024-05-25,2024-06-02,Pneumonia,Surgery,8,No,3,None,General
+603,30,Female,2024-09-23,2024-10-05,Hypertension,Surgery,12,No,3,None,ER
+604,56,Female,2024-04-12,2024-04-13,Pneumonia,Surgery,1,No,2,None,ER
+605,61,Male,2024-02-26,2024-03-11,Pneumonia,Medication,14,No,0,Private,General
+606,76,Female,2024-01-11,2024-01-19,Pneumonia,Surgery,8,No,1,None,ER
+607,37,Male,2024-03-13,2024-03-16,Heart Failure,Surgery,3,Yes,1,Private,ICU
+608,26,Male,2024-10-08,2024-10-23,Pneumonia,Therapy,15,No,3,Private,ICU
+609,53,Male,2024-04-18,2024-04-30,Hypertension,Medication,12,No,4,Private,Cardiology
+610,36,Female,2024-11-22,2024-11-23,Diabetes,Therapy,1,Yes,3,Public,Cardiology
+611,23,Male,2024-02-18,2024-02-20,Hypertension,Therapy,2,No,0,Private,General
+612,78,Male,2024-07-30,2024-08-10,Diabetes,Therapy,11,Yes,1,Public,ER
+613,85,Female,2024-05-18,2024-05-30,Pneumonia,Surgery,12,Yes,2,Public,Neurology
+614,71,Female,2024-08-05,2024-08-10,Heart Failure,Medication,5,Yes,3,None,ER
+615,63,Female,2024-12-22,2024-12-25,Hypertension,Surgery,3,No,4,None,General
+616,48,Female,2024-07-03,2024-07-15,Heart Failure,Medication,12,Yes,3,None,ER
+617,26,Female,2024-12-26,2024-12-29,Hypertension,Surgery,3,No,4,Private,ER
+618,87,Male,2024-11-27,2024-12-11,Pneumonia,Surgery,14,No,1,Public,Neurology
+619,42,Female,2024-10-19,2024-10-30,Stroke,Medication,11,No,4,Private,General
+620,73,Male,2024-11-16,2024-11-17,Diabetes,Surgery,1,No,3,None,ER
+621,70,Female,2024-05-17,2024-05-22,Stroke,Therapy,5,No,0,Private,ICU
+622,29,Male,2024-04-05,2024-04-12,Stroke,Surgery,7,Yes,4,None,Neurology
+623,21,Male,2024-05-22,2024-05-26,Hypertension,Medication,4,No,0,Private,General
+624,21,Male,2024-04-24,2024-05-07,Stroke,Therapy,13,Yes,0,Public,Neurology
+625,59,Female,2024-02-18,2024-03-01,Hypertension,Therapy,12,No,0,Private,Cardiology
+626,20,Male,2024-03-21,2024-03-24,Diabetes,Medication,3,Yes,2,None,Neurology
+627,65,Female,2024-12-11,2024-12-21,Hypertension,Therapy,10,No,4,None,Cardiology
+628,51,Female,2024-06-10,2024-06-11,Diabetes,Medication,1,No,1,Private,ER
+629,25,Male,2024-10-28,2024-11-04,Hypertension,Surgery,7,No,0,None,Cardiology
+630,65,Male,2024-04-13,2024-04-27,Stroke,Medication,14,No,0,None,General
+631,34,Male,2024-03-05,2024-03-08,Diabetes,Therapy,3,Yes,3,Private,General
+632,90,Female,2024-09-15,2024-09-28,Hypertension,Surgery,13,No,2,None,Neurology
+633,87,Male,2024-02-10,2024-02-23,Pneumonia,Medication,13,No,3,None,ICU
+634,89,Female,2024-09-30,2024-10-11,Pneumonia,Therapy,11,No,0,Public,ER
+635,39,Female,2024-10-29,2024-11-09,Hypertension,Surgery,11,No,4,None,Neurology
+636,56,Female,2024-06-21,2024-07-01,Pneumonia,Therapy,10,No,2,Public,General
+637,55,Female,2024-05-30,2024-06-04,Stroke,Therapy,5,Yes,4,Private,Neurology
+638,78,Male,2024-10-20,2024-10-25,Hypertension,Medication,5,Yes,2,None,Cardiology
+639,70,Male,2024-04-06,2024-04-07,Diabetes,Surgery,1,No,3,Private,ER
+640,55,Female,2024-10-18,2024-10-29,Hypertension,Therapy,11,No,1,None,Neurology
+641,65,Female,2024-05-14,2024-05-25,Heart Failure,Surgery,11,Yes,2,None,ICU
+642,54,Female,2024-02-23,2024-02-25,Diabetes,Therapy,2,No,3,Public,General
+643,67,Male,2024-06-02,2024-06-05,Diabetes,Medication,3,No,1,Public,ICU
+644,78,Female,2024-10-10,2024-10-25,Hypertension,Surgery,15,No,3,Private,General
+645,69,Male,2024-01-02,2024-01-15,Diabetes,Surgery,13,Yes,4,Private,Neurology
+646,29,Male,2024-07-16,2024-07-23,Hypertension,Medication,7,No,1,None,General
+647,25,Female,2024-07-14,2024-07-23,Diabetes,Medication,9,No,2,Private,ICU
+648,89,Male,2024-09-25,2024-10-06,Diabetes,Medication,11,Yes,2,Public,General
+649,44,Male,2024-05-02,2024-05-13,Stroke,Therapy,11,Yes,4,Public,General
+650,22,Male,2024-01-25,2024-02-04,Heart Failure,Surgery,10,No,0,Public,ICU
+651,37,Female,2024-09-10,2024-09-18,Heart Failure,Therapy,8,No,3,None,General
+652,55,Female,2024-04-15,2024-04-19,Hypertension,Surgery,4,No,0,Private,ICU
+653,66,Male,2024-05-28,2024-06-09,Pneumonia,Therapy,12,No,3,None,Cardiology
+654,72,Female,2024-05-20,2024-05-26,Hypertension,Surgery,6,Yes,4,None,General
+655,37,Male,2024-01-09,2024-01-17,Diabetes,Surgery,8,No,4,Private,ICU
+656,31,Male,2024-11-08,2024-11-15,Diabetes,Medication,7,No,2,Public,Cardiology
+657,35,Female,2024-11-01,2024-11-05,Diabetes,Medication,4,Yes,4,Public,Cardiology
+658,50,Female,2024-03-29,2024-04-10,Diabetes,Therapy,12,No,2,None,Cardiology
+659,42,Male,2024-03-31,2024-04-05,Hypertension,Medication,5,No,4,Public,Neurology
+660,46,Female,2024-09-26,2024-09-27,Hypertension,Surgery,1,No,2,Private,Cardiology
+661,46,Female,2024-02-23,2024-03-05,Heart Failure,Therapy,11,Yes,1,Private,ER
+662,79,Female,2024-05-28,2024-06-05,Diabetes,Surgery,8,Yes,2,Private,ER
+663,38,Female,2024-06-27,2024-07-12,Pneumonia,Surgery,15,No,1,Private,General
+664,30,Male,2024-05-16,2024-05-28,Heart Failure,Therapy,12,Yes,1,Private,Neurology
+665,34,Male,2024-04-12,2024-04-21,Pneumonia,Surgery,9,No,2,Private,General
+666,52,Male,2024-05-02,2024-05-15,Heart Failure,Surgery,13,Yes,3,Public,ICU
+667,72,Male,2024-08-23,2024-09-02,Pneumonia,Therapy,10,Yes,2,Public,General
+668,31,Female,2024-05-17,2024-05-19,Heart Failure,Therapy,2,No,4,None,ER
+669,37,Female,2024-12-29,2025-01-08,Stroke,Surgery,10,No,3,Public,ER
+670,37,Male,2024-09-14,2024-09-15,Pneumonia,Surgery,1,No,4,Private,General
+671,68,Female,2024-12-13,2024-12-19,Stroke,Surgery,6,No,4,Public,General
+672,68,Female,2024-07-07,2024-07-20,Diabetes,Surgery,13,No,1,None,ER
+673,88,Female,2024-10-19,2024-10-26,Diabetes,Surgery,7,Yes,1,None,ER
+674,59,Male,2024-07-26,2024-07-27,Diabetes,Surgery,1,No,2,Private,General
+675,30,Female,2024-11-28,2024-12-09,Heart Failure,Surgery,11,Yes,4,None,ER
+676,56,Male,2024-02-10,2024-02-21,Diabetes,Medication,11,Yes,3,Public,Neurology
+677,59,Female,2024-04-17,2024-04-26,Pneumonia,Medication,9,Yes,4,Private,ICU
+678,71,Female,2024-01-28,2024-02-08,Hypertension,Therapy,11,Yes,4,Public,ICU
+679,25,Male,2024-03-31,2024-04-08,Heart Failure,Surgery,8,Yes,3,None,Neurology
+680,44,Male,2024-05-09,2024-05-20,Heart Failure,Therapy,11,No,3,Private,General
+681,37,Female,2024-06-05,2024-06-16,Heart Failure,Surgery,11,No,2,Public,Neurology
+682,53,Male,2024-12-05,2024-12-16,Pneumonia,Surgery,11,No,3,Public,Cardiology
+683,58,Female,2024-03-03,2024-03-17,Pneumonia,Surgery,14,No,0,Public,ICU
+684,84,Female,2024-10-30,2024-11-02,Pneumonia,Medication,3,Yes,4,None,Cardiology
+685,28,Male,2024-03-30,2024-04-07,Heart Failure,Medication,8,Yes,3,Private,ER
+686,36,Female,2024-04-23,2024-05-01,Diabetes,Therapy,8,Yes,1,Public,Cardiology
+687,69,Female,2024-09-20,2024-09-29,Heart Failure,Surgery,9,No,4,Public,General
+688,27,Male,2024-05-14,2024-05-21,Heart Failure,Therapy,7,Yes,4,Private,General
+689,38,Female,2024-09-15,2024-09-24,Pneumonia,Therapy,9,Yes,3,Public,ER
+690,28,Female,2024-11-16,2024-11-27,Diabetes,Medication,11,No,1,Private,ER
+691,77,Female,2024-04-05,2024-04-12,Pneumonia,Medication,7,No,4,Private,Neurology
+692,69,Male,2024-05-05,2024-05-06,Heart Failure,Therapy,1,No,4,Public,ICU
+693,67,Female,2024-10-02,2024-10-04,Diabetes,Therapy,2,Yes,0,None,Cardiology
+694,54,Male,2024-04-19,2024-04-22,Heart Failure,Medication,3,Yes,2,Private,ICU
+695,78,Female,2024-01-16,2024-01-25,Hypertension,Therapy,9,Yes,4,Private,ER
+696,77,Male,2024-05-18,2024-05-23,Hypertension,Medication,5,No,2,Private,ER
+697,44,Male,2024-08-29,2024-08-31,Heart Failure,Therapy,2,Yes,1,None,General
+698,33,Female,2024-11-15,2024-11-26,Pneumonia,Surgery,11,No,1,Private,Cardiology
+699,39,Male,2024-01-10,2024-01-18,Pneumonia,Therapy,8,No,0,None,Neurology
+700,27,Female,2024-09-20,2024-09-21,Pneumonia,Therapy,1,No,3,Private,Neurology
+701,32,Female,2024-04-01,2024-04-14,Hypertension,Surgery,13,Yes,4,Public,Neurology
+702,58,Female,2024-04-07,2024-04-19,Stroke,Therapy,12,No,0,Private,ICU
+703,86,Male,2024-03-31,2024-04-12,Hypertension,Surgery,12,No,2,Private,Neurology
+704,80,Female,2024-10-03,2024-10-18,Heart Failure,Surgery,15,No,2,None,Cardiology
+705,56,Female,2024-04-10,2024-04-24,Hypertension,Therapy,14,Yes,4,Public,Cardiology
+706,38,Male,2024-09-20,2024-09-22,Stroke,Surgery,2,No,1,None,Neurology
+707,53,Male,2024-03-19,2024-03-21,Stroke,Medication,2,No,2,Public,Cardiology
+708,27,Male,2024-07-30,2024-07-31,Heart Failure,Medication,1,Yes,0,Private,Neurology
+709,26,Female,2024-08-03,2024-08-15,Hypertension,Surgery,12,No,4,Public,Cardiology
+710,90,Female,2024-09-26,2024-09-28,Heart Failure,Surgery,2,No,1,None,ICU
+711,49,Male,2024-07-19,2024-07-29,Heart Failure,Therapy,10,No,2,Public,Cardiology
+712,23,Female,2024-04-08,2024-04-18,Pneumonia,Surgery,10,No,3,None,ER
+713,30,Male,2024-01-31,2024-02-02,Diabetes,Surgery,2,Yes,3,Public,General
+714,72,Female,2024-12-26,2024-12-27,Hypertension,Surgery,1,Yes,4,Private,ER
+715,57,Female,2024-12-07,2024-12-14,Stroke,Surgery,7,No,2,Public,ER
+716,33,Female,2024-04-27,2024-05-09,Pneumonia,Medication,12,No,3,Public,Cardiology
+717,90,Female,2024-11-04,2024-11-14,Heart Failure,Therapy,10,Yes,1,None,Cardiology
+718,60,Female,2024-10-03,2024-10-12,Pneumonia,Medication,9,Yes,2,Public,General
+719,64,Female,2024-06-10,2024-06-17,Heart Failure,Surgery,7,No,4,Private,Cardiology
+720,37,Male,2024-04-17,2024-04-29,Stroke,Medication,12,No,4,None,Cardiology
+721,23,Male,2024-02-11,2024-02-21,Stroke,Medication,10,No,2,Private,ICU
+722,41,Female,2024-06-19,2024-06-25,Hypertension,Medication,6,No,1,Private,ER
+723,44,Male,2024-05-29,2024-06-02,Heart Failure,Medication,4,No,1,Public,General
+724,82,Female,2024-02-07,2024-02-10,Stroke,Surgery,3,No,4,None,ICU
+725,69,Male,2024-02-10,2024-02-25,Hypertension,Therapy,15,No,1,Public,ER
+726,59,Female,2024-03-04,2024-03-17,Diabetes,Medication,13,No,1,Public,ER
+727,84,Female,2024-09-11,2024-09-18,Stroke,Surgery,7,Yes,4,None,Neurology
+728,20,Female,2024-06-26,2024-06-29,Hypertension,Therapy,3,No,4,None,Cardiology
+729,63,Male,2024-12-04,2024-12-08,Stroke,Surgery,4,No,2,Public,ER
+730,66,Female,2024-03-11,2024-03-17,Diabetes,Medication,6,No,2,None,General
+731,71,Female,2024-05-08,2024-05-10,Heart Failure,Therapy,2,No,4,Private,ER
+732,20,Female,2024-03-30,2024-04-08,Stroke,Therapy,9,No,0,None,Cardiology
+733,70,Female,2024-02-05,2024-02-13,Pneumonia,Therapy,8,No,3,None,ER
+734,28,Male,2024-06-02,2024-06-05,Stroke,Medication,3,No,4,None,Cardiology
+735,22,Male,2024-10-05,2024-10-07,Diabetes,Therapy,2,No,3,Private,ICU
+736,76,Male,2024-04-26,2024-05-06,Stroke,Therapy,10,No,0,Private,Cardiology
+737,76,Male,2024-05-19,2024-06-03,Diabetes,Medication,15,No,3,Public,Neurology
+738,33,Female,2024-01-01,2024-01-13,Hypertension,Therapy,12,No,1,None,ICU
+739,56,Male,2024-01-07,2024-01-22,Heart Failure,Therapy,15,No,0,None,ER
+740,46,Male,2024-04-22,2024-04-24,Stroke,Surgery,2,No,1,None,Cardiology
+741,27,Male,2024-12-03,2024-12-17,Heart Failure,Medication,14,Yes,2,Public,ICU
+742,28,Female,2024-06-23,2024-06-24,Hypertension,Surgery,1,No,3,Private,ER
+743,28,Female,2024-02-14,2024-02-15,Hypertension,Surgery,1,Yes,3,Private,ER
+744,79,Male,2024-12-16,2024-12-24,Hypertension,Medication,8,No,1,None,General
+745,83,Male,2024-02-19,2024-02-24,Stroke,Medication,5,Yes,1,None,ICU
+746,55,Male,2024-04-02,2024-04-09,Diabetes,Medication,7,No,0,Public,Cardiology
+747,24,Male,2024-08-14,2024-08-27,Pneumonia,Surgery,13,No,0,Public,ICU
+748,44,Female,2024-10-27,2024-11-09,Heart Failure,Surgery,13,No,1,None,Neurology
+749,65,Male,2024-05-17,2024-05-23,Hypertension,Therapy,6,No,1,Private,Neurology
+750,59,Female,2024-12-24,2025-01-03,Pneumonia,Medication,10,Yes,0,None,General
+751,55,Female,2024-01-06,2024-01-20,Pneumonia,Therapy,14,No,1,Private,Cardiology
+752,37,Female,2024-08-28,2024-08-29,Stroke,Surgery,1,No,1,Public,Neurology
+753,52,Male,2024-08-18,2024-09-01,Diabetes,Therapy,14,No,1,Public,Cardiology
+754,87,Male,2024-07-25,2024-08-02,Stroke,Therapy,8,Yes,2,Private,General
+755,71,Female,2024-01-12,2024-01-15,Hypertension,Therapy,3,Yes,1,Private,ICU
+756,26,Male,2024-05-27,2024-06-06,Hypertension,Medication,10,No,4,None,General
+757,77,Male,2024-03-17,2024-03-29,Stroke,Medication,12,Yes,1,None,Neurology
+758,61,Male,2024-07-24,2024-08-07,Diabetes,Surgery,14,Yes,2,Private,General
+759,65,Female,2024-03-05,2024-03-13,Pneumonia,Surgery,8,Yes,4,None,Cardiology
+760,68,Female,2024-06-06,2024-06-14,Diabetes,Therapy,8,No,0,Public,ER
+761,87,Male,2024-05-09,2024-05-16,Hypertension,Medication,7,No,2,None,General
+762,38,Male,2024-04-24,2024-05-09,Heart Failure,Surgery,15,No,3,None,ICU
+763,69,Male,2024-02-13,2024-02-14,Hypertension,Medication,1,No,3,None,Cardiology
+764,83,Female,2024-02-22,2024-02-29,Stroke,Therapy,7,No,1,Public,General
+765,54,Male,2024-11-16,2024-11-25,Hypertension,Surgery,9,No,4,Private,General
+766,52,Female,2024-04-01,2024-04-14,Heart Failure,Medication,13,No,4,Private,General
+767,37,Male,2024-07-19,2024-07-27,Pneumonia,Medication,8,No,1,Public,ICU
+768,34,Male,2024-12-12,2024-12-17,Pneumonia,Surgery,5,Yes,4,None,ICU
+769,67,Male,2024-06-06,2024-06-18,Heart Failure,Medication,12,No,0,None,ICU
+770,62,Female,2024-10-20,2024-11-04,Pneumonia,Medication,15,No,4,Public,ICU
+771,67,Female,2024-07-19,2024-08-02,Stroke,Surgery,14,No,0,None,Cardiology
+772,77,Male,2024-02-29,2024-03-13,Stroke,Medication,13,No,0,None,ER
+773,67,Male,2024-05-21,2024-06-01,Stroke,Therapy,11,No,2,Private,Neurology
+774,63,Male,2024-04-10,2024-04-14,Diabetes,Therapy,4,Yes,1,Public,ER
+775,52,Male,2024-04-19,2024-04-20,Heart Failure,Therapy,1,Yes,4,Public,General
+776,83,Female,2024-04-08,2024-04-09,Hypertension,Therapy,1,Yes,1,Public,ICU
+777,33,Male,2024-01-13,2024-01-20,Hypertension,Therapy,7,Yes,4,Private,ER
+778,66,Female,2024-07-07,2024-07-14,Pneumonia,Medication,7,No,3,None,ICU
+779,80,Female,2024-04-18,2024-04-23,Stroke,Surgery,5,No,1,None,ER
+780,21,Male,2024-08-06,2024-08-21,Stroke,Surgery,15,Yes,1,Public,ICU
+781,87,Male,2024-07-11,2024-07-20,Diabetes,Surgery,9,Yes,2,None,ICU
+782,60,Female,2024-10-19,2024-10-21,Pneumonia,Surgery,2,No,2,Public,Cardiology
+783,66,Male,2024-03-17,2024-03-29,Stroke,Surgery,12,No,1,None,Neurology
+784,81,Male,2024-07-18,2024-07-22,Hypertension,Surgery,4,Yes,2,None,ICU
+785,82,Female,2024-01-11,2024-01-22,Stroke,Medication,11,Yes,1,Private,Neurology
+786,30,Female,2024-02-28,2024-03-01,Diabetes,Therapy,2,No,1,Private,ER
+787,79,Male,2024-10-16,2024-10-20,Hypertension,Surgery,4,Yes,2,Private,ER
+788,44,Male,2024-11-26,2024-12-05,Diabetes,Therapy,9,No,3,None,Neurology
+789,82,Female,2024-04-29,2024-05-11,Heart Failure,Surgery,12,Yes,1,Private,Cardiology
+790,67,Male,2024-03-29,2024-04-02,Heart Failure,Surgery,4,Yes,4,Public,Cardiology
+791,45,Male,2024-01-25,2024-01-29,Hypertension,Medication,4,No,3,None,Neurology
+792,35,Male,2024-05-06,2024-05-14,Hypertension,Therapy,8,Yes,0,Private,Cardiology
+793,28,Female,2024-07-27,2024-07-28,Heart Failure,Therapy,1,Yes,4,Private,Cardiology
+794,86,Female,2024-01-16,2024-01-20,Stroke,Medication,4,Yes,0,Private,Cardiology
+795,44,Female,2024-09-09,2024-09-13,Diabetes,Medication,4,Yes,0,Public,ICU
+796,81,Female,2024-07-25,2024-07-29,Hypertension,Therapy,4,No,0,Private,ER
+797,77,Male,2024-03-01,2024-03-14,Pneumonia,Therapy,13,Yes,0,Public,Cardiology
+798,30,Female,2024-01-02,2024-01-17,Stroke,Surgery,15,Yes,4,Private,General
+799,48,Male,2024-05-10,2024-05-17,Heart Failure,Medication,7,No,0,Private,General
+800,87,Male,2024-07-04,2024-07-12,Stroke,Therapy,8,No,1,Public,ICU
+801,67,Female,2024-09-14,2024-09-28,Hypertension,Medication,14,Yes,4,Private,ICU
+802,60,Female,2024-11-20,2024-11-22,Pneumonia,Medication,2,No,4,Private,Neurology
+803,57,Male,2024-09-06,2024-09-16,Stroke,Medication,10,Yes,3,None,General
+804,83,Male,2024-04-17,2024-04-22,Hypertension,Surgery,5,Yes,0,Private,ICU
+805,59,Male,2024-02-24,2024-03-02,Diabetes,Surgery,7,No,3,None,ICU
+806,68,Female,2024-07-28,2024-07-31,Stroke,Therapy,3,No,2,None,General
+807,37,Male,2024-05-17,2024-05-21,Stroke,Medication,4,No,0,Private,Cardiology
+808,81,Male,2024-02-11,2024-02-12,Pneumonia,Therapy,1,No,3,None,Neurology
+809,23,Female,2024-09-10,2024-09-15,Diabetes,Surgery,5,No,3,None,General
+810,43,Male,2024-10-20,2024-11-02,Pneumonia,Medication,13,No,3,Private,Neurology
+811,56,Female,2024-09-06,2024-09-11,Hypertension,Surgery,5,No,2,None,ER
+812,30,Male,2024-09-15,2024-09-27,Hypertension,Medication,12,No,2,Private,Neurology
+813,22,Female,2024-03-30,2024-04-05,Diabetes,Surgery,6,Yes,3,None,ICU
+814,89,Male,2024-06-01,2024-06-14,Hypertension,Medication,13,No,0,None,ICU
+815,51,Female,2024-02-15,2024-02-22,Stroke,Surgery,7,Yes,0,Public,General
+816,45,Male,2024-03-10,2024-03-15,Diabetes,Therapy,5,Yes,3,Public,ICU
+817,89,Female,2024-04-14,2024-04-17,Hypertension,Medication,3,Yes,0,Private,ICU
+818,31,Female,2024-12-22,2025-01-04,Heart Failure,Therapy,13,No,4,Private,ER
+819,41,Female,2024-07-27,2024-07-29,Hypertension,Medication,2,No,0,None,ICU
+820,24,Male,2024-10-19,2024-11-01,Heart Failure,Medication,13,No,1,Private,Neurology
+821,78,Female,2024-05-29,2024-06-12,Hypertension,Medication,14,Yes,2,Public,Cardiology
+822,67,Female,2024-10-18,2024-10-29,Heart Failure,Therapy,11,No,3,None,Neurology
+823,89,Male,2024-07-17,2024-07-27,Diabetes,Medication,10,No,2,Public,Cardiology
+824,63,Female,2024-06-01,2024-06-07,Pneumonia,Therapy,6,Yes,0,None,Neurology
+825,75,Male,2024-02-22,2024-03-06,Stroke,Surgery,13,No,2,Public,General
+826,81,Male,2024-01-05,2024-01-07,Stroke,Surgery,2,No,1,Public,Neurology
+827,68,Female,2024-07-30,2024-08-01,Stroke,Medication,2,Yes,0,Private,ER
+828,57,Male,2024-12-03,2024-12-15,Pneumonia,Medication,12,Yes,0,None,Cardiology
+829,61,Female,2024-05-28,2024-06-12,Pneumonia,Therapy,15,Yes,0,None,Cardiology
+830,57,Female,2024-10-03,2024-10-16,Diabetes,Therapy,13,No,0,None,General
+831,60,Male,2024-01-10,2024-01-17,Pneumonia,Therapy,7,Yes,3,Public,ER
+832,25,Female,2024-07-05,2024-07-16,Heart Failure,Medication,11,Yes,1,None,Cardiology
+833,22,Male,2024-05-01,2024-05-10,Stroke,Medication,9,Yes,3,None,ER
+834,62,Female,2024-05-24,2024-06-01,Diabetes,Surgery,8,No,3,Private,Cardiology
+835,24,Female,2024-09-05,2024-09-17,Pneumonia,Medication,12,Yes,2,Private,General
+836,39,Male,2024-08-26,2024-08-28,Pneumonia,Therapy,2,No,2,None,Cardiology
+837,64,Male,2024-05-24,2024-05-29,Diabetes,Therapy,5,No,1,None,Neurology
+838,87,Male,2024-02-18,2024-02-20,Hypertension,Therapy,2,No,1,None,ER
+839,77,Female,2024-06-29,2024-07-13,Pneumonia,Surgery,14,No,1,None,Cardiology
+840,32,Female,2024-10-13,2024-10-28,Heart Failure,Surgery,15,No,2,Public,General
+841,64,Male,2024-08-26,2024-09-01,Stroke,Medication,6,No,3,Private,ICU
+842,38,Female,2024-07-27,2024-08-06,Diabetes,Therapy,10,No,0,Private,Neurology
+843,57,Male,2024-11-14,2024-11-23,Hypertension,Medication,9,No,0,None,ER
+844,85,Female,2024-10-16,2024-10-21,Pneumonia,Surgery,5,No,0,None,Neurology
+845,76,Male,2024-05-29,2024-06-10,Heart Failure,Surgery,12,No,0,Public,General
+846,48,Male,2024-07-28,2024-08-04,Diabetes,Medication,7,Yes,4,Private,ICU
+847,40,Male,2024-09-01,2024-09-12,Stroke,Therapy,11,No,4,Private,ICU
+848,27,Female,2024-04-10,2024-04-15,Hypertension,Medication,5,Yes,3,Private,General
+849,62,Female,2024-06-03,2024-06-10,Heart Failure,Therapy,7,No,2,Private,General
+850,22,Female,2024-11-04,2024-11-17,Stroke,Therapy,13,No,2,None,ER
+851,60,Female,2024-03-22,2024-03-27,Hypertension,Therapy,5,Yes,4,Private,General
+852,79,Male,2024-04-15,2024-04-30,Diabetes,Therapy,15,Yes,2,Private,Neurology
+853,27,Male,2024-04-06,2024-04-09,Diabetes,Therapy,3,No,1,None,ICU
+854,82,Female,2024-08-02,2024-08-04,Stroke,Therapy,2,No,4,Private,ER
+855,88,Male,2024-01-17,2024-01-19,Pneumonia,Medication,2,Yes,4,Private,ER
+856,31,Female,2024-09-19,2024-10-04,Diabetes,Medication,15,No,2,Private,ER
+857,33,Female,2024-04-13,2024-04-16,Hypertension,Medication,3,Yes,4,Private,General
+858,56,Female,2024-04-29,2024-05-13,Hypertension,Therapy,14,No,4,None,ICU
+859,76,Male,2024-11-12,2024-11-15,Stroke,Therapy,3,Yes,0,Private,Neurology
+860,48,Male,2024-12-12,2024-12-23,Pneumonia,Surgery,11,Yes,1,Public,ICU
+861,72,Female,2024-06-28,2024-07-09,Hypertension,Therapy,11,No,4,Public,Cardiology
+862,35,Male,2024-10-20,2024-11-03,Heart Failure,Medication,14,No,2,Public,Cardiology
+863,46,Female,2024-06-01,2024-06-05,Diabetes,Medication,4,Yes,2,None,ER
+864,61,Male,2024-03-08,2024-03-11,Diabetes,Medication,3,No,4,None,Cardiology
+865,28,Female,2024-07-26,2024-08-08,Hypertension,Therapy,13,No,0,None,ER
+866,70,Male,2024-10-19,2024-11-02,Pneumonia,Medication,14,Yes,2,None,ICU
+867,60,Male,2024-10-19,2024-11-02,Diabetes,Therapy,14,Yes,4,Private,Cardiology
+868,34,Male,2024-05-13,2024-05-19,Diabetes,Medication,6,Yes,0,Public,Cardiology
+869,65,Male,2024-09-09,2024-09-20,Stroke,Therapy,11,Yes,0,Private,ER
+870,29,Male,2024-05-15,2024-05-17,Pneumonia,Surgery,2,No,4,Public,ER
+871,81,Male,2024-01-07,2024-01-16,Hypertension,Medication,9,No,3,None,General
+872,57,Female,2024-08-13,2024-08-15,Pneumonia,Medication,2,No,1,None,ICU
+873,39,Male,2024-04-26,2024-05-03,Hypertension,Therapy,7,No,4,None,General
+874,34,Female,2024-04-24,2024-05-04,Hypertension,Therapy,10,No,3,Public,ICU
+875,22,Female,2024-11-11,2024-11-13,Pneumonia,Surgery,2,No,4,Public,Cardiology
+876,88,Male,2024-07-15,2024-07-27,Stroke,Therapy,12,No,0,Public,ICU
+877,54,Male,2024-08-05,2024-08-15,Heart Failure,Medication,10,No,2,None,ICU
+878,76,Male,2024-02-06,2024-02-15,Pneumonia,Surgery,9,Yes,3,None,ER
+879,36,Male,2024-10-24,2024-11-01,Hypertension,Surgery,8,No,2,Public,ER
+880,24,Male,2024-08-14,2024-08-25,Diabetes,Medication,11,No,4,Public,Neurology
+881,88,Female,2024-09-17,2024-09-20,Stroke,Medication,3,No,3,None,ICU
+882,37,Male,2024-10-18,2024-10-28,Heart Failure,Therapy,10,Yes,1,Public,ICU
+883,65,Female,2024-05-01,2024-05-04,Stroke,Surgery,3,No,3,None,General
+884,77,Male,2024-07-07,2024-07-15,Heart Failure,Surgery,8,Yes,0,None,Cardiology
+885,38,Female,2024-01-19,2024-01-24,Diabetes,Surgery,5,Yes,3,None,General
+886,51,Male,2024-11-12,2024-11-16,Diabetes,Therapy,4,No,1,None,ICU
+887,24,Male,2024-12-28,2025-01-09,Stroke,Medication,12,No,2,Private,ICU
+888,38,Female,2024-10-27,2024-11-11,Stroke,Medication,15,Yes,2,Public,Cardiology
+889,64,Male,2024-01-09,2024-01-14,Hypertension,Medication,5,No,3,Public,ICU
+890,61,Male,2024-09-08,2024-09-10,Pneumonia,Medication,2,Yes,1,Public,Cardiology
+891,76,Female,2024-08-26,2024-08-30,Diabetes,Surgery,4,No,4,Public,ER
+892,27,Female,2024-10-07,2024-10-14,Heart Failure,Surgery,7,No,2,None,General
+893,46,Male,2024-09-11,2024-09-19,Pneumonia,Surgery,8,No,2,Private,ICU
+894,90,Female,2024-11-07,2024-11-22,Pneumonia,Medication,15,Yes,1,Private,General
+895,20,Female,2024-03-12,2024-03-22,Hypertension,Therapy,10,No,4,Public,ER
+896,82,Male,2024-03-31,2024-04-08,Hypertension,Medication,8,Yes,1,Private,ER
+897,64,Male,2024-07-01,2024-07-13,Pneumonia,Medication,12,No,1,Private,Cardiology
+898,26,Male,2024-11-12,2024-11-15,Diabetes,Surgery,3,No,2,Private,Neurology
+899,51,Male,2024-09-22,2024-09-30,Stroke,Medication,8,No,0,Private,Neurology
+900,80,Female,2024-11-05,2024-11-11,Heart Failure,Surgery,6,No,4,Public,Neurology
+901,86,Female,2024-07-19,2024-07-22,Pneumonia,Therapy,3,No,2,Private,Cardiology
+902,64,Male,2024-07-21,2024-07-30,Pneumonia,Medication,9,No,1,Public,Neurology
+903,30,Male,2024-01-02,2024-01-08,Stroke,Medication,6,No,2,None,Cardiology
+904,64,Female,2024-06-13,2024-06-20,Hypertension,Surgery,7,No,3,Private,General
+905,80,Male,2024-07-05,2024-07-14,Heart Failure,Medication,9,No,4,None,Neurology
+906,54,Male,2024-05-07,2024-05-11,Diabetes,Medication,4,Yes,2,Private,ICU
+907,57,Male,2024-10-01,2024-10-13,Stroke,Surgery,12,Yes,1,Public,General
+908,48,Female,2024-09-07,2024-09-14,Heart Failure,Surgery,7,Yes,2,Public,General
+909,32,Male,2024-05-06,2024-05-07,Hypertension,Medication,1,No,3,Public,Neurology
+910,57,Female,2024-05-16,2024-05-25,Stroke,Therapy,9,Yes,1,Public,ER
+911,47,Male,2024-03-13,2024-03-16,Heart Failure,Therapy,3,No,4,Public,ER
+912,22,Male,2024-09-19,2024-09-22,Stroke,Medication,3,Yes,2,Private,General
+913,39,Female,2024-04-28,2024-05-12,Heart Failure,Medication,14,No,0,None,Neurology
+914,79,Female,2024-06-05,2024-06-10,Hypertension,Medication,5,Yes,0,Private,Neurology
+915,33,Female,2024-05-25,2024-05-30,Pneumonia,Therapy,5,Yes,4,None,General
+916,35,Female,2024-02-24,2024-02-25,Pneumonia,Surgery,1,No,4,Public,Neurology
+917,50,Male,2024-09-19,2024-09-23,Diabetes,Therapy,4,Yes,1,Private,ER
+918,22,Female,2024-02-03,2024-02-16,Stroke,Medication,13,Yes,3,Private,Neurology
+919,88,Male,2024-01-14,2024-01-29,Stroke,Therapy,15,No,3,Private,Cardiology
+920,59,Female,2024-08-28,2024-09-07,Hypertension,Surgery,10,Yes,2,Public,Neurology
+921,37,Female,2024-09-09,2024-09-19,Diabetes,Medication,10,No,3,Private,Cardiology
+922,28,Male,2024-04-20,2024-05-02,Hypertension,Surgery,12,Yes,0,Public,Neurology
+923,90,Male,2024-01-26,2024-02-01,Heart Failure,Therapy,6,Yes,4,Private,Cardiology
+924,41,Female,2024-10-28,2024-11-04,Heart Failure,Medication,7,No,4,Public,Cardiology
+925,74,Male,2024-03-14,2024-03-18,Heart Failure,Medication,4,No,4,Public,Cardiology
+926,40,Female,2024-10-28,2024-11-10,Pneumonia,Therapy,13,No,4,None,ICU
+927,67,Male,2024-02-05,2024-02-09,Pneumonia,Medication,4,Yes,2,Public,ICU
+928,53,Female,2024-09-30,2024-10-10,Heart Failure,Medication,10,No,2,Public,ICU
+929,26,Male,2024-04-22,2024-04-25,Stroke,Surgery,3,No,0,None,ER
+930,29,Male,2024-02-18,2024-02-22,Pneumonia,Therapy,4,No,1,Public,General
+931,90,Male,2024-01-12,2024-01-15,Diabetes,Medication,3,Yes,2,Private,ICU
+932,26,Male,2024-08-19,2024-08-24,Stroke,Therapy,5,Yes,4,Private,General
+933,37,Male,2024-10-01,2024-10-02,Pneumonia,Medication,1,No,3,Private,General
+934,23,Male,2024-03-20,2024-03-26,Diabetes,Therapy,6,Yes,3,Public,ER
+935,85,Male,2024-06-21,2024-06-27,Hypertension,Surgery,6,Yes,1,Private,General
+936,75,Male,2024-08-05,2024-08-08,Pneumonia,Surgery,3,Yes,1,None,ICU
+937,49,Female,2024-01-02,2024-01-04,Diabetes,Surgery,2,No,0,Public,ER
+938,29,Female,2024-08-22,2024-09-06,Diabetes,Medication,15,Yes,4,Public,Cardiology
+939,31,Male,2024-07-15,2024-07-21,Hypertension,Medication,6,No,0,Public,Neurology
+940,82,Male,2024-04-24,2024-05-02,Stroke,Medication,8,No,3,None,ER
+941,53,Female,2024-10-16,2024-10-29,Diabetes,Medication,13,No,4,Public,Cardiology
+942,43,Female,2024-11-20,2024-12-03,Heart Failure,Medication,13,Yes,2,None,ICU
+943,30,Female,2024-01-19,2024-01-31,Pneumonia,Medication,12,No,0,None,ICU
+944,54,Female,2024-04-08,2024-04-23,Diabetes,Surgery,15,Yes,4,None,Cardiology
+945,55,Female,2024-06-13,2024-06-15,Diabetes,Medication,2,Yes,2,Public,ER
+946,51,Male,2024-09-12,2024-09-27,Stroke,Surgery,15,No,4,Public,General
+947,55,Male,2024-03-25,2024-03-28,Stroke,Medication,3,No,0,None,ICU
+948,53,Male,2024-09-13,2024-09-17,Heart Failure,Surgery,4,No,4,Public,General
+949,35,Male,2024-03-01,2024-03-13,Pneumonia,Medication,12,No,3,Public,Cardiology
+950,60,Male,2024-11-17,2024-11-22,Heart Failure,Medication,5,No,3,Private,ICU
+951,82,Female,2024-01-19,2024-02-02,Stroke,Surgery,14,No,3,None,Neurology
+952,37,Male,2024-12-14,2024-12-17,Hypertension,Medication,3,No,4,None,ER
+953,36,Female,2024-06-16,2024-06-21,Hypertension,Surgery,5,Yes,0,Public,ICU
+954,41,Female,2024-08-14,2024-08-18,Hypertension,Medication,4,No,1,None,ICU
+955,67,Male,2024-01-25,2024-02-04,Diabetes,Medication,10,No,3,Private,Cardiology
+956,68,Male,2024-02-18,2024-02-26,Diabetes,Medication,8,No,2,Private,ICU
+957,55,Female,2024-07-11,2024-07-20,Pneumonia,Therapy,9,Yes,1,Public,ICU
+958,48,Male,2024-12-24,2024-12-27,Stroke,Therapy,3,No,4,None,General
+959,55,Female,2024-10-17,2024-10-26,Stroke,Surgery,9,No,0,Public,ER
+960,63,Female,2024-03-27,2024-03-30,Hypertension,Medication,3,Yes,1,None,ICU
+961,59,Female,2024-09-21,2024-09-30,Heart Failure,Medication,9,Yes,0,None,Cardiology
+962,68,Male,2024-10-03,2024-10-09,Diabetes,Therapy,6,No,2,Private,Neurology
+963,51,Male,2024-01-21,2024-01-25,Stroke,Surgery,4,No,3,Private,Cardiology
+964,46,Female,2024-06-06,2024-06-15,Hypertension,Therapy,9,Yes,2,Public,Cardiology
+965,24,Male,2024-12-30,2025-01-11,Stroke,Therapy,12,No,2,None,Cardiology
+966,42,Male,2024-02-29,2024-03-14,Heart Failure,Medication,14,No,0,None,General
+967,61,Female,2024-06-02,2024-06-17,Hypertension,Therapy,15,No,0,Public,General
+968,65,Female,2024-03-22,2024-03-30,Heart Failure,Therapy,8,No,2,Public,ICU
+969,20,Male,2024-05-15,2024-05-24,Pneumonia,Therapy,9,No,3,Public,ER
+970,30,Male,2024-10-01,2024-10-10,Heart Failure,Surgery,9,No,0,Private,ER
+971,55,Male,2024-12-04,2024-12-05,Pneumonia,Medication,1,No,0,Public,ER
+972,42,Male,2024-08-26,2024-08-31,Heart Failure,Surgery,5,No,1,Private,ER
+973,49,Male,2024-05-03,2024-05-11,Hypertension,Therapy,8,No,0,Private,Cardiology
+974,47,Male,2024-04-16,2024-04-24,Stroke,Therapy,8,Yes,0,Private,Neurology
+975,63,Male,2024-12-16,2024-12-21,Heart Failure,Surgery,5,No,0,Public,ER
+976,25,Male,2024-04-12,2024-04-13,Heart Failure,Surgery,1,Yes,2,None,ER
+977,88,Female,2024-11-05,2024-11-17,Heart Failure,Medication,12,No,2,None,ER
+978,87,Male,2024-07-23,2024-08-04,Hypertension,Medication,12,No,3,Public,Cardiology
+979,86,Male,2024-01-03,2024-01-17,Pneumonia,Medication,14,No,1,None,ICU
+980,48,Female,2024-01-29,2024-02-05,Hypertension,Therapy,7,No,3,None,ER
+981,57,Male,2024-07-12,2024-07-13,Stroke,Surgery,1,No,2,None,Cardiology
+982,50,Female,2024-05-03,2024-05-15,Heart Failure,Medication,12,No,3,None,General
+983,30,Male,2024-11-20,2024-12-04,Diabetes,Surgery,14,No,0,Private,Neurology
+984,39,Male,2024-12-10,2024-12-15,Pneumonia,Therapy,5,No,4,None,ICU
+985,57,Male,2024-01-24,2024-01-31,Stroke,Surgery,7,No,1,Public,General
+986,37,Male,2024-03-23,2024-03-30,Pneumonia,Therapy,7,No,4,Public,Cardiology
+987,84,Female,2024-05-09,2024-05-18,Pneumonia,Surgery,9,Yes,3,Public,Neurology
+988,81,Female,2024-04-21,2024-04-26,Stroke,Medication,5,Yes,0,Public,Cardiology
+989,49,Male,2024-06-20,2024-06-28,Heart Failure,Surgery,8,Yes,1,None,Cardiology
+990,58,Male,2024-11-21,2024-11-23,Stroke,Surgery,2,No,1,None,ER
+991,50,Female,2024-07-16,2024-07-22,Pneumonia,Therapy,6,Yes,4,Private,ER
+992,51,Male,2024-06-04,2024-06-14,Diabetes,Therapy,10,Yes,3,Public,General
+993,64,Female,2024-01-25,2024-02-09,Heart Failure,Medication,15,No,1,None,ICU
+994,73,Female,2024-06-25,2024-07-04,Diabetes,Surgery,9,No,2,Private,ICU
+995,46,Male,2024-05-19,2024-05-29,Pneumonia,Therapy,10,No,0,Private,ICU
+996,35,Female,2024-04-01,2024-04-02,Pneumonia,Therapy,1,No,3,Private,General
+997,62,Male,2024-08-20,2024-08-28,Hypertension,Medication,8,Yes,1,Public,General
+998,83,Female,2024-06-13,2024-06-22,Heart Failure,Surgery,9,No,0,Public,Cardiology
+999,42,Male,2024-08-24,2024-08-29,Pneumonia,Therapy,5,No,4,Public,ICU
+1000,52,Male,2024-06-26,2024-07-02,Heart Failure,Medication,6,No,2,Public,ER
+1001,24,Female,2024-04-16,2024-04-17,Heart Failure,Medication,1,Yes,0,None,ER
+1002,48,Male,2024-10-22,2024-10-29,Hypertension,Therapy,7,No,3,None,General
+1003,25,Male,2024-01-12,2024-01-21,Diabetes,Medication,9,Yes,0,None,ER
+1004,87,Female,2024-08-16,2024-08-22,Pneumonia,Surgery,6,No,1,None,Cardiology
+1005,49,Female,2024-05-07,2024-05-16,Diabetes,Medication,9,No,2,None,Cardiology
+1006,68,Female,2024-02-18,2024-02-29,Stroke,Therapy,11,No,3,None,Cardiology
+1007,81,Female,2024-10-07,2024-10-13,Hypertension,Therapy,6,No,3,Private,Neurology
+1008,50,Male,2024-07-19,2024-07-27,Heart Failure,Surgery,8,No,1,Public,ICU
+1009,89,Male,2024-10-13,2024-10-22,Stroke,Therapy,9,No,3,Public,ICU
+1010,32,Female,2024-01-09,2024-01-24,Heart Failure,Medication,15,Yes,3,None,ICU
+1011,40,Female,2024-03-15,2024-03-21,Stroke,Surgery,6,No,1,Private,General
+1012,79,Male,2024-03-07,2024-03-12,Stroke,Medication,5,No,0,Private,Neurology
+1013,62,Female,2024-05-13,2024-05-24,Stroke,Surgery,11,No,0,Private,General
+1014,39,Female,2024-05-24,2024-05-31,Heart Failure,Medication,7,No,1,Public,General
+1015,88,Female,2024-09-30,2024-10-07,Diabetes,Medication,7,No,1,Public,ICU
+1016,21,Female,2024-11-12,2024-11-15,Hypertension,Medication,3,No,0,None,ER
+1017,21,Female,2024-11-17,2024-11-25,Stroke,Therapy,8,No,2,Private,General
+1018,41,Male,2024-12-29,2025-01-04,Pneumonia,Medication,6,Yes,0,None,Cardiology
+1019,58,Male,2024-03-09,2024-03-22,Diabetes,Surgery,13,Yes,2,None,Cardiology
+1020,61,Male,2024-02-27,2024-03-02,Stroke,Surgery,4,No,2,Public,General
+1021,42,Female,2024-12-03,2024-12-08,Stroke,Therapy,5,No,4,Private,Neurology
+1022,82,Female,2024-11-14,2024-11-16,Heart Failure,Surgery,2,No,3,Private,General
+1023,23,Male,2024-04-28,2024-05-03,Stroke,Surgery,5,No,3,Public,Neurology
+1024,86,Female,2024-06-03,2024-06-17,Heart Failure,Medication,14,No,1,Public,General
+1025,86,Male,2024-09-11,2024-09-17,Heart Failure,Therapy,6,No,2,Public,General
+1026,32,Female,2024-07-17,2024-07-31,Heart Failure,Therapy,14,Yes,2,Public,Cardiology
+1027,28,Male,2024-04-20,2024-04-29,Diabetes,Therapy,9,Yes,1,Private,ER
+1028,71,Female,2024-11-05,2024-11-18,Hypertension,Surgery,13,No,0,Public,General
+1029,21,Female,2024-10-17,2024-10-19,Diabetes,Surgery,2,No,3,None,ER
+1030,60,Female,2024-06-13,2024-06-18,Diabetes,Surgery,5,No,3,Public,Neurology
+1031,72,Female,2024-10-22,2024-10-31,Stroke,Therapy,9,Yes,2,Private,ER
+1032,67,Female,2024-11-25,2024-12-04,Stroke,Medication,9,Yes,4,None,Neurology
+1033,73,Male,2024-02-02,2024-02-04,Hypertension,Medication,2,No,4,None,Cardiology
+1034,62,Female,2024-12-19,2024-12-30,Diabetes,Medication,11,No,1,None,Neurology
+1035,38,Female,2024-08-25,2024-09-09,Diabetes,Therapy,15,No,3,None,ER
+1036,78,Female,2024-02-29,2024-03-06,Stroke,Surgery,6,No,0,Private,Cardiology
+1037,37,Male,2024-01-29,2024-02-12,Pneumonia,Medication,14,No,0,Private,Cardiology
+1038,67,Male,2024-04-09,2024-04-13,Heart Failure,Therapy,4,No,4,Public,General
+1039,22,Female,2024-10-04,2024-10-16,Hypertension,Surgery,12,Yes,0,Private,ER
+1040,51,Female,2024-03-13,2024-03-22,Stroke,Medication,9,No,2,Private,Neurology
+1041,45,Female,2024-10-03,2024-10-17,Pneumonia,Medication,14,No,2,None,Cardiology
+1042,52,Female,2024-11-27,2024-12-05,Hypertension,Medication,8,No,4,Private,General
+1043,58,Male,2024-12-06,2024-12-21,Diabetes,Medication,15,Yes,3,Public,ICU
+1044,58,Female,2024-06-17,2024-06-24,Hypertension,Surgery,7,No,1,Private,Cardiology
+1045,39,Male,2024-08-02,2024-08-11,Diabetes,Therapy,9,No,1,Public,Cardiology
+1046,64,Male,2024-01-07,2024-01-18,Hypertension,Surgery,11,No,3,Private,Cardiology
+1047,42,Female,2024-01-28,2024-02-01,Stroke,Therapy,4,Yes,3,Private,Cardiology
+1048,74,Female,2024-10-29,2024-11-08,Pneumonia,Therapy,10,No,2,Private,ER
+1049,26,Male,2024-05-28,2024-06-04,Heart Failure,Medication,7,No,1,None,Cardiology
+1050,28,Male,2024-04-29,2024-05-10,Hypertension,Therapy,11,No,0,Private,ICU
+1051,77,Female,2024-11-04,2024-11-17,Diabetes,Surgery,13,Yes,0,Public,General
+1052,68,Female,2024-07-13,2024-07-27,Diabetes,Therapy,14,No,0,None,Cardiology
+1053,31,Female,2024-12-23,2025-01-04,Pneumonia,Therapy,12,No,0,Private,Neurology
+1054,77,Male,2024-12-03,2024-12-17,Stroke,Surgery,14,No,4,Public,ER
+1055,86,Male,2024-02-05,2024-02-12,Pneumonia,Therapy,7,No,1,None,General
+1056,68,Female,2024-04-25,2024-04-26,Stroke,Therapy,1,No,2,Private,Cardiology
+1057,36,Female,2024-07-10,2024-07-19,Hypertension,Therapy,9,No,4,None,ICU
+1058,44,Female,2024-09-24,2024-09-28,Diabetes,Medication,4,No,2,Private,Neurology
+1059,33,Female,2024-11-06,2024-11-21,Pneumonia,Surgery,15,Yes,4,None,Neurology
+1060,65,Female,2024-02-13,2024-02-24,Diabetes,Medication,11,Yes,4,Private,Cardiology
+1061,79,Male,2024-11-27,2024-11-30,Pneumonia,Medication,3,No,0,None,Neurology
+1062,61,Male,2024-12-21,2025-01-05,Heart Failure,Surgery,15,No,3,Private,Neurology
+1063,50,Male,2024-03-26,2024-04-09,Pneumonia,Surgery,14,Yes,1,Private,Neurology
+1064,88,Male,2024-01-09,2024-01-20,Heart Failure,Medication,11,No,1,Public,Cardiology
+1065,37,Male,2024-09-21,2024-10-06,Diabetes,Therapy,15,No,1,Private,Cardiology
+1066,80,Male,2024-09-14,2024-09-27,Heart Failure,Surgery,13,Yes,1,Private,ICU
+1067,88,Female,2024-05-07,2024-05-11,Hypertension,Therapy,4,No,2,Public,Cardiology
+1068,81,Female,2024-09-21,2024-09-29,Pneumonia,Medication,8,Yes,0,None,Neurology
+1069,35,Male,2024-11-11,2024-11-14,Stroke,Medication,3,No,2,None,Neurology
+1070,73,Female,2024-03-22,2024-04-06,Pneumonia,Therapy,15,No,2,Private,Cardiology
+1071,54,Female,2024-12-01,2024-12-16,Stroke,Therapy,15,No,1,Public,ER
+1072,88,Male,2024-05-10,2024-05-16,Pneumonia,Medication,6,Yes,4,Public,ER
+1073,53,Male,2024-07-06,2024-07-12,Stroke,Therapy,6,No,2,Public,ICU
+1074,78,Female,2024-12-03,2024-12-13,Stroke,Surgery,10,Yes,0,Public,Neurology
+1075,72,Male,2024-12-04,2024-12-11,Diabetes,Surgery,7,No,0,Public,Neurology
+1076,67,Female,2024-02-20,2024-02-29,Stroke,Surgery,9,No,0,None,General
+1077,57,Female,2024-04-10,2024-04-15,Hypertension,Surgery,5,No,1,Public,General
+1078,66,Male,2024-06-15,2024-06-30,Pneumonia,Medication,15,No,2,Public,ER
+1079,56,Male,2024-05-27,2024-05-28,Stroke,Medication,1,No,1,Public,Cardiology
+1080,76,Female,2024-02-19,2024-02-26,Diabetes,Medication,7,No,3,Public,ER
+1081,28,Male,2024-04-26,2024-05-09,Heart Failure,Medication,13,Yes,2,Public,General
+1082,67,Male,2024-12-27,2025-01-02,Hypertension,Surgery,6,No,3,Public,General
+1083,31,Male,2024-10-06,2024-10-18,Pneumonia,Medication,12,No,4,Private,General
+1084,51,Male,2024-01-16,2024-01-26,Pneumonia,Medication,10,No,3,Public,Neurology
+1085,85,Female,2024-03-29,2024-04-05,Stroke,Therapy,7,Yes,1,Public,General
+1086,34,Male,2024-01-27,2024-02-05,Diabetes,Surgery,9,Yes,3,None,ER
+1087,67,Male,2024-05-04,2024-05-13,Hypertension,Surgery,9,No,3,Private,ER
+1088,30,Female,2024-03-14,2024-03-18,Pneumonia,Medication,4,No,4,Public,ICU
+1089,81,Male,2024-12-25,2025-01-07,Diabetes,Therapy,13,No,3,Private,ER
+1090,84,Male,2024-09-12,2024-09-27,Hypertension,Therapy,15,No,4,None,ICU
+1091,82,Male,2024-03-30,2024-04-01,Pneumonia,Therapy,2,No,1,Public,ICU
+1092,65,Female,2024-01-25,2024-01-31,Stroke,Medication,6,No,2,Public,Neurology
+1093,64,Female,2024-04-10,2024-04-13,Heart Failure,Therapy,3,No,3,Private,Neurology
+1094,36,Male,2024-09-14,2024-09-28,Hypertension,Medication,14,No,0,None,ICU
+1095,64,Female,2024-03-22,2024-03-23,Diabetes,Surgery,1,No,0,Public,ER
+1096,61,Male,2024-08-09,2024-08-18,Stroke,Medication,9,Yes,0,Private,ICU
+1097,75,Female,2024-02-03,2024-02-08,Hypertension,Surgery,5,No,3,Public,Cardiology
+1098,53,Male,2024-02-12,2024-02-18,Stroke,Therapy,6,Yes,4,Public,Cardiology
+1099,60,Male,2024-04-09,2024-04-15,Stroke,Medication,6,Yes,1,None,Cardiology
+1100,22,Male,2024-11-11,2024-11-18,Pneumonia,Medication,7,No,1,None,Cardiology
+1101,20,Male,2024-07-26,2024-07-29,Hypertension,Therapy,3,Yes,4,None,Cardiology
+1102,76,Female,2024-02-23,2024-03-05,Pneumonia,Medication,11,No,0,Public,Neurology
+1103,21,Male,2024-08-28,2024-09-06,Hypertension,Surgery,9,No,0,Public,Neurology
+1104,40,Female,2024-12-26,2025-01-04,Heart Failure,Therapy,9,No,0,Public,Cardiology
+1105,44,Male,2024-07-27,2024-07-28,Diabetes,Therapy,1,Yes,1,None,General
+1106,71,Male,2024-06-01,2024-06-08,Stroke,Medication,7,No,2,None,ICU
+1107,67,Female,2024-09-15,2024-09-22,Stroke,Surgery,7,No,2,Public,ER
+1108,34,Female,2024-05-13,2024-05-22,Hypertension,Surgery,9,No,4,Public,ICU
+1109,64,Male,2024-10-06,2024-10-08,Diabetes,Surgery,2,No,0,Private,General
+1110,90,Female,2024-12-04,2024-12-16,Heart Failure,Therapy,12,Yes,4,None,Neurology
+1111,41,Male,2024-01-06,2024-01-21,Heart Failure,Medication,15,No,3,Private,Cardiology
+1112,36,Female,2024-07-22,2024-08-04,Heart Failure,Medication,13,No,0,None,Neurology
+1113,52,Male,2024-05-25,2024-05-28,Hypertension,Surgery,3,Yes,2,None,ICU
+1114,64,Male,2024-12-21,2024-12-22,Diabetes,Surgery,1,No,1,Private,ICU
+1115,22,Male,2024-08-12,2024-08-17,Stroke,Therapy,5,No,3,Private,ICU
+1116,81,Male,2024-10-16,2024-10-23,Hypertension,Surgery,7,No,2,Public,ER
+1117,38,Female,2024-07-01,2024-07-02,Heart Failure,Therapy,1,Yes,0,Private,Cardiology
+1118,87,Female,2024-02-14,2024-02-16,Heart Failure,Medication,2,Yes,1,None,ICU
+1119,89,Female,2024-12-24,2025-01-07,Diabetes,Medication,14,Yes,4,Public,ER
+1120,54,Male,2024-07-01,2024-07-02,Pneumonia,Therapy,1,Yes,0,Public,ICU
+1121,62,Female,2024-09-08,2024-09-16,Stroke,Therapy,8,No,1,Public,ICU
+1122,41,Female,2024-04-30,2024-05-02,Heart Failure,Surgery,2,No,4,Private,Cardiology
+1123,89,Male,2024-07-23,2024-08-06,Heart Failure,Surgery,14,No,0,None,General
+1124,66,Male,2024-09-21,2024-09-28,Diabetes,Therapy,7,No,4,None,General
+1125,66,Female,2024-05-24,2024-05-26,Hypertension,Medication,2,No,2,Public,Cardiology
+1126,28,Male,2024-07-09,2024-07-14,Heart Failure,Surgery,5,No,4,Public,General
+1127,35,Male,2024-11-19,2024-12-04,Diabetes,Therapy,15,Yes,2,Public,Neurology
+1128,57,Male,2024-02-08,2024-02-16,Pneumonia,Medication,8,No,2,None,ER
+1129,39,Male,2024-04-27,2024-04-28,Stroke,Therapy,1,No,0,None,General
+1130,52,Male,2024-03-06,2024-03-20,Heart Failure,Surgery,14,No,0,None,ER
+1131,25,Male,2024-03-02,2024-03-17,Diabetes,Therapy,15,No,2,Public,General
+1132,56,Female,2024-04-23,2024-04-29,Heart Failure,Medication,6,Yes,1,Private,ER
+1133,21,Female,2024-09-04,2024-09-15,Heart Failure,Therapy,11,No,2,None,ICU
+1134,50,Female,2024-09-15,2024-09-24,Heart Failure,Therapy,9,No,0,None,Neurology
+1135,86,Female,2024-10-10,2024-10-14,Hypertension,Medication,4,No,3,Private,Cardiology
+1136,46,Male,2024-01-05,2024-01-14,Hypertension,Therapy,9,Yes,1,Public,ER
+1137,48,Female,2024-03-04,2024-03-08,Hypertension,Medication,4,No,1,None,ER
+1138,75,Female,2024-01-05,2024-01-11,Pneumonia,Medication,6,No,3,Private,ICU
+1139,56,Female,2024-01-19,2024-01-30,Diabetes,Therapy,11,No,4,None,Neurology
+1140,65,Female,2024-11-07,2024-11-12,Stroke,Medication,5,Yes,4,Public,ICU
+1141,68,Female,2024-12-14,2024-12-17,Heart Failure,Surgery,3,Yes,0,Private,ICU
+1142,23,Female,2024-09-02,2024-09-08,Stroke,Medication,6,Yes,4,None,ER
+1143,43,Male,2024-03-28,2024-04-02,Pneumonia,Surgery,5,No,3,Private,Neurology
+1144,66,Female,2024-06-16,2024-06-23,Heart Failure,Surgery,7,No,4,None,Cardiology
+1145,47,Female,2024-02-03,2024-02-15,Diabetes,Therapy,12,No,3,Private,ICU
+1146,82,Female,2024-06-11,2024-06-25,Diabetes,Surgery,14,Yes,0,Public,Cardiology
+1147,29,Male,2024-03-30,2024-04-05,Diabetes,Surgery,6,Yes,2,Private,General
+1148,33,Male,2024-07-29,2024-07-30,Pneumonia,Therapy,1,No,3,Public,Neurology
+1149,28,Female,2024-12-22,2024-12-26,Stroke,Therapy,4,No,0,None,General
+1150,75,Female,2024-05-07,2024-05-14,Pneumonia,Therapy,7,No,3,Public,General
+1151,57,Male,2024-07-31,2024-08-07,Hypertension,Medication,7,Yes,2,None,Cardiology
+1152,55,Male,2024-07-14,2024-07-29,Stroke,Therapy,15,No,0,None,ICU
+1153,31,Male,2024-07-06,2024-07-10,Heart Failure,Surgery,4,No,1,Public,ER
+1154,90,Male,2024-04-27,2024-05-02,Pneumonia,Surgery,5,Yes,1,Private,ER
+1155,20,Male,2024-10-21,2024-11-04,Stroke,Surgery,14,No,2,Public,Cardiology
+1156,22,Female,2024-11-29,2024-12-14,Pneumonia,Therapy,15,No,2,None,Neurology
+1157,76,Male,2024-10-13,2024-10-16,Pneumonia,Surgery,3,Yes,0,Private,Neurology
+1158,68,Male,2024-07-14,2024-07-21,Stroke,Medication,7,Yes,0,None,Neurology
+1159,54,Male,2024-06-24,2024-07-09,Hypertension,Medication,15,No,4,Private,ICU
+1160,74,Male,2024-01-29,2024-02-12,Stroke,Therapy,14,No,4,Private,ICU
+1161,73,Female,2024-08-31,2024-09-12,Diabetes,Therapy,12,No,4,None,ER
+1162,42,Female,2024-06-28,2024-06-30,Diabetes,Medication,2,No,4,Private,ER
+1163,46,Female,2024-07-05,2024-07-20,Pneumonia,Medication,15,No,2,Public,Neurology
+1164,70,Female,2024-11-23,2024-12-01,Stroke,Therapy,8,No,0,None,Cardiology
+1165,27,Male,2024-08-05,2024-08-19,Pneumonia,Medication,14,No,0,Private,ER
+1166,29,Female,2024-07-16,2024-07-29,Hypertension,Medication,13,No,0,Private,ER
+1167,88,Female,2024-02-15,2024-02-18,Stroke,Therapy,3,No,4,Public,General
+1168,27,Female,2024-01-14,2024-01-26,Hypertension,Medication,12,No,4,None,General
+1169,56,Female,2024-06-17,2024-06-25,Pneumonia,Therapy,8,No,1,Private,ICU
+1170,57,Male,2024-10-25,2024-10-31,Heart Failure,Surgery,6,Yes,4,None,ICU
+1171,23,Female,2024-12-11,2024-12-25,Hypertension,Surgery,14,No,2,Public,Neurology
+1172,46,Female,2024-12-27,2025-01-04,Hypertension,Therapy,8,No,1,Private,ICU
+1173,33,Male,2024-05-20,2024-05-23,Diabetes,Medication,3,No,0,Private,ICU
+1174,84,Female,2024-07-16,2024-07-20,Pneumonia,Therapy,4,No,4,Public,ICU
+1175,41,Male,2024-12-07,2024-12-08,Hypertension,Surgery,1,No,2,Private,ICU
+1176,67,Female,2024-02-22,2024-02-27,Pneumonia,Therapy,5,No,0,Public,Neurology
+1177,43,Male,2024-01-20,2024-01-22,Hypertension,Medication,2,Yes,0,Public,ICU
+1178,60,Female,2024-06-13,2024-06-20,Diabetes,Therapy,7,No,1,Private,ICU
+1179,70,Male,2024-12-04,2024-12-14,Stroke,Medication,10,No,1,Public,General
+1180,33,Male,2024-01-16,2024-01-28,Hypertension,Surgery,12,Yes,2,None,Neurology
+1181,64,Male,2024-09-08,2024-09-22,Pneumonia,Medication,14,Yes,3,None,Cardiology
+1182,63,Male,2024-02-08,2024-02-11,Pneumonia,Therapy,3,Yes,1,Public,General
+1183,48,Female,2024-04-08,2024-04-14,Hypertension,Medication,6,No,3,Private,Cardiology
+1184,70,Female,2024-01-04,2024-01-09,Hypertension,Medication,5,Yes,2,None,Cardiology
+1185,24,Female,2024-04-10,2024-04-23,Heart Failure,Medication,13,Yes,0,None,General
+1186,66,Male,2024-08-21,2024-09-05,Diabetes,Surgery,15,No,2,Private,Cardiology
+1187,20,Female,2024-12-03,2024-12-15,Stroke,Medication,12,Yes,3,None,General
+1188,25,Male,2024-10-21,2024-10-22,Pneumonia,Therapy,1,No,1,None,ICU
+1189,75,Male,2024-12-19,2024-12-25,Diabetes,Medication,6,No,0,Public,Neurology
+1190,89,Female,2024-12-21,2024-12-29,Stroke,Surgery,8,No,2,Public,Cardiology
+1191,90,Male,2024-05-02,2024-05-13,Heart Failure,Therapy,11,Yes,3,Public,ICU
+1192,71,Female,2024-02-13,2024-02-22,Pneumonia,Surgery,9,Yes,4,Private,ICU
+1193,81,Male,2024-03-08,2024-03-11,Diabetes,Surgery,3,No,0,Public,General
+1194,75,Female,2024-07-16,2024-07-26,Stroke,Therapy,10,No,1,Private,Cardiology
+1195,38,Female,2024-09-13,2024-09-22,Diabetes,Therapy,9,Yes,2,None,Cardiology
+1196,68,Male,2024-01-04,2024-01-08,Heart Failure,Medication,4,No,2,None,ER
+1197,50,Male,2024-07-04,2024-07-18,Heart Failure,Medication,14,Yes,3,None,Cardiology
+1198,70,Male,2024-11-02,2024-11-14,Hypertension,Therapy,12,No,3,Public,ICU
+1199,69,Female,2024-04-30,2024-05-10,Stroke,Therapy,10,No,2,None,General
+1200,46,Female,2024-04-14,2024-04-21,Diabetes,Surgery,7,No,3,None,ICU
+1201,86,Male,2024-01-09,2024-01-19,Stroke,Therapy,10,No,0,Public,ER
+1202,42,Male,2024-06-12,2024-06-14,Stroke,Therapy,2,No,3,Private,General
+1203,32,Female,2024-08-03,2024-08-04,Diabetes,Therapy,1,No,0,Private,ER
+1204,53,Female,2024-11-23,2024-12-07,Heart Failure,Therapy,14,Yes,1,Private,Neurology
+1205,45,Female,2024-08-20,2024-08-30,Hypertension,Medication,10,Yes,3,Public,ER
+1206,63,Male,2024-08-19,2024-08-26,Heart Failure,Medication,7,Yes,2,Private,ICU
+1207,69,Female,2024-06-02,2024-06-16,Stroke,Surgery,14,No,3,Private,General
+1208,70,Male,2024-08-11,2024-08-24,Diabetes,Surgery,13,Yes,4,Private,Cardiology
+1209,79,Female,2024-05-24,2024-05-30,Heart Failure,Medication,6,No,3,Private,ICU
+1210,52,Male,2024-09-24,2024-09-30,Heart Failure,Surgery,6,No,3,Private,ER
+1211,54,Female,2024-05-02,2024-05-14,Heart Failure,Surgery,12,Yes,1,Private,Cardiology
+1212,52,Female,2024-09-11,2024-09-21,Diabetes,Medication,10,No,0,Private,Cardiology
+1213,48,Female,2024-03-03,2024-03-13,Hypertension,Therapy,10,No,1,None,ER
+1214,90,Male,2024-10-05,2024-10-11,Stroke,Therapy,6,Yes,3,Public,Cardiology
+1215,60,Male,2024-11-18,2024-11-20,Heart Failure,Therapy,2,No,4,None,ICU
+1216,66,Female,2024-08-12,2024-08-16,Diabetes,Therapy,4,No,1,Public,Neurology
+1217,61,Male,2024-05-25,2024-06-01,Hypertension,Surgery,7,No,1,Private,Cardiology
+1218,32,Female,2024-04-13,2024-04-25,Pneumonia,Medication,12,No,1,Public,Neurology
+1219,56,Male,2024-10-14,2024-10-25,Diabetes,Medication,11,No,3,Private,ICU
+1220,76,Male,2024-09-26,2024-10-05,Stroke,Surgery,9,No,3,Private,General
+1221,51,Female,2024-10-18,2024-10-21,Hypertension,Therapy,3,No,1,Private,General
+1222,84,Male,2024-04-16,2024-04-22,Hypertension,Medication,6,No,2,Private,General
+1223,76,Female,2024-08-28,2024-09-05,Diabetes,Surgery,8,No,4,Private,General
+1224,48,Female,2024-01-12,2024-01-17,Pneumonia,Surgery,5,No,1,None,ICU
+1225,88,Male,2024-01-03,2024-01-07,Diabetes,Medication,4,No,1,Public,ER
+1226,75,Female,2024-11-30,2024-12-08,Hypertension,Medication,8,No,0,None,Cardiology
+1227,69,Male,2024-08-31,2024-09-05,Heart Failure,Surgery,5,No,3,Private,Neurology
+1228,90,Female,2024-02-12,2024-02-18,Hypertension,Therapy,6,Yes,3,Public,Neurology
+1229,25,Male,2024-05-27,2024-05-30,Diabetes,Therapy,3,No,1,Public,Cardiology
+1230,90,Female,2024-08-01,2024-08-08,Hypertension,Surgery,7,Yes,4,Private,Cardiology
+1231,20,Male,2024-11-11,2024-11-16,Stroke,Therapy,5,Yes,0,Private,General
+1232,82,Male,2024-07-10,2024-07-25,Stroke,Surgery,15,No,4,Private,ER
+1233,56,Male,2024-06-12,2024-06-20,Heart Failure,Medication,8,No,2,Private,ICU
+1234,24,Male,2024-03-28,2024-04-07,Diabetes,Surgery,10,No,2,Public,ER
+1235,35,Female,2024-07-10,2024-07-25,Stroke,Medication,15,No,1,Public,ER
+1236,28,Female,2024-06-13,2024-06-16,Diabetes,Surgery,3,No,3,None,General
+1237,80,Male,2024-01-26,2024-02-02,Heart Failure,Medication,7,Yes,3,Public,Neurology
+1238,88,Female,2024-01-29,2024-02-01,Hypertension,Medication,3,No,2,None,Neurology
+1239,90,Male,2024-12-20,2024-12-28,Diabetes,Therapy,8,No,2,Public,Neurology
+1240,21,Male,2024-01-30,2024-02-12,Stroke,Therapy,13,No,2,Private,Cardiology
+1241,66,Female,2024-12-27,2025-01-07,Heart Failure,Surgery,11,Yes,1,None,Cardiology
+1242,65,Male,2024-04-16,2024-04-24,Heart Failure,Therapy,8,No,1,Public,General
+1243,85,Female,2024-10-11,2024-10-23,Diabetes,Surgery,12,No,4,None,General
+1244,80,Female,2024-02-22,2024-03-02,Stroke,Surgery,9,No,3,Public,Neurology
+1245,69,Female,2024-08-30,2024-09-03,Pneumonia,Medication,4,No,0,Private,General
+1246,88,Male,2024-09-01,2024-09-13,Diabetes,Therapy,12,Yes,4,None,General
+1247,52,Female,2024-07-28,2024-07-30,Diabetes,Surgery,2,No,4,Public,Cardiology
+1248,57,Female,2024-03-01,2024-03-13,Heart Failure,Medication,12,No,0,Public,Neurology
+1249,76,Female,2024-09-21,2024-09-24,Heart Failure,Surgery,3,Yes,0,None,Cardiology
+1250,77,Female,2024-04-10,2024-04-20,Pneumonia,Therapy,10,No,3,Private,ICU
+1251,40,Female,2024-06-28,2024-07-06,Hypertension,Therapy,8,Yes,1,None,Cardiology
+1252,70,Male,2024-02-02,2024-02-09,Heart Failure,Surgery,7,No,3,None,General
+1253,58,Female,2024-01-31,2024-02-13,Pneumonia,Surgery,13,No,4,None,ER
+1254,44,Male,2024-06-05,2024-06-12,Hypertension,Therapy,7,No,2,Private,General
+1255,83,Female,2024-01-31,2024-02-08,Diabetes,Medication,8,No,1,Public,ICU
+1256,28,Male,2024-07-26,2024-08-01,Pneumonia,Surgery,6,Yes,1,Public,ER
+1257,86,Female,2024-10-20,2024-10-21,Diabetes,Surgery,1,No,0,None,ICU
+1258,81,Female,2024-05-27,2024-06-09,Stroke,Surgery,13,No,1,Public,General
+1259,34,Male,2024-10-03,2024-10-13,Stroke,Surgery,10,No,0,None,Cardiology
+1260,78,Female,2024-12-11,2024-12-22,Heart Failure,Surgery,11,No,0,None,ICU
+1261,54,Male,2024-09-26,2024-10-10,Diabetes,Therapy,14,Yes,2,None,Cardiology
+1262,46,Female,2024-11-01,2024-11-15,Hypertension,Surgery,14,No,4,Public,ICU
+1263,66,Male,2024-02-20,2024-03-03,Heart Failure,Therapy,12,Yes,3,Private,ICU
+1264,31,Male,2024-11-05,2024-11-19,Hypertension,Medication,14,Yes,3,Private,ICU
+1265,68,Male,2024-10-28,2024-11-07,Hypertension,Medication,10,No,4,Public,General
+1266,89,Female,2024-07-31,2024-08-14,Pneumonia,Therapy,14,No,2,None,ER
+1267,23,Male,2024-11-24,2024-11-29,Heart Failure,Medication,5,No,1,Public,Neurology
+1268,80,Male,2024-10-24,2024-11-04,Pneumonia,Surgery,11,Yes,1,Public,Cardiology
+1269,90,Male,2024-10-29,2024-11-07,Diabetes,Surgery,9,No,4,Private,ICU
+1270,82,Male,2024-04-04,2024-04-16,Diabetes,Medication,12,No,4,None,General
+1271,60,Male,2024-09-18,2024-09-27,Diabetes,Surgery,9,Yes,1,None,Neurology
+1272,50,Female,2024-06-03,2024-06-09,Diabetes,Surgery,6,No,2,Public,ER
+1273,50,Male,2024-11-30,2024-12-06,Heart Failure,Medication,6,No,0,Public,ER
+1274,84,Female,2024-03-11,2024-03-19,Diabetes,Therapy,8,No,4,Public,Neurology
+1275,21,Female,2024-06-16,2024-07-01,Stroke,Surgery,15,No,1,Private,ER
+1276,62,Female,2024-08-19,2024-08-29,Hypertension,Therapy,10,Yes,0,None,General
+1277,76,Female,2024-10-01,2024-10-14,Heart Failure,Therapy,13,No,3,Private,ER
+1278,82,Male,2024-04-27,2024-05-05,Hypertension,Surgery,8,Yes,4,Private,Cardiology
+1279,41,Female,2024-01-26,2024-02-02,Stroke,Surgery,7,No,2,None,General
+1280,72,Male,2024-06-11,2024-06-19,Heart Failure,Medication,8,No,4,None,Neurology
+1281,43,Female,2024-02-04,2024-02-11,Diabetes,Medication,7,No,4,None,ER
+1282,29,Male,2024-03-29,2024-04-03,Diabetes,Therapy,5,No,1,Private,ICU
+1283,39,Female,2024-03-29,2024-03-31,Stroke,Medication,2,Yes,1,None,Neurology
+1284,78,Female,2024-02-29,2024-03-12,Stroke,Therapy,12,No,2,None,ICU
+1285,59,Female,2024-03-31,2024-04-09,Hypertension,Therapy,9,Yes,1,None,Cardiology
+1286,61,Female,2024-11-21,2024-11-29,Pneumonia,Therapy,8,No,1,Public,ICU
+1287,43,Female,2024-10-01,2024-10-11,Hypertension,Therapy,10,Yes,4,Public,Cardiology
+1288,23,Female,2024-02-08,2024-02-18,Pneumonia,Surgery,10,No,2,Public,General
+1289,65,Female,2024-05-11,2024-05-26,Pneumonia,Therapy,15,No,1,Private,ICU
+1290,79,Female,2024-12-24,2024-12-28,Stroke,Surgery,4,No,0,None,Neurology
+1291,89,Male,2024-07-20,2024-08-02,Hypertension,Surgery,13,No,1,None,General
+1292,27,Female,2024-10-20,2024-11-01,Stroke,Therapy,12,No,0,Private,ER
+1293,50,Male,2024-04-27,2024-04-30,Stroke,Therapy,3,No,4,Private,General
+1294,42,Female,2024-08-19,2024-08-26,Diabetes,Therapy,7,No,2,Private,Cardiology
+1295,47,Male,2024-04-19,2024-05-04,Stroke,Medication,15,No,2,Public,ER
+1296,35,Female,2024-01-02,2024-01-05,Diabetes,Surgery,3,No,0,None,General
+1297,88,Male,2024-12-17,2024-12-31,Heart Failure,Therapy,14,Yes,4,None,Neurology
+1298,26,Male,2024-09-29,2024-10-05,Diabetes,Therapy,6,No,1,Public,ICU
+1299,53,Female,2024-01-25,2024-01-26,Diabetes,Medication,1,No,0,Public,Cardiology
+1300,62,Female,2024-11-30,2024-12-02,Pneumonia,Therapy,2,No,0,None,General
+1301,70,Male,2024-06-21,2024-06-22,Heart Failure,Surgery,1,Yes,0,Private,ER
+1302,90,Male,2024-03-25,2024-03-26,Heart Failure,Therapy,1,Yes,4,None,ER
+1303,37,Male,2024-10-17,2024-11-01,Hypertension,Medication,15,Yes,1,Private,ER
+1304,42,Male,2024-01-20,2024-01-29,Heart Failure,Surgery,9,Yes,2,Public,ICU
+1305,75,Male,2024-12-09,2024-12-24,Heart Failure,Medication,15,Yes,2,Public,General
+1306,61,Male,2024-09-13,2024-09-27,Pneumonia,Medication,14,Yes,0,None,ICU
+1307,31,Female,2024-11-30,2024-12-08,Pneumonia,Therapy,8,Yes,2,Private,General
+1308,63,Female,2024-05-06,2024-05-14,Pneumonia,Therapy,8,No,4,Public,ER
+1309,84,Female,2024-11-05,2024-11-20,Pneumonia,Surgery,15,No,4,Private,General
+1310,21,Male,2024-08-30,2024-09-04,Heart Failure,Surgery,5,No,1,Private,ICU
+1311,30,Female,2024-09-19,2024-09-28,Diabetes,Therapy,9,No,3,Private,ICU
+1312,55,Male,2024-05-30,2024-06-09,Pneumonia,Medication,10,Yes,2,Private,ER
+1313,20,Male,2024-11-12,2024-11-23,Diabetes,Therapy,11,No,2,Private,ER
+1314,34,Female,2024-04-20,2024-04-27,Hypertension,Surgery,7,No,1,Private,ER
+1315,20,Female,2024-03-06,2024-03-17,Hypertension,Surgery,11,No,1,None,ICU
+1316,82,Female,2024-09-26,2024-10-05,Pneumonia,Therapy,9,No,4,Private,ICU
+1317,73,Female,2024-12-28,2025-01-09,Stroke,Surgery,12,No,3,None,ER
+1318,74,Female,2024-09-25,2024-09-30,Heart Failure,Therapy,5,No,3,Public,General
+1319,47,Female,2024-04-12,2024-04-21,Hypertension,Therapy,9,No,3,Private,Cardiology
+1320,39,Male,2024-08-23,2024-08-28,Heart Failure,Surgery,5,No,4,None,Cardiology
+1321,85,Female,2024-07-10,2024-07-25,Stroke,Surgery,15,No,1,None,ICU
+1322,69,Female,2024-07-04,2024-07-06,Stroke,Medication,2,Yes,3,Public,ICU
+1323,71,Female,2024-08-30,2024-09-12,Pneumonia,Medication,13,No,3,Public,Neurology
+1324,86,Female,2024-02-16,2024-02-28,Pneumonia,Medication,12,Yes,3,None,General
+1325,25,Female,2024-05-02,2024-05-17,Diabetes,Therapy,15,Yes,2,Private,Neurology
+1326,54,Male,2024-09-20,2024-09-22,Diabetes,Therapy,2,No,1,Private,Cardiology
+1327,24,Female,2024-08-24,2024-08-25,Pneumonia,Therapy,1,No,0,Public,ER
+1328,45,Male,2024-02-14,2024-02-28,Diabetes,Medication,14,No,4,None,Neurology
+1329,76,Male,2024-02-23,2024-03-09,Heart Failure,Surgery,15,Yes,3,Public,ICU
+1330,48,Male,2024-10-19,2024-10-22,Stroke,Therapy,3,Yes,2,Public,Neurology
+1331,21,Male,2024-02-04,2024-02-07,Heart Failure,Medication,3,No,3,None,ICU
+1332,68,Female,2024-01-29,2024-02-09,Hypertension,Therapy,11,Yes,3,None,General
+1333,31,Male,2024-12-19,2025-01-03,Heart Failure,Medication,15,No,1,Private,Neurology
+1334,21,Male,2024-07-05,2024-07-13,Heart Failure,Therapy,8,No,3,None,General
+1335,28,Male,2024-06-30,2024-07-04,Stroke,Surgery,4,No,3,Private,Neurology
+1336,63,Male,2024-05-05,2024-05-11,Hypertension,Medication,6,No,0,Private,ER
+1337,79,Male,2024-01-15,2024-01-21,Pneumonia,Medication,6,No,1,Public,General
+1338,32,Female,2024-07-02,2024-07-16,Heart Failure,Medication,14,No,1,None,ICU
+1339,25,Male,2024-02-11,2024-02-23,Stroke,Surgery,12,Yes,1,None,ICU
+1340,73,Female,2024-06-22,2024-07-04,Stroke,Medication,12,No,0,Public,ER
+1341,51,Male,2024-04-01,2024-04-03,Stroke,Surgery,2,No,0,Public,ER
+1342,89,Female,2024-12-28,2025-01-08,Stroke,Surgery,11,Yes,3,Private,Cardiology
+1343,31,Female,2024-06-07,2024-06-16,Diabetes,Medication,9,No,3,Public,Neurology
+1344,30,Male,2024-01-13,2024-01-24,Pneumonia,Medication,11,No,1,Private,Neurology
+1345,59,Male,2024-04-02,2024-04-08,Stroke,Medication,6,Yes,3,Private,ER
+1346,34,Female,2024-07-31,2024-08-11,Hypertension,Therapy,11,No,2,Public,ICU
+1347,23,Male,2024-07-14,2024-07-29,Stroke,Surgery,15,No,1,None,Cardiology
+1348,50,Female,2024-07-07,2024-07-10,Hypertension,Medication,3,Yes,1,Private,ER
+1349,59,Female,2024-10-30,2024-10-31,Stroke,Surgery,1,No,0,None,General
+1350,26,Male,2024-11-15,2024-11-29,Heart Failure,Medication,14,Yes,0,None,General
+1351,54,Male,2024-06-06,2024-06-11,Diabetes,Therapy,5,No,0,Private,ICU
+1352,43,Male,2024-04-19,2024-05-02,Hypertension,Therapy,13,No,3,None,ICU
+1353,32,Male,2024-10-26,2024-10-30,Stroke,Therapy,4,Yes,0,Private,ER
+1354,64,Male,2024-10-08,2024-10-10,Diabetes,Therapy,2,No,0,Public,ER
+1355,71,Male,2024-11-28,2024-12-05,Stroke,Medication,7,No,0,Public,ER
+1356,35,Male,2024-07-03,2024-07-11,Heart Failure,Therapy,8,No,2,Private,ER
+1357,35,Male,2024-11-22,2024-12-04,Hypertension,Surgery,12,No,2,None,ER
+1358,31,Female,2024-08-15,2024-08-25,Pneumonia,Surgery,10,Yes,3,Private,General
+1359,73,Male,2024-03-22,2024-03-31,Hypertension,Medication,9,Yes,4,Private,ICU
+1360,80,Female,2024-08-05,2024-08-12,Diabetes,Medication,7,No,3,Public,ICU
+1361,28,Female,2024-02-08,2024-02-10,Hypertension,Therapy,2,No,4,Private,ER
+1362,62,Male,2024-12-16,2024-12-27,Hypertension,Therapy,11,No,2,Public,ICU
+1363,63,Female,2024-02-22,2024-03-02,Pneumonia,Surgery,9,No,4,None,Neurology
+1364,49,Female,2024-10-20,2024-10-25,Hypertension,Medication,5,No,2,Private,General
+1365,47,Female,2024-09-23,2024-09-29,Stroke,Surgery,6,Yes,1,None,Cardiology
+1366,64,Female,2024-07-12,2024-07-27,Diabetes,Therapy,15,No,3,Private,ICU
+1367,24,Female,2024-02-26,2024-03-12,Stroke,Therapy,15,No,2,None,ER
+1368,65,Female,2024-03-01,2024-03-13,Stroke,Surgery,12,No,3,Public,ER
+1369,49,Female,2024-06-28,2024-07-08,Stroke,Medication,10,Yes,1,Public,Cardiology
+1370,30,Female,2024-10-31,2024-11-09,Diabetes,Therapy,9,No,3,Private,Cardiology
+1371,60,Male,2024-01-01,2024-01-04,Heart Failure,Therapy,3,No,3,Public,ER
+1372,81,Male,2024-07-30,2024-08-06,Stroke,Therapy,7,Yes,4,Public,Neurology
+1373,21,Male,2024-01-26,2024-02-07,Heart Failure,Therapy,12,Yes,0,Public,Cardiology
+1374,51,Female,2024-05-30,2024-06-09,Pneumonia,Medication,10,No,3,None,General
+1375,34,Female,2024-09-28,2024-10-10,Hypertension,Therapy,12,Yes,4,Public,ICU
+1376,32,Male,2024-04-11,2024-04-24,Diabetes,Therapy,13,No,4,Public,ICU
+1377,39,Male,2024-06-18,2024-06-29,Stroke,Therapy,11,Yes,2,Public,Cardiology
+1378,50,Female,2024-10-13,2024-10-28,Diabetes,Therapy,15,No,4,Private,ICU
+1379,65,Male,2024-05-29,2024-06-09,Diabetes,Medication,11,No,4,Private,ICU
+1380,75,Female,2024-04-07,2024-04-22,Heart Failure,Therapy,15,No,3,Private,General
+1381,82,Male,2024-03-14,2024-03-18,Heart Failure,Therapy,4,No,0,None,Neurology
+1382,59,Female,2024-09-20,2024-09-22,Heart Failure,Therapy,2,Yes,2,None,ICU
+1383,79,Female,2024-09-28,2024-10-09,Pneumonia,Therapy,11,Yes,0,None,ER
+1384,62,Male,2024-06-16,2024-06-25,Stroke,Therapy,9,No,3,None,Neurology
+1385,48,Male,2024-08-15,2024-08-29,Stroke,Therapy,14,No,0,None,ER
+1386,39,Male,2024-03-01,2024-03-02,Diabetes,Surgery,1,No,4,Private,ER
+1387,79,Male,2024-10-27,2024-11-01,Diabetes,Surgery,5,No,2,None,ER
+1388,80,Female,2024-04-28,2024-05-05,Pneumonia,Medication,7,No,2,None,Cardiology
+1389,72,Male,2024-10-19,2024-10-28,Heart Failure,Medication,9,No,3,Public,ER
+1390,55,Male,2024-01-16,2024-01-26,Pneumonia,Medication,10,No,0,Private,Cardiology
+1391,84,Female,2024-01-05,2024-01-20,Diabetes,Surgery,15,No,1,Private,General
+1392,43,Male,2024-10-31,2024-11-01,Hypertension,Surgery,1,No,1,Public,Cardiology
+1393,46,Male,2024-10-26,2024-11-08,Hypertension,Therapy,13,No,3,None,ICU
+1394,81,Female,2024-03-14,2024-03-27,Stroke,Medication,13,No,4,Public,ER
+1395,64,Male,2024-09-05,2024-09-12,Pneumonia,Medication,7,Yes,4,Private,ICU
+1396,90,Male,2024-01-07,2024-01-15,Diabetes,Medication,8,No,3,None,ICU
+1397,23,Male,2024-01-16,2024-01-19,Heart Failure,Surgery,3,No,4,None,General
+1398,82,Male,2024-09-22,2024-10-06,Hypertension,Medication,14,No,3,None,Neurology
+1399,29,Male,2024-12-27,2025-01-06,Hypertension,Surgery,10,No,2,None,General
+1400,57,Male,2024-01-11,2024-01-23,Hypertension,Therapy,12,No,1,None,ER
+1401,39,Female,2024-09-19,2024-09-21,Heart Failure,Medication,2,No,2,Private,Cardiology
+1402,44,Male,2024-11-07,2024-11-09,Stroke,Surgery,2,Yes,0,Public,Neurology
+1403,56,Male,2024-10-25,2024-11-04,Diabetes,Surgery,10,No,4,Private,ER
+1404,53,Female,2024-10-26,2024-10-27,Hypertension,Therapy,1,Yes,3,Private,General
+1405,69,Female,2024-07-17,2024-07-27,Heart Failure,Therapy,10,Yes,1,Public,ICU
+1406,27,Female,2024-06-12,2024-06-18,Hypertension,Surgery,6,Yes,2,Public,ICU
+1407,64,Female,2024-07-12,2024-07-20,Heart Failure,Surgery,8,No,1,Public,Neurology
+1408,76,Female,2024-07-24,2024-08-04,Heart Failure,Surgery,11,No,0,Public,General
+1409,44,Male,2024-11-07,2024-11-15,Hypertension,Surgery,8,No,4,Private,Cardiology
+1410,55,Female,2024-02-28,2024-03-03,Diabetes,Surgery,4,No,2,None,Cardiology
+1411,89,Female,2024-01-01,2024-01-05,Pneumonia,Therapy,4,No,4,Private,Neurology
+1412,20,Male,2024-08-24,2024-08-26,Pneumonia,Surgery,2,No,0,None,ER
+1413,42,Male,2024-05-12,2024-05-27,Hypertension,Medication,15,Yes,4,None,ER
+1414,28,Female,2024-01-26,2024-01-28,Heart Failure,Therapy,2,No,1,None,ER
+1415,57,Male,2024-02-26,2024-03-07,Pneumonia,Therapy,10,No,4,Private,Neurology
+1416,66,Male,2024-03-19,2024-03-30,Diabetes,Therapy,11,No,1,Private,ER
+1417,60,Male,2024-05-14,2024-05-19,Hypertension,Therapy,5,No,3,None,General
+1418,48,Female,2024-01-20,2024-02-04,Heart Failure,Surgery,15,No,2,None,ER
+1419,66,Male,2024-10-18,2024-10-20,Stroke,Therapy,2,No,4,Public,Neurology
+1420,36,Female,2024-07-19,2024-07-21,Heart Failure,Surgery,2,No,0,Public,General
+1421,29,Female,2024-07-09,2024-07-16,Stroke,Medication,7,Yes,2,None,Cardiology
+1422,45,Female,2024-09-14,2024-09-21,Hypertension,Therapy,7,No,2,Public,General
+1423,50,Female,2024-05-16,2024-05-30,Pneumonia,Medication,14,No,2,Private,Neurology
+1424,67,Male,2024-05-17,2024-05-29,Diabetes,Surgery,12,No,1,Private,Cardiology
+1425,20,Female,2024-03-16,2024-03-31,Stroke,Medication,15,No,4,None,Cardiology
+1426,46,Male,2024-09-02,2024-09-16,Hypertension,Therapy,14,Yes,0,None,ER
+1427,27,Female,2024-02-24,2024-03-04,Diabetes,Therapy,9,No,4,Public,General
+1428,77,Male,2024-09-26,2024-10-10,Diabetes,Surgery,14,No,2,Private,General
+1429,36,Female,2024-06-01,2024-06-15,Hypertension,Medication,14,Yes,2,Private,ICU
+1430,78,Male,2024-07-13,2024-07-16,Heart Failure,Therapy,3,Yes,1,Private,ER
+1431,78,Male,2024-08-06,2024-08-08,Hypertension,Surgery,2,No,2,Public,Cardiology
+1432,55,Female,2024-10-04,2024-10-14,Hypertension,Surgery,10,Yes,4,Public,Cardiology
+1433,46,Male,2024-02-27,2024-03-09,Hypertension,Therapy,11,No,2,None,Cardiology
+1434,35,Female,2024-11-29,2024-12-14,Hypertension,Surgery,15,No,0,Private,Cardiology
+1435,25,Male,2024-09-20,2024-09-22,Heart Failure,Medication,2,No,1,Private,ER
+1436,28,Female,2024-12-15,2024-12-18,Diabetes,Surgery,3,Yes,4,Private,Neurology
+1437,79,Male,2024-04-10,2024-04-21,Heart Failure,Surgery,11,No,0,None,Cardiology
+1438,70,Female,2024-01-08,2024-01-12,Stroke,Therapy,4,No,3,Public,Cardiology
+1439,63,Female,2024-02-17,2024-02-23,Stroke,Therapy,6,Yes,1,None,General
+1440,39,Male,2024-11-05,2024-11-07,Pneumonia,Medication,2,No,4,Public,ER
+1441,84,Male,2024-01-16,2024-01-24,Heart Failure,Medication,8,No,3,Public,ICU
+1442,20,Male,2024-02-14,2024-02-18,Hypertension,Therapy,4,Yes,0,None,General
+1443,53,Male,2024-12-26,2024-12-27,Pneumonia,Medication,1,No,1,Private,ICU
+1444,51,Female,2024-11-08,2024-11-11,Heart Failure,Therapy,3,No,4,None,Neurology
+1445,58,Female,2024-06-15,2024-06-24,Hypertension,Therapy,9,Yes,1,None,Cardiology
+1446,48,Male,2024-08-08,2024-08-17,Diabetes,Surgery,9,Yes,4,None,General
+1447,41,Female,2024-12-12,2024-12-16,Hypertension,Surgery,4,Yes,0,Private,Neurology
+1448,30,Female,2024-09-10,2024-09-18,Pneumonia,Medication,8,No,4,Private,General
+1449,85,Male,2024-11-23,2024-11-26,Diabetes,Medication,3,No,3,Public,ICU
+1450,38,Female,2024-06-17,2024-06-22,Heart Failure,Surgery,5,Yes,3,Public,ER
+1451,76,Female,2024-04-16,2024-04-18,Heart Failure,Therapy,2,Yes,0,Private,Cardiology
+1452,64,Male,2024-03-26,2024-03-28,Heart Failure,Surgery,2,No,0,None,Cardiology
+1453,62,Female,2024-09-06,2024-09-13,Heart Failure,Surgery,7,No,3,None,ER
+1454,26,Male,2024-05-19,2024-05-24,Pneumonia,Medication,5,Yes,2,Public,ER
+1455,60,Male,2024-06-15,2024-06-21,Pneumonia,Medication,6,Yes,1,None,Cardiology
+1456,21,Female,2024-11-19,2024-11-30,Hypertension,Medication,11,Yes,3,Public,ER
+1457,32,Male,2024-08-15,2024-08-24,Stroke,Therapy,9,Yes,3,Public,Neurology
+1458,26,Female,2024-04-23,2024-05-07,Diabetes,Therapy,14,No,1,None,ER
+1459,40,Male,2024-06-10,2024-06-21,Stroke,Therapy,11,No,1,Private,General
+1460,85,Female,2024-06-20,2024-06-29,Stroke,Surgery,9,No,0,None,General
+1461,74,Male,2024-01-27,2024-02-03,Diabetes,Therapy,7,Yes,1,None,ICU
+1462,63,Female,2024-09-13,2024-09-22,Pneumonia,Therapy,9,No,2,Private,ICU
+1463,21,Female,2024-10-06,2024-10-07,Pneumonia,Therapy,1,Yes,4,None,ER
+1464,44,Female,2024-11-19,2024-12-03,Heart Failure,Medication,14,No,0,Private,Neurology
+1465,39,Male,2024-04-19,2024-04-21,Hypertension,Medication,2,No,2,None,General
+1466,46,Female,2024-03-05,2024-03-16,Heart Failure,Therapy,11,No,3,Public,Neurology
+1467,41,Male,2024-04-08,2024-04-23,Diabetes,Surgery,15,Yes,4,Public,General
+1468,55,Female,2024-10-30,2024-11-04,Diabetes,Therapy,5,Yes,3,Public,Cardiology
+1469,59,Female,2024-03-06,2024-03-16,Hypertension,Therapy,10,Yes,3,None,ICU
+1470,86,Male,2024-10-22,2024-10-27,Stroke,Surgery,5,No,3,Private,General
+1471,90,Male,2024-07-30,2024-08-12,Pneumonia,Therapy,13,No,3,Private,ER
+1472,61,Male,2024-06-01,2024-06-09,Hypertension,Therapy,8,No,3,None,General
+1473,50,Male,2024-06-03,2024-06-08,Pneumonia,Surgery,5,No,2,None,ICU
+1474,67,Female,2024-03-24,2024-04-07,Hypertension,Therapy,14,No,1,None,ER
+1475,34,Male,2024-01-22,2024-01-27,Diabetes,Medication,5,No,4,None,ICU
+1476,82,Male,2024-07-17,2024-07-26,Stroke,Medication,9,No,3,Public,Cardiology
+1477,25,Female,2024-02-06,2024-02-08,Stroke,Medication,2,No,2,Public,Cardiology
+1478,48,Female,2024-02-29,2024-03-06,Heart Failure,Therapy,6,No,1,Public,General
+1479,42,Male,2024-01-07,2024-01-21,Hypertension,Therapy,14,No,3,None,ICU
+1480,46,Male,2024-11-24,2024-12-08,Hypertension,Surgery,14,Yes,1,Public,ICU
+1481,67,Male,2024-02-21,2024-03-01,Pneumonia,Medication,9,Yes,1,None,General
+1482,27,Male,2024-08-25,2024-09-05,Pneumonia,Medication,11,No,0,Public,ER
+1483,35,Female,2024-06-04,2024-06-09,Pneumonia,Medication,5,No,1,Private,ICU
+1484,72,Male,2024-09-04,2024-09-07,Stroke,Therapy,3,No,4,None,ICU
+1485,76,Female,2024-01-22,2024-01-24,Stroke,Surgery,2,No,4,None,ER
+1486,56,Female,2024-05-10,2024-05-16,Pneumonia,Medication,6,No,3,Private,Neurology
+1487,60,Female,2024-08-27,2024-09-01,Diabetes,Therapy,5,No,0,Public,Neurology
+1488,24,Female,2024-08-28,2024-08-31,Hypertension,Medication,3,No,0,None,ICU
+1489,59,Male,2024-07-07,2024-07-19,Pneumonia,Surgery,12,No,0,Public,Neurology
+1490,24,Female,2024-11-09,2024-11-21,Diabetes,Therapy,12,Yes,3,Public,Neurology
+1491,62,Female,2024-03-10,2024-03-22,Heart Failure,Therapy,12,No,4,Private,ICU
+1492,48,Female,2024-11-07,2024-11-15,Pneumonia,Medication,8,Yes,0,None,General
+1493,27,Male,2024-04-20,2024-04-30,Hypertension,Therapy,10,No,3,Private,ICU
+1494,39,Male,2024-03-01,2024-03-04,Pneumonia,Therapy,3,No,0,Public,Cardiology
+1495,33,Female,2024-03-12,2024-03-20,Hypertension,Surgery,8,No,0,Public,Cardiology
+1496,65,Female,2024-07-12,2024-07-25,Stroke,Therapy,13,No,1,Private,ER
+1497,41,Male,2024-09-24,2024-10-07,Diabetes,Medication,13,No,4,Private,General
+1498,55,Male,2024-04-22,2024-05-07,Heart Failure,Therapy,15,No,0,Private,ICU
+1499,46,Male,2024-10-09,2024-10-10,Stroke,Medication,1,Yes,4,None,ICU
+1500,46,Male,2024-09-05,2024-09-08,Diabetes,Therapy,3,Yes,0,Private,Neurology
+1501,39,Male,2024-06-08,2024-06-13,Diabetes,Surgery,5,No,0,None,Neurology
+1502,75,Male,2024-01-31,2024-02-10,Diabetes,Medication,10,Yes,0,None,General
+1503,52,Male,2024-05-03,2024-05-10,Hypertension,Therapy,7,No,2,None,Neurology
+1504,34,Male,2024-07-03,2024-07-08,Stroke,Therapy,5,No,2,Private,ER
+1505,83,Female,2024-10-31,2024-11-04,Stroke,Surgery,4,No,2,Private,Cardiology
+1506,36,Female,2024-11-08,2024-11-15,Stroke,Therapy,7,No,3,Private,ICU
+1507,51,Male,2024-12-18,2025-01-01,Pneumonia,Medication,14,No,0,Public,ICU
+1508,78,Female,2024-03-08,2024-03-23,Pneumonia,Medication,15,No,4,Public,ER
+1509,25,Female,2024-02-18,2024-03-02,Heart Failure,Surgery,13,Yes,1,None,General
+1510,68,Female,2024-02-15,2024-02-20,Heart Failure,Medication,5,No,4,Public,Cardiology
+1511,66,Male,2024-10-07,2024-10-14,Pneumonia,Surgery,7,No,0,Public,ICU
+1512,34,Female,2024-10-08,2024-10-17,Hypertension,Therapy,9,No,4,Public,General
+1513,38,Female,2024-03-27,2024-04-10,Diabetes,Therapy,14,No,4,Public,Neurology
+1514,44,Male,2024-02-12,2024-02-22,Pneumonia,Therapy,10,Yes,2,None,ICU
+1515,34,Male,2024-12-15,2024-12-21,Pneumonia,Therapy,6,No,3,Private,Neurology
+1516,60,Female,2024-12-08,2024-12-10,Diabetes,Medication,2,No,0,None,ER
+1517,70,Male,2024-07-01,2024-07-16,Diabetes,Therapy,15,No,1,Public,Neurology
+1518,81,Female,2024-07-13,2024-07-16,Diabetes,Therapy,3,No,4,None,ICU
+1519,51,Female,2024-09-21,2024-10-01,Hypertension,Therapy,10,No,4,Public,Cardiology
+1520,79,Male,2024-05-12,2024-05-24,Diabetes,Surgery,12,No,0,Private,General
+1521,57,Female,2024-10-24,2024-10-27,Stroke,Medication,3,No,4,Private,ER
+1522,65,Male,2024-06-18,2024-06-29,Hypertension,Therapy,11,No,0,Private,ER
+1523,78,Female,2024-06-29,2024-07-14,Hypertension,Medication,15,No,3,None,ICU
+1524,65,Female,2024-05-18,2024-05-29,Diabetes,Therapy,11,No,2,Public,ICU
+1525,29,Female,2024-12-28,2024-12-31,Stroke,Surgery,3,No,1,None,ER
+1526,61,Female,2024-11-10,2024-11-24,Diabetes,Medication,14,No,1,Private,Neurology
+1527,64,Male,2024-08-24,2024-09-08,Diabetes,Surgery,15,No,3,Public,Cardiology
+1528,60,Female,2024-02-25,2024-03-05,Diabetes,Therapy,9,No,3,Public,General
+1529,38,Male,2024-10-09,2024-10-13,Stroke,Surgery,4,No,2,Public,General
+1530,23,Female,2024-08-14,2024-08-25,Pneumonia,Surgery,11,Yes,2,Public,Cardiology
+1531,32,Female,2024-11-21,2024-12-05,Pneumonia,Therapy,14,No,2,None,Neurology
+1532,86,Female,2024-03-04,2024-03-05,Stroke,Surgery,1,No,3,None,ER
+1533,87,Male,2024-01-03,2024-01-14,Heart Failure,Therapy,11,No,4,Private,Cardiology
+1534,34,Male,2024-05-06,2024-05-18,Hypertension,Therapy,12,No,2,Public,Neurology
+1535,68,Female,2024-06-01,2024-06-07,Hypertension,Medication,6,Yes,0,Public,Cardiology
+1536,49,Female,2024-04-26,2024-04-29,Heart Failure,Medication,3,No,1,None,Neurology
+1537,45,Female,2024-01-27,2024-01-28,Diabetes,Surgery,1,No,0,Public,General
+1538,66,Male,2024-05-22,2024-05-27,Diabetes,Medication,5,No,0,Public,ER
+1539,33,Female,2024-10-09,2024-10-14,Diabetes,Medication,5,No,4,Private,Cardiology
+1540,21,Male,2024-07-02,2024-07-11,Stroke,Medication,9,Yes,2,Private,Cardiology
+1541,86,Male,2024-02-09,2024-02-24,Heart Failure,Medication,15,No,0,None,Cardiology
+1542,81,Male,2024-05-21,2024-06-05,Stroke,Medication,15,Yes,3,None,Neurology
+1543,46,Male,2024-04-24,2024-05-08,Hypertension,Surgery,14,No,1,Public,Cardiology
+1544,50,Female,2024-05-30,2024-06-08,Stroke,Medication,9,No,4,Private,ICU
+1545,82,Female,2024-09-26,2024-10-03,Hypertension,Therapy,7,Yes,0,Private,ICU
+1546,83,Female,2024-10-25,2024-10-30,Pneumonia,Surgery,5,No,2,Private,ICU
+1547,66,Male,2024-05-06,2024-05-08,Pneumonia,Surgery,2,No,0,None,General
+1548,88,Male,2024-07-01,2024-07-04,Diabetes,Surgery,3,No,3,Public,ER
+1549,59,Female,2024-07-25,2024-08-04,Hypertension,Medication,10,No,1,Public,Neurology
+1550,33,Female,2024-03-25,2024-04-07,Heart Failure,Therapy,13,Yes,2,None,Cardiology
+1551,77,Male,2024-12-06,2024-12-18,Heart Failure,Surgery,12,No,0,Private,ER
+1552,65,Female,2024-09-29,2024-10-02,Diabetes,Surgery,3,No,2,None,ICU
+1553,32,Male,2024-03-31,2024-04-05,Stroke,Therapy,5,Yes,4,Public,ICU
+1554,40,Male,2024-04-23,2024-04-26,Diabetes,Surgery,3,Yes,0,Private,Cardiology
+1555,86,Female,2024-04-17,2024-04-28,Heart Failure,Medication,11,Yes,2,Private,Cardiology
+1556,69,Male,2024-01-26,2024-02-09,Hypertension,Medication,14,No,4,Public,ER
+1557,28,Female,2024-04-08,2024-04-14,Pneumonia,Surgery,6,Yes,3,Private,General
+1558,42,Male,2024-02-27,2024-03-11,Diabetes,Medication,13,No,0,None,Neurology
+1559,30,Male,2024-09-09,2024-09-10,Stroke,Medication,1,Yes,2,Public,Cardiology
+1560,61,Male,2024-09-22,2024-09-23,Stroke,Medication,1,Yes,1,None,ER
+1561,22,Male,2024-12-18,2024-12-26,Heart Failure,Medication,8,Yes,3,Private,ER
+1562,78,Female,2024-07-26,2024-08-03,Heart Failure,Therapy,8,No,0,Public,Cardiology
+1563,45,Female,2024-12-19,2024-12-20,Hypertension,Surgery,1,No,3,Private,Neurology
+1564,35,Female,2024-07-09,2024-07-19,Stroke,Therapy,10,No,4,None,ER
+1565,49,Male,2024-10-18,2024-10-28,Stroke,Surgery,10,Yes,0,None,ICU
+1566,85,Female,2024-11-08,2024-11-17,Heart Failure,Medication,9,No,0,None,Cardiology
+1567,68,Male,2024-07-12,2024-07-14,Pneumonia,Medication,2,Yes,0,Public,Cardiology
+1568,65,Male,2024-09-02,2024-09-05,Diabetes,Surgery,3,No,2,Public,Cardiology
+1569,49,Male,2024-06-05,2024-06-11,Hypertension,Surgery,6,No,1,None,Neurology
+1570,77,Female,2024-08-27,2024-08-29,Hypertension,Therapy,2,Yes,3,Private,Cardiology
+1571,65,Male,2024-08-16,2024-08-27,Diabetes,Medication,11,No,0,Public,General
+1572,32,Female,2024-05-10,2024-05-13,Pneumonia,Medication,3,No,0,Public,Cardiology
+1573,86,Female,2024-09-12,2024-09-18,Heart Failure,Medication,6,No,4,Public,ER
+1574,73,Male,2024-03-24,2024-04-04,Stroke,Therapy,11,No,1,None,Cardiology
+1575,64,Female,2024-09-14,2024-09-26,Pneumonia,Therapy,12,No,2,Public,Neurology
+1576,59,Female,2024-05-27,2024-05-30,Hypertension,Surgery,3,No,3,Private,ICU
+1577,51,Female,2024-04-12,2024-04-21,Diabetes,Therapy,9,No,0,Public,Neurology
+1578,34,Female,2024-03-27,2024-04-01,Diabetes,Surgery,5,No,4,None,ICU
+1579,45,Male,2024-03-24,2024-03-28,Hypertension,Therapy,4,No,3,Public,General
+1580,88,Male,2024-05-23,2024-05-25,Stroke,Therapy,2,No,2,Public,ICU
+1581,80,Female,2024-01-01,2024-01-16,Diabetes,Surgery,15,No,2,None,ICU
+1582,42,Male,2024-02-24,2024-03-07,Pneumonia,Therapy,12,Yes,1,Public,Cardiology
+1583,45,Male,2024-03-11,2024-03-19,Heart Failure,Therapy,8,Yes,3,None,Cardiology
+1584,51,Male,2024-11-30,2024-12-09,Diabetes,Medication,9,No,0,None,ICU
+1585,21,Male,2024-09-28,2024-10-06,Pneumonia,Surgery,8,No,0,Private,Neurology
+1586,27,Female,2024-05-31,2024-06-12,Stroke,Therapy,12,No,3,Private,Cardiology
+1587,63,Male,2024-01-13,2024-01-14,Heart Failure,Surgery,1,No,2,Public,ER
+1588,78,Male,2024-06-03,2024-06-15,Diabetes,Therapy,12,No,3,Public,ICU
+1589,21,Female,2024-01-28,2024-02-10,Pneumonia,Medication,13,Yes,4,Private,ICU
+1590,57,Female,2024-07-09,2024-07-14,Diabetes,Therapy,5,No,4,None,Cardiology
+1591,43,Female,2024-11-07,2024-11-15,Hypertension,Surgery,8,No,4,Public,Cardiology
+1592,40,Female,2024-06-27,2024-07-03,Stroke,Surgery,6,No,3,Private,Neurology
+1593,70,Female,2024-08-18,2024-08-24,Hypertension,Therapy,6,No,3,Public,Cardiology
+1594,63,Male,2024-06-29,2024-07-07,Stroke,Therapy,8,No,1,Private,Neurology
+1595,48,Female,2024-03-16,2024-03-17,Stroke,Surgery,1,No,1,Private,Cardiology
+1596,53,Male,2024-10-02,2024-10-15,Heart Failure,Therapy,13,No,1,Private,Cardiology
+1597,51,Female,2024-05-06,2024-05-08,Diabetes,Surgery,2,No,3,Private,General
+1598,64,Female,2024-01-23,2024-02-07,Pneumonia,Therapy,15,Yes,0,None,ICU
+1599,64,Female,2024-07-23,2024-07-24,Hypertension,Medication,1,No,4,Public,ER
+1600,42,Male,2024-04-04,2024-04-16,Diabetes,Medication,12,Yes,2,Public,General
+1601,81,Male,2024-10-26,2024-11-02,Pneumonia,Surgery,7,No,2,Public,ICU
+1602,32,Male,2024-07-22,2024-07-31,Stroke,Therapy,9,No,2,None,ER
+1603,82,Female,2024-06-21,2024-06-29,Heart Failure,Medication,8,Yes,4,Private,Cardiology
+1604,47,Male,2024-11-08,2024-11-10,Stroke,Surgery,2,No,3,Public,Cardiology
+1605,80,Female,2024-02-24,2024-02-27,Hypertension,Surgery,3,No,1,Public,ER
+1606,73,Female,2024-11-05,2024-11-19,Diabetes,Therapy,14,No,2,None,Cardiology
+1607,43,Female,2024-03-07,2024-03-19,Diabetes,Therapy,12,No,3,Public,ICU
+1608,40,Male,2024-10-13,2024-10-20,Heart Failure,Surgery,7,No,4,None,ICU
+1609,90,Female,2024-04-04,2024-04-06,Heart Failure,Surgery,2,Yes,0,Public,General
+1610,76,Male,2024-03-12,2024-03-18,Heart Failure,Therapy,6,No,4,None,ER
+1611,52,Female,2024-10-29,2024-11-13,Pneumonia,Therapy,15,No,2,None,General
+1612,75,Female,2024-06-29,2024-07-09,Stroke,Medication,10,No,1,Private,General
+1613,63,Female,2024-10-29,2024-11-12,Heart Failure,Medication,14,No,2,None,ICU
+1614,26,Female,2024-01-12,2024-01-24,Heart Failure,Therapy,12,No,3,None,ICU
+1615,51,Female,2024-08-01,2024-08-07,Heart Failure,Medication,6,Yes,0,Public,ICU
+1616,60,Female,2024-08-31,2024-09-07,Stroke,Therapy,7,No,1,None,Neurology
+1617,42,Female,2024-09-29,2024-10-04,Stroke,Therapy,5,No,4,Public,Cardiology
+1618,65,Female,2024-04-05,2024-04-11,Heart Failure,Therapy,6,No,1,None,ICU
+1619,59,Male,2024-05-31,2024-06-03,Stroke,Surgery,3,Yes,2,Private,Cardiology
+1620,64,Male,2024-04-07,2024-04-22,Pneumonia,Medication,15,No,0,None,ICU
+1621,88,Male,2024-05-06,2024-05-17,Hypertension,Surgery,11,No,2,None,Cardiology
+1622,55,Male,2024-09-22,2024-10-01,Stroke,Surgery,9,No,2,Private,General
+1623,46,Female,2024-06-03,2024-06-06,Heart Failure,Medication,3,No,0,None,ER
+1624,32,Female,2024-09-25,2024-10-01,Stroke,Medication,6,No,1,None,Neurology
+1625,46,Female,2024-07-02,2024-07-16,Heart Failure,Medication,14,Yes,4,None,ER
+1626,84,Female,2024-11-13,2024-11-24,Pneumonia,Surgery,11,No,2,Public,General
+1627,69,Male,2024-10-09,2024-10-12,Diabetes,Therapy,3,No,1,None,ER
+1628,79,Female,2024-07-01,2024-07-10,Diabetes,Surgery,9,No,4,None,Cardiology
+1629,30,Male,2024-01-22,2024-02-05,Diabetes,Medication,14,No,1,None,Neurology
+1630,42,Female,2024-09-28,2024-10-08,Stroke,Medication,10,No,4,None,Cardiology
+1631,28,Male,2024-04-15,2024-04-27,Hypertension,Therapy,12,Yes,2,Public,ER
+1632,32,Female,2024-07-09,2024-07-19,Pneumonia,Surgery,10,No,3,None,General
+1633,79,Female,2024-02-06,2024-02-16,Stroke,Therapy,10,No,0,Private,ICU
+1634,43,Male,2024-09-01,2024-09-10,Stroke,Medication,9,No,0,Private,General
+1635,89,Female,2024-12-23,2025-01-06,Stroke,Therapy,14,No,4,None,ICU
+1636,81,Female,2024-05-22,2024-05-25,Hypertension,Therapy,3,No,4,None,Cardiology
+1637,39,Female,2024-06-14,2024-06-21,Hypertension,Medication,7,No,1,Private,ER
+1638,64,Female,2024-04-24,2024-04-26,Diabetes,Surgery,2,No,4,Private,Cardiology
+1639,64,Male,2024-09-21,2024-09-29,Pneumonia,Surgery,8,Yes,0,Public,Cardiology
+1640,78,Female,2024-12-04,2024-12-09,Diabetes,Medication,5,No,3,Private,Neurology
+1641,66,Female,2024-11-15,2024-11-20,Hypertension,Therapy,5,No,3,Public,ICU
+1642,63,Female,2024-05-10,2024-05-22,Heart Failure,Therapy,12,No,4,None,General
+1643,45,Female,2024-02-14,2024-02-17,Diabetes,Surgery,3,No,0,Private,ER
+1644,77,Female,2024-06-26,2024-07-08,Diabetes,Medication,12,No,1,Public,Neurology
+1645,77,Female,2024-04-04,2024-04-16,Hypertension,Surgery,12,Yes,2,None,Neurology
+1646,48,Male,2024-12-12,2024-12-19,Diabetes,Surgery,7,Yes,0,Private,ICU
+1647,86,Female,2024-01-10,2024-01-12,Hypertension,Surgery,2,No,3,None,Cardiology
+1648,29,Male,2024-12-19,2024-12-25,Heart Failure,Therapy,6,No,1,None,ICU
+1649,36,Female,2024-09-18,2024-10-01,Stroke,Surgery,13,Yes,3,None,ICU
+1650,22,Male,2024-01-14,2024-01-22,Hypertension,Therapy,8,No,0,Public,General
+1651,39,Female,2024-01-22,2024-02-04,Hypertension,Therapy,13,No,2,Public,General
+1652,80,Male,2024-04-18,2024-04-22,Pneumonia,Therapy,4,No,3,Public,Neurology
+1653,24,Male,2024-02-13,2024-02-26,Diabetes,Medication,13,No,3,Private,Cardiology
+1654,55,Female,2024-08-07,2024-08-20,Stroke,Surgery,13,Yes,2,None,ICU
+1655,80,Male,2024-06-17,2024-06-26,Hypertension,Therapy,9,Yes,4,None,General
+1656,39,Male,2024-05-19,2024-06-02,Stroke,Surgery,14,No,4,None,ICU
+1657,35,Male,2024-03-20,2024-03-31,Diabetes,Surgery,11,No,2,Public,Cardiology
+1658,64,Female,2024-05-26,2024-05-29,Diabetes,Medication,3,No,3,None,Cardiology
+1659,32,Male,2024-07-27,2024-08-05,Hypertension,Surgery,9,Yes,0,Private,General
+1660,63,Female,2024-05-24,2024-05-27,Diabetes,Therapy,3,No,2,Public,General
+1661,30,Female,2024-05-10,2024-05-23,Pneumonia,Therapy,13,No,0,None,General
+1662,47,Male,2024-02-08,2024-02-16,Stroke,Surgery,8,Yes,1,Public,General
+1663,66,Male,2024-04-21,2024-05-01,Diabetes,Medication,10,Yes,2,None,Neurology
+1664,58,Male,2024-01-27,2024-02-09,Heart Failure,Surgery,13,No,2,None,Cardiology
+1665,43,Female,2024-03-31,2024-04-11,Diabetes,Therapy,11,No,3,Public,Cardiology
+1666,89,Male,2024-08-11,2024-08-19,Pneumonia,Surgery,8,No,2,Public,Cardiology
+1667,23,Female,2024-05-22,2024-05-23,Pneumonia,Therapy,1,Yes,2,None,ER
+1668,41,Female,2024-03-31,2024-04-12,Hypertension,Surgery,12,No,2,Private,Neurology
+1669,67,Female,2024-10-12,2024-10-20,Stroke,Therapy,8,No,2,Public,Neurology
+1670,70,Female,2024-02-22,2024-03-06,Hypertension,Surgery,13,No,3,Private,ER
+1671,35,Male,2024-07-26,2024-07-28,Stroke,Medication,2,Yes,1,Private,Neurology
+1672,33,Male,2024-07-31,2024-08-08,Hypertension,Surgery,8,No,4,None,General
+1673,65,Female,2024-12-26,2024-12-27,Hypertension,Medication,1,No,2,Public,General
+1674,49,Female,2024-06-24,2024-06-25,Pneumonia,Medication,1,No,2,Public,ER
+1675,32,Female,2024-10-14,2024-10-21,Heart Failure,Medication,7,No,3,None,ER
+1676,34,Female,2024-01-18,2024-01-19,Pneumonia,Surgery,1,Yes,1,Private,Neurology
+1677,41,Female,2024-10-30,2024-11-09,Diabetes,Surgery,10,Yes,1,None,Neurology
+1678,43,Male,2024-08-06,2024-08-16,Pneumonia,Surgery,10,No,1,Private,Neurology
+1679,74,Female,2024-04-20,2024-04-24,Pneumonia,Medication,4,No,1,None,Neurology
+1680,77,Male,2024-01-22,2024-02-06,Pneumonia,Therapy,15,Yes,4,Public,ER
+1681,56,Male,2024-08-04,2024-08-10,Hypertension,Medication,6,Yes,0,None,Neurology
+1682,38,Female,2024-12-13,2024-12-24,Hypertension,Surgery,11,No,1,Private,ICU
+1683,55,Male,2024-01-24,2024-02-03,Diabetes,Therapy,10,No,0,Public,Neurology
+1684,86,Male,2024-11-30,2024-12-04,Heart Failure,Surgery,4,No,1,Public,General
+1685,40,Male,2024-07-10,2024-07-24,Heart Failure,Medication,14,No,2,Private,Neurology
+1686,57,Male,2024-05-20,2024-06-04,Heart Failure,Therapy,15,No,4,Private,Neurology
+1687,23,Female,2024-08-23,2024-09-04,Hypertension,Surgery,12,No,3,Private,ICU
+1688,41,Male,2024-01-27,2024-02-11,Heart Failure,Medication,15,No,4,Public,Cardiology
+1689,25,Female,2024-10-14,2024-10-24,Hypertension,Medication,10,No,3,None,ER
+1690,20,Female,2024-03-09,2024-03-12,Heart Failure,Medication,3,No,0,None,ER
+1691,66,Female,2024-02-28,2024-03-10,Stroke,Therapy,11,Yes,3,Public,General
+1692,23,Female,2024-02-01,2024-02-13,Heart Failure,Surgery,12,No,2,Public,Cardiology
+1693,47,Male,2024-08-16,2024-08-27,Pneumonia,Surgery,11,No,0,Private,ICU
+1694,69,Male,2024-04-10,2024-04-18,Heart Failure,Therapy,8,No,4,Public,Cardiology
+1695,60,Male,2024-07-18,2024-07-19,Pneumonia,Surgery,1,No,2,Public,Neurology
+1696,50,Male,2024-02-22,2024-02-28,Heart Failure,Surgery,6,Yes,0,None,Neurology
+1697,61,Male,2024-04-19,2024-04-25,Heart Failure,Surgery,6,Yes,1,None,Neurology
+1698,72,Female,2024-09-24,2024-09-30,Pneumonia,Therapy,6,Yes,3,None,ICU
+1699,85,Male,2024-11-15,2024-11-20,Diabetes,Medication,5,Yes,2,Private,General
+1700,47,Male,2024-06-23,2024-06-30,Hypertension,Surgery,7,No,3,Public,Neurology
+1701,66,Male,2024-08-24,2024-08-29,Pneumonia,Surgery,5,No,3,Private,General
+1702,72,Female,2024-02-11,2024-02-25,Hypertension,Therapy,14,No,2,None,ICU
+1703,50,Male,2024-06-06,2024-06-14,Diabetes,Therapy,8,No,3,Public,Neurology
+1704,29,Male,2024-09-17,2024-09-25,Pneumonia,Surgery,8,No,1,None,Neurology
+1705,76,Male,2024-01-20,2024-01-30,Pneumonia,Therapy,10,No,4,Private,ER
+1706,71,Male,2024-06-13,2024-06-14,Heart Failure,Surgery,1,No,0,Public,General
+1707,61,Male,2024-02-23,2024-03-04,Heart Failure,Medication,10,Yes,3,Public,General
+1708,61,Male,2024-08-26,2024-09-04,Stroke,Surgery,9,No,3,Private,ER
+1709,27,Male,2024-08-16,2024-08-24,Heart Failure,Surgery,8,No,2,None,Cardiology
+1710,72,Male,2024-09-21,2024-10-03,Diabetes,Medication,12,No,1,Public,ICU
+1711,69,Female,2024-08-03,2024-08-15,Heart Failure,Medication,12,No,4,Public,ER
+1712,77,Female,2024-02-06,2024-02-21,Pneumonia,Surgery,15,Yes,2,None,Neurology
+1713,29,Female,2024-04-09,2024-04-24,Hypertension,Therapy,15,No,2,Public,Cardiology
+1714,42,Male,2024-11-20,2024-11-29,Pneumonia,Therapy,9,Yes,0,Private,ER
+1715,37,Female,2024-12-02,2024-12-12,Hypertension,Therapy,10,No,0,Public,General
+1716,57,Male,2024-12-10,2024-12-17,Heart Failure,Therapy,7,No,4,Public,Neurology
+1717,87,Female,2024-05-28,2024-06-02,Diabetes,Therapy,5,No,4,Private,Cardiology
+1718,86,Male,2024-04-01,2024-04-15,Heart Failure,Therapy,14,No,4,Public,ER
+1719,49,Male,2024-01-20,2024-01-30,Heart Failure,Medication,10,No,3,Private,ICU
+1720,69,Female,2024-02-19,2024-03-04,Heart Failure,Therapy,14,Yes,2,None,General
+1721,77,Male,2024-11-17,2024-11-23,Stroke,Surgery,6,No,2,None,Neurology
+1722,46,Female,2024-10-01,2024-10-05,Stroke,Therapy,4,Yes,1,Public,ICU
+1723,34,Male,2024-05-08,2024-05-18,Pneumonia,Therapy,10,No,4,None,Cardiology
+1724,44,Male,2024-05-28,2024-06-06,Pneumonia,Surgery,9,No,1,Public,Cardiology
+1725,46,Female,2024-06-26,2024-07-03,Stroke,Medication,7,No,0,None,ER
+1726,86,Female,2024-06-20,2024-06-28,Stroke,Therapy,8,No,2,Private,ICU
+1727,51,Female,2024-06-27,2024-07-04,Hypertension,Surgery,7,No,2,Public,ER
+1728,90,Female,2024-01-14,2024-01-27,Diabetes,Therapy,13,No,4,None,Neurology
+1729,62,Male,2024-02-21,2024-02-27,Heart Failure,Surgery,6,No,1,Public,General
+1730,51,Male,2024-09-02,2024-09-08,Hypertension,Therapy,6,Yes,4,None,Cardiology
+1731,43,Male,2024-06-21,2024-07-05,Stroke,Medication,14,No,2,Private,ICU
+1732,26,Female,2024-03-31,2024-04-06,Hypertension,Surgery,6,No,1,None,Cardiology
+1733,71,Female,2024-01-14,2024-01-26,Pneumonia,Surgery,12,Yes,0,None,Neurology
+1734,69,Female,2024-02-14,2024-02-28,Hypertension,Therapy,14,No,2,None,General
+1735,25,Male,2024-01-07,2024-01-16,Pneumonia,Therapy,9,No,3,Public,ICU
+1736,27,Female,2024-05-14,2024-05-18,Hypertension,Medication,4,No,4,Public,General
+1737,90,Female,2024-03-02,2024-03-08,Hypertension,Therapy,6,No,4,Private,Neurology
+1738,66,Male,2024-12-24,2025-01-04,Hypertension,Medication,11,Yes,2,Private,ER
+1739,60,Female,2024-07-29,2024-07-31,Pneumonia,Therapy,2,No,1,None,General
+1740,37,Female,2024-10-04,2024-10-10,Heart Failure,Therapy,6,No,2,Private,Neurology
+1741,60,Male,2024-01-30,2024-02-02,Hypertension,Therapy,3,Yes,0,Public,ER
+1742,68,Male,2024-01-18,2024-01-27,Stroke,Surgery,9,Yes,2,Private,General
+1743,60,Female,2024-05-13,2024-05-23,Heart Failure,Medication,10,Yes,0,Public,ICU
+1744,53,Female,2024-10-01,2024-10-13,Hypertension,Therapy,12,Yes,0,None,General
+1745,68,Female,2024-09-07,2024-09-17,Stroke,Medication,10,No,4,Public,Cardiology
+1746,69,Male,2024-08-16,2024-08-20,Heart Failure,Therapy,4,Yes,2,Public,Neurology
+1747,39,Male,2024-06-10,2024-06-19,Pneumonia,Therapy,9,No,0,Public,General
+1748,59,Female,2024-08-23,2024-08-26,Stroke,Therapy,3,No,1,None,Neurology
+1749,68,Female,2024-03-06,2024-03-18,Stroke,Surgery,12,Yes,3,Public,Cardiology
+1750,53,Female,2024-02-18,2024-02-22,Hypertension,Therapy,4,No,3,None,ER
+1751,33,Male,2024-08-18,2024-08-23,Stroke,Surgery,5,Yes,0,Private,ER
+1752,88,Male,2024-06-14,2024-06-16,Pneumonia,Medication,2,No,2,None,Cardiology
+1753,84,Female,2024-10-14,2024-10-19,Heart Failure,Therapy,5,No,3,Public,Cardiology
+1754,62,Male,2024-04-01,2024-04-04,Diabetes,Medication,3,Yes,3,Private,General
+1755,59,Female,2024-03-03,2024-03-15,Stroke,Therapy,12,Yes,2,Public,ER
+1756,42,Female,2024-02-02,2024-02-17,Stroke,Medication,15,No,4,Private,General
+1757,86,Female,2024-07-21,2024-07-31,Pneumonia,Medication,10,No,2,None,ER
+1758,57,Female,2024-06-08,2024-06-19,Heart Failure,Surgery,11,Yes,1,None,ER
+1759,61,Female,2024-05-23,2024-06-02,Hypertension,Medication,10,No,0,Public,General
+1760,47,Female,2024-08-18,2024-08-22,Heart Failure,Surgery,4,No,4,Public,Cardiology
+1761,28,Male,2024-05-27,2024-06-06,Heart Failure,Therapy,10,No,2,Private,Neurology
+1762,83,Female,2024-01-15,2024-01-19,Stroke,Medication,4,Yes,0,Private,Neurology
+1763,37,Female,2024-12-30,2025-01-04,Pneumonia,Therapy,5,No,0,None,ICU
+1764,79,Female,2024-01-13,2024-01-24,Hypertension,Medication,11,No,2,None,Neurology
+1765,40,Male,2024-09-29,2024-10-11,Stroke,Medication,12,Yes,0,Public,ICU
+1766,53,Male,2024-02-24,2024-03-09,Stroke,Medication,14,No,3,Private,Cardiology
+1767,20,Female,2024-12-04,2024-12-18,Pneumonia,Medication,14,No,0,None,ICU
+1768,48,Male,2024-06-19,2024-06-21,Stroke,Surgery,2,Yes,0,Public,ICU
+1769,79,Male,2024-03-06,2024-03-07,Pneumonia,Therapy,1,No,4,Public,ER
+1770,61,Male,2024-09-06,2024-09-08,Diabetes,Surgery,2,No,4,None,Cardiology
+1771,41,Male,2024-02-20,2024-03-02,Hypertension,Surgery,11,No,2,Public,Neurology
+1772,86,Female,2024-09-13,2024-09-20,Stroke,Surgery,7,No,2,Public,Cardiology
+1773,35,Male,2024-08-29,2024-09-01,Heart Failure,Therapy,3,Yes,1,Private,ER
+1774,23,Male,2024-10-09,2024-10-16,Hypertension,Therapy,7,No,2,Private,ICU
+1775,52,Male,2024-01-31,2024-02-04,Pneumonia,Medication,4,Yes,3,Private,Neurology
+1776,77,Female,2024-09-10,2024-09-25,Stroke,Therapy,15,Yes,2,Private,Cardiology
+1777,36,Male,2024-12-26,2025-01-03,Hypertension,Therapy,8,No,3,Public,ICU
+1778,76,Female,2024-06-14,2024-06-20,Hypertension,Therapy,6,No,2,None,ICU
+1779,20,Female,2024-06-10,2024-06-17,Pneumonia,Medication,7,Yes,3,Private,Neurology
+1780,62,Female,2024-07-29,2024-08-04,Hypertension,Surgery,6,Yes,4,Public,ER
+1781,89,Female,2024-03-01,2024-03-15,Heart Failure,Surgery,14,No,4,None,Cardiology
+1782,74,Female,2024-08-10,2024-08-13,Pneumonia,Therapy,3,No,3,None,General
+1783,29,Male,2024-06-08,2024-06-09,Stroke,Therapy,1,Yes,1,Private,General
+1784,53,Female,2024-02-17,2024-02-18,Pneumonia,Surgery,1,Yes,2,Private,ICU
+1785,76,Female,2024-03-29,2024-03-30,Stroke,Medication,1,No,1,Private,ER
+1786,77,Female,2024-12-29,2025-01-03,Pneumonia,Surgery,5,No,3,None,General
+1787,87,Female,2024-11-04,2024-11-09,Stroke,Surgery,5,No,1,Public,Cardiology
+1788,32,Female,2024-10-07,2024-10-17,Heart Failure,Medication,10,No,3,None,ER
+1789,44,Female,2024-11-17,2024-11-23,Diabetes,Surgery,6,No,1,None,ICU
+1790,27,Female,2024-07-29,2024-08-03,Hypertension,Medication,5,Yes,4,Public,Cardiology
+1791,50,Male,2024-01-31,2024-02-14,Stroke,Surgery,14,No,0,Public,General
+1792,41,Male,2024-06-09,2024-06-22,Pneumonia,Medication,13,No,3,Public,ICU
+1793,58,Male,2024-03-19,2024-03-20,Stroke,Medication,1,Yes,2,Public,ICU
+1794,74,Female,2024-09-11,2024-09-21,Heart Failure,Medication,10,No,0,Public,ICU
+1795,28,Male,2024-10-19,2024-10-30,Pneumonia,Medication,11,No,2,Private,ICU
+1796,65,Male,2024-08-20,2024-08-26,Hypertension,Therapy,6,No,4,Private,Neurology
+1797,80,Male,2024-06-04,2024-06-09,Hypertension,Surgery,5,No,4,Public,Neurology
+1798,46,Female,2024-03-30,2024-04-11,Stroke,Therapy,12,No,0,Public,General
+1799,35,Male,2024-05-27,2024-05-31,Heart Failure,Therapy,4,No,1,Private,General
+1800,36,Female,2024-10-24,2024-10-26,Pneumonia,Medication,2,No,3,Private,ER
+1801,66,Female,2024-04-28,2024-05-08,Heart Failure,Therapy,10,No,2,Private,ER
+1802,84,Male,2024-03-13,2024-03-24,Heart Failure,Therapy,11,No,0,Public,ER
+1803,73,Male,2024-04-09,2024-04-20,Stroke,Therapy,11,No,2,Private,ER
+1804,50,Female,2024-06-22,2024-07-05,Stroke,Medication,13,No,3,Public,Cardiology
+1805,36,Female,2024-09-23,2024-09-30,Diabetes,Medication,7,Yes,0,Public,ER
+1806,53,Female,2024-01-17,2024-01-26,Diabetes,Medication,9,Yes,0,Public,Cardiology
+1807,64,Female,2024-12-17,2024-12-26,Heart Failure,Medication,9,No,3,Public,ICU
+1808,79,Female,2024-12-12,2024-12-14,Stroke,Surgery,2,No,0,Private,Cardiology
+1809,67,Female,2024-01-09,2024-01-17,Stroke,Therapy,8,No,2,None,Cardiology
+1810,53,Male,2024-10-24,2024-10-31,Pneumonia,Therapy,7,No,4,Public,ICU
+1811,88,Male,2024-02-18,2024-02-23,Diabetes,Medication,5,Yes,3,Private,ICU
+1812,75,Male,2024-02-10,2024-02-12,Stroke,Medication,2,Yes,3,None,ER
+1813,27,Male,2024-01-13,2024-01-22,Heart Failure,Medication,9,No,2,None,General
+1814,79,Female,2024-06-24,2024-07-05,Heart Failure,Medication,11,No,2,None,Cardiology
+1815,48,Male,2024-06-30,2024-07-01,Heart Failure,Therapy,1,No,0,Public,ICU
+1816,25,Female,2024-02-18,2024-02-19,Stroke,Medication,1,No,4,Private,Neurology
+1817,32,Male,2024-10-13,2024-10-28,Diabetes,Therapy,15,No,1,None,ICU
+1818,70,Male,2024-12-18,2024-12-24,Heart Failure,Therapy,6,No,1,Private,Neurology
+1819,60,Male,2024-08-04,2024-08-12,Diabetes,Medication,8,Yes,4,None,Neurology
+1820,76,Female,2024-04-20,2024-04-27,Diabetes,Therapy,7,No,1,Private,General
+1821,52,Female,2024-05-31,2024-06-05,Diabetes,Therapy,5,No,0,Private,Neurology
+1822,30,Male,2024-05-08,2024-05-12,Heart Failure,Surgery,4,No,4,Public,General
+1823,48,Male,2024-10-19,2024-10-21,Hypertension,Medication,2,Yes,3,Public,Cardiology
+1824,55,Male,2024-08-17,2024-08-21,Diabetes,Therapy,4,No,1,Public,Cardiology
+1825,85,Female,2024-12-08,2024-12-20,Pneumonia,Medication,12,No,4,None,General
+1826,27,Male,2024-06-06,2024-06-15,Heart Failure,Surgery,9,No,3,Public,Cardiology
+1827,28,Male,2024-10-31,2024-11-02,Heart Failure,Surgery,2,No,2,Public,Cardiology
+1828,54,Female,2024-07-14,2024-07-20,Diabetes,Therapy,6,No,4,Private,Cardiology
+1829,67,Male,2024-06-23,2024-06-24,Hypertension,Medication,1,No,3,Public,ICU
+1830,21,Male,2024-09-23,2024-09-30,Hypertension,Therapy,7,Yes,0,None,Cardiology
+1831,37,Male,2024-08-24,2024-09-07,Stroke,Surgery,14,Yes,2,Private,General
+1832,89,Male,2024-10-25,2024-11-09,Pneumonia,Medication,15,No,2,Private,ER
+1833,50,Male,2024-05-28,2024-06-07,Stroke,Medication,10,No,3,Private,Neurology
+1834,36,Male,2024-02-07,2024-02-17,Hypertension,Therapy,10,No,2,None,ICU
+1835,81,Male,2024-02-06,2024-02-20,Hypertension,Medication,14,Yes,3,None,ER
+1836,33,Female,2024-09-05,2024-09-12,Stroke,Surgery,7,No,1,None,ICU
+1837,22,Male,2024-06-06,2024-06-13,Stroke,Surgery,7,Yes,1,None,Cardiology
+1838,78,Male,2024-08-07,2024-08-10,Heart Failure,Medication,3,Yes,4,Public,ICU
+1839,52,Female,2024-11-10,2024-11-21,Stroke,Therapy,11,No,4,Private,Neurology
+1840,29,Female,2024-01-16,2024-01-22,Stroke,Medication,6,Yes,4,None,ICU
+1841,88,Female,2024-11-25,2024-11-28,Diabetes,Therapy,3,No,0,None,General
+1842,26,Female,2024-06-06,2024-06-07,Heart Failure,Surgery,1,No,0,Public,General
+1843,43,Female,2024-12-14,2024-12-20,Pneumonia,Medication,6,No,4,None,Neurology
+1844,41,Female,2024-12-20,2025-01-02,Heart Failure,Medication,13,Yes,4,Public,Cardiology
+1845,72,Male,2024-08-27,2024-09-03,Hypertension,Surgery,7,No,0,Public,Neurology
+1846,43,Female,2024-04-09,2024-04-19,Heart Failure,Surgery,10,No,4,None,ER
+1847,61,Female,2024-12-08,2024-12-21,Hypertension,Medication,13,No,2,Private,ER
+1848,89,Male,2024-03-05,2024-03-13,Heart Failure,Surgery,8,No,3,Public,Neurology
+1849,22,Male,2024-10-27,2024-10-31,Diabetes,Medication,4,Yes,2,Private,ER
+1850,87,Male,2024-11-17,2024-11-30,Stroke,Medication,13,No,3,None,General
+1851,73,Male,2024-12-09,2024-12-13,Diabetes,Medication,4,Yes,2,None,General
+1852,38,Male,2024-01-19,2024-02-03,Pneumonia,Therapy,15,No,3,Private,General
+1853,21,Female,2024-09-16,2024-09-25,Stroke,Medication,9,No,2,None,Cardiology
+1854,25,Female,2024-10-11,2024-10-20,Diabetes,Therapy,9,Yes,2,None,ICU
+1855,24,Female,2024-04-25,2024-04-30,Diabetes,Therapy,5,No,3,Private,ER
+1856,85,Male,2024-08-26,2024-08-29,Diabetes,Therapy,3,No,3,Private,ER
+1857,29,Male,2024-05-16,2024-05-23,Diabetes,Therapy,7,Yes,2,Public,General
+1858,70,Male,2024-01-25,2024-02-06,Hypertension,Medication,12,No,3,None,Neurology
+1859,76,Female,2024-06-07,2024-06-19,Stroke,Therapy,12,No,3,Public,ICU
+1860,59,Male,2024-07-18,2024-07-20,Stroke,Surgery,2,No,1,Private,General
+1861,69,Male,2024-04-09,2024-04-20,Stroke,Surgery,11,No,0,Public,General
+1862,26,Female,2024-07-06,2024-07-16,Stroke,Therapy,10,No,4,Public,General
+1863,87,Male,2024-08-04,2024-08-08,Hypertension,Therapy,4,No,4,Public,Neurology
+1864,78,Female,2024-05-02,2024-05-14,Stroke,Surgery,12,Yes,0,Public,General
+1865,90,Female,2024-08-16,2024-08-25,Diabetes,Medication,9,No,2,Private,ER
+1866,37,Female,2024-07-17,2024-07-18,Heart Failure,Therapy,1,No,1,None,ER
+1867,63,Male,2024-02-09,2024-02-20,Heart Failure,Medication,11,No,1,None,ER
+1868,71,Male,2024-09-25,2024-10-02,Diabetes,Surgery,7,No,4,None,Neurology
+1869,59,Female,2024-06-01,2024-06-08,Diabetes,Therapy,7,No,4,Public,ER
+1870,52,Female,2024-12-10,2024-12-13,Diabetes,Medication,3,Yes,0,Public,ICU
+1871,62,Male,2024-03-30,2024-04-05,Pneumonia,Therapy,6,No,3,Public,ER
+1872,89,Female,2024-10-25,2024-11-08,Diabetes,Surgery,14,No,4,Public,General
+1873,86,Female,2024-01-30,2024-02-08,Diabetes,Medication,9,Yes,1,None,ICU
+1874,86,Male,2024-08-18,2024-08-23,Stroke,Surgery,5,No,2,Private,ICU
+1875,36,Female,2024-06-21,2024-06-25,Hypertension,Therapy,4,No,1,Private,Cardiology
+1876,44,Female,2024-02-17,2024-02-28,Hypertension,Surgery,11,No,3,Public,Cardiology
+1877,73,Male,2024-03-07,2024-03-14,Heart Failure,Surgery,7,No,3,Public,Neurology
+1878,49,Male,2024-03-24,2024-03-28,Hypertension,Medication,4,Yes,3,Public,Cardiology
+1879,22,Female,2024-07-30,2024-07-31,Heart Failure,Surgery,1,No,1,None,ICU
+1880,55,Male,2024-11-26,2024-11-28,Diabetes,Medication,2,No,0,None,General
+1881,48,Male,2024-11-10,2024-11-25,Pneumonia,Medication,15,Yes,4,Public,ICU
+1882,83,Male,2024-05-05,2024-05-17,Pneumonia,Medication,12,No,2,Public,Neurology
+1883,83,Female,2024-10-15,2024-10-29,Stroke,Surgery,14,No,0,None,General
+1884,77,Female,2024-09-25,2024-10-04,Stroke,Surgery,9,Yes,0,Public,General
+1885,41,Male,2024-11-24,2024-12-03,Heart Failure,Surgery,9,Yes,4,Public,Cardiology
+1886,54,Female,2024-03-04,2024-03-13,Heart Failure,Medication,9,No,1,None,Cardiology
+1887,20,Female,2024-08-06,2024-08-07,Pneumonia,Medication,1,No,2,None,Neurology
+1888,41,Male,2024-02-12,2024-02-16,Stroke,Therapy,4,Yes,0,None,Neurology
+1889,70,Male,2024-03-14,2024-03-24,Heart Failure,Therapy,10,No,1,Public,General
+1890,66,Male,2024-07-16,2024-07-22,Diabetes,Therapy,6,Yes,3,Public,ICU
+1891,68,Male,2024-10-08,2024-10-21,Diabetes,Medication,13,No,1,Private,General
+1892,69,Male,2024-10-03,2024-10-09,Hypertension,Medication,6,Yes,1,Public,Neurology
+1893,66,Male,2024-10-22,2024-11-03,Pneumonia,Therapy,12,No,1,Private,Neurology
+1894,33,Male,2024-03-09,2024-03-18,Pneumonia,Medication,9,No,0,Private,ER
+1895,52,Female,2024-08-31,2024-09-06,Stroke,Therapy,6,Yes,2,Public,Cardiology
+1896,81,Male,2024-07-03,2024-07-15,Hypertension,Surgery,12,Yes,0,Public,General
+1897,28,Male,2024-03-03,2024-03-04,Hypertension,Medication,1,No,4,None,Neurology
+1898,54,Female,2024-09-02,2024-09-03,Diabetes,Medication,1,No,1,Private,ICU
+1899,31,Male,2024-04-13,2024-04-15,Heart Failure,Medication,2,No,3,Public,ICU
+1900,90,Female,2024-05-15,2024-05-24,Hypertension,Medication,9,No,4,Private,ER
+1901,78,Female,2024-06-16,2024-06-27,Stroke,Medication,11,No,0,None,ICU
+1902,75,Female,2024-11-08,2024-11-23,Diabetes,Therapy,15,No,4,Private,ICU
+1903,88,Male,2024-06-28,2024-07-05,Pneumonia,Medication,7,No,3,Private,Cardiology
+1904,41,Female,2024-12-11,2024-12-22,Heart Failure,Medication,11,No,2,None,Neurology
+1905,51,Female,2024-11-16,2024-11-24,Hypertension,Surgery,8,No,2,Public,ICU
+1906,88,Female,2024-08-02,2024-08-13,Diabetes,Surgery,11,Yes,0,Private,ICU
+1907,83,Male,2024-04-09,2024-04-10,Diabetes,Medication,1,No,0,None,Cardiology
+1908,44,Female,2024-12-04,2024-12-08,Stroke,Medication,4,No,4,Public,ER
+1909,73,Female,2024-09-01,2024-09-07,Hypertension,Therapy,6,Yes,2,None,ICU
+1910,61,Male,2024-08-22,2024-08-24,Hypertension,Medication,2,Yes,4,None,ER
+1911,36,Female,2024-07-04,2024-07-19,Diabetes,Medication,15,No,0,None,ER
+1912,67,Female,2024-12-26,2024-12-29,Hypertension,Medication,3,No,1,Public,Cardiology
+1913,71,Male,2024-10-03,2024-10-06,Hypertension,Therapy,3,No,4,None,ER
+1914,69,Male,2024-01-03,2024-01-04,Diabetes,Surgery,1,No,2,Public,General
+1915,58,Male,2024-04-08,2024-04-17,Stroke,Medication,9,No,0,None,General
+1916,75,Female,2024-07-21,2024-07-30,Pneumonia,Therapy,9,No,1,Private,Neurology
+1917,48,Female,2024-12-14,2024-12-27,Hypertension,Surgery,13,Yes,2,Public,ICU
+1918,88,Male,2024-09-14,2024-09-23,Diabetes,Medication,9,Yes,0,Public,ICU
+1919,40,Male,2024-12-14,2024-12-29,Stroke,Surgery,15,No,4,None,Neurology
+1920,39,Male,2024-09-20,2024-09-26,Heart Failure,Medication,6,Yes,3,Private,Neurology
+1921,78,Male,2024-05-23,2024-05-31,Heart Failure,Medication,8,No,0,Public,Neurology
+1922,35,Male,2024-03-21,2024-04-03,Pneumonia,Surgery,13,No,4,Public,General
+1923,54,Female,2024-08-17,2024-08-30,Stroke,Therapy,13,No,0,Public,Neurology
+1924,57,Male,2024-01-16,2024-01-29,Stroke,Therapy,13,Yes,2,Public,ER
+1925,76,Male,2024-03-26,2024-04-06,Heart Failure,Medication,11,No,4,Private,General
+1926,36,Male,2024-01-21,2024-02-03,Diabetes,Medication,13,No,0,Public,Cardiology
+1927,78,Male,2024-01-05,2024-01-07,Stroke,Therapy,2,No,3,Private,ER
+1928,31,Male,2024-06-07,2024-06-11,Pneumonia,Therapy,4,No,0,Private,ER
+1929,82,Male,2024-01-22,2024-02-02,Hypertension,Surgery,11,No,3,None,ER
+1930,90,Female,2024-09-26,2024-09-30,Stroke,Medication,4,No,4,None,Cardiology
+1931,69,Male,2024-11-07,2024-11-20,Diabetes,Surgery,13,No,3,Private,Cardiology
+1932,23,Male,2024-07-15,2024-07-19,Hypertension,Medication,4,No,0,None,General
+1933,85,Male,2024-03-03,2024-03-13,Heart Failure,Medication,10,Yes,0,Public,ICU
+1934,81,Female,2024-12-10,2024-12-25,Diabetes,Therapy,15,Yes,1,None,ICU
+1935,24,Female,2024-02-15,2024-02-17,Heart Failure,Medication,2,No,3,None,Neurology
+1936,25,Male,2024-11-11,2024-11-18,Heart Failure,Therapy,7,No,4,Private,General
+1937,22,Male,2024-03-10,2024-03-16,Pneumonia,Medication,6,Yes,2,None,Neurology
+1938,25,Male,2024-09-15,2024-09-21,Stroke,Surgery,6,Yes,4,Public,ER
+1939,82,Male,2024-04-06,2024-04-15,Diabetes,Surgery,9,Yes,4,Private,Cardiology
+1940,66,Female,2024-03-27,2024-04-03,Stroke,Medication,7,No,3,Private,ER
+1941,27,Male,2024-06-18,2024-06-21,Pneumonia,Surgery,3,No,2,None,General
+1942,83,Male,2024-03-11,2024-03-21,Hypertension,Medication,10,No,0,Public,General
+1943,23,Male,2024-01-28,2024-02-12,Diabetes,Surgery,15,No,0,Private,ER
+1944,82,Male,2024-08-28,2024-09-04,Stroke,Medication,7,No,1,Public,Cardiology
+1945,86,Male,2024-08-13,2024-08-17,Stroke,Surgery,4,No,1,Private,Neurology
+1946,63,Male,2024-02-13,2024-02-17,Stroke,Therapy,4,No,0,Public,Neurology
+1947,49,Male,2024-05-13,2024-05-22,Diabetes,Medication,9,Yes,3,Public,Cardiology
+1948,80,Female,2024-05-16,2024-05-17,Pneumonia,Surgery,1,No,3,None,ICU
+1949,44,Male,2024-09-26,2024-09-28,Hypertension,Medication,2,Yes,4,Private,General
+1950,24,Female,2024-07-18,2024-07-24,Heart Failure,Medication,6,Yes,0,Private,ER
+1951,26,Male,2024-10-29,2024-11-12,Stroke,Therapy,14,Yes,2,Public,Cardiology
+1952,56,Male,2024-07-21,2024-07-30,Heart Failure,Therapy,9,No,4,Private,Cardiology
+1953,60,Male,2024-02-13,2024-02-27,Pneumonia,Therapy,14,No,1,Private,Cardiology
+1954,49,Female,2024-07-30,2024-08-12,Stroke,Surgery,13,No,0,Public,General
+1955,35,Female,2024-05-28,2024-06-05,Stroke,Therapy,8,No,0,None,Cardiology
+1956,80,Male,2024-03-08,2024-03-20,Stroke,Medication,12,No,4,Public,ER
+1957,36,Female,2024-11-11,2024-11-19,Pneumonia,Medication,8,No,2,Private,ER
+1958,46,Female,2024-05-17,2024-06-01,Stroke,Medication,15,Yes,0,None,Neurology
+1959,42,Male,2024-03-03,2024-03-04,Heart Failure,Medication,1,Yes,1,None,Neurology
+1960,78,Male,2024-12-02,2024-12-03,Hypertension,Surgery,1,No,4,Public,General
+1961,72,Female,2024-02-02,2024-02-06,Diabetes,Medication,4,No,3,None,Cardiology
+1962,87,Female,2024-03-05,2024-03-16,Pneumonia,Surgery,11,Yes,2,Private,ER
+1963,21,Male,2024-01-18,2024-01-27,Heart Failure,Medication,9,No,0,None,Neurology
+1964,76,Female,2024-04-13,2024-04-23,Hypertension,Surgery,10,No,1,Private,ER
+1965,22,Male,2024-09-10,2024-09-14,Pneumonia,Therapy,4,No,4,Private,Cardiology
+1966,26,Male,2024-12-13,2024-12-26,Hypertension,Surgery,13,No,1,Private,ER
+1967,87,Male,2024-07-05,2024-07-16,Heart Failure,Surgery,11,No,4,Private,ER
+1968,36,Female,2024-03-13,2024-03-23,Diabetes,Medication,10,Yes,3,None,Neurology
+1969,71,Female,2024-05-25,2024-06-05,Stroke,Surgery,11,No,4,None,ICU
+1970,55,Male,2024-08-17,2024-08-22,Diabetes,Medication,5,Yes,4,Public,Cardiology
+1971,43,Female,2024-06-13,2024-06-28,Heart Failure,Surgery,15,No,1,None,Neurology
+1972,73,Female,2024-12-15,2024-12-18,Hypertension,Therapy,3,No,3,Private,ER
+1973,66,Female,2024-10-25,2024-10-30,Pneumonia,Therapy,5,Yes,4,None,ICU
+1974,37,Female,2024-06-21,2024-06-26,Pneumonia,Surgery,5,No,0,None,Cardiology
+1975,37,Male,2024-12-01,2024-12-08,Diabetes,Medication,7,Yes,3,None,General
+1976,31,Female,2024-06-07,2024-06-20,Diabetes,Surgery,13,No,1,Public,Cardiology
+1977,69,Female,2024-06-20,2024-07-05,Pneumonia,Surgery,15,No,1,Private,ICU
+1978,77,Female,2024-01-07,2024-01-19,Stroke,Medication,12,No,1,None,Cardiology
+1979,28,Female,2024-08-06,2024-08-09,Heart Failure,Therapy,3,No,2,Public,Cardiology
+1980,20,Female,2024-06-22,2024-06-26,Diabetes,Surgery,4,No,3,Public,Neurology
+1981,87,Male,2024-11-17,2024-11-22,Hypertension,Therapy,5,No,1,Private,General
+1982,51,Female,2024-01-19,2024-01-25,Diabetes,Surgery,6,Yes,0,Public,Cardiology
+1983,90,Female,2024-03-18,2024-03-19,Heart Failure,Surgery,1,Yes,1,Public,ICU
+1984,22,Male,2024-03-08,2024-03-16,Heart Failure,Surgery,8,Yes,3,Private,General
+1985,78,Female,2024-10-28,2024-11-02,Stroke,Medication,5,No,3,Public,Cardiology
+1986,80,Female,2024-05-10,2024-05-13,Diabetes,Surgery,3,No,2,Private,Neurology
+1987,84,Male,2024-03-26,2024-04-01,Hypertension,Medication,6,No,3,None,Cardiology
+1988,69,Female,2024-11-18,2024-11-21,Pneumonia,Surgery,3,No,4,None,ICU
+1989,67,Male,2024-02-15,2024-02-22,Pneumonia,Surgery,7,No,1,Public,ER
+1990,71,Male,2024-04-11,2024-04-18,Stroke,Therapy,7,Yes,3,Private,Neurology
+1991,84,Male,2024-12-25,2025-01-03,Stroke,Surgery,9,No,0,Private,ER
+1992,74,Female,2024-08-31,2024-09-11,Pneumonia,Therapy,11,No,2,Public,General
+1993,24,Female,2024-12-20,2024-12-22,Pneumonia,Medication,2,Yes,1,Private,ER
+1994,44,Female,2024-09-28,2024-10-10,Pneumonia,Surgery,12,No,0,Public,ICU
+1995,55,Female,2024-10-15,2024-10-21,Hypertension,Medication,6,No,3,Private,Neurology
+1996,87,Male,2024-10-13,2024-10-22,Pneumonia,Surgery,9,No,2,Private,ICU
+1997,28,Female,2024-01-08,2024-01-18,Heart Failure,Medication,10,Yes,1,Private,Neurology
+1998,31,Male,2024-07-02,2024-07-03,Heart Failure,Medication,1,No,1,Private,Neurology
+1999,29,Female,2024-11-03,2024-11-09,Diabetes,Medication,6,No,2,None,General
+2000,78,Female,2024-03-05,2024-03-16,Stroke,Surgery,11,No,4,Private,Cardiology
