@@ -149,7 +149,8 @@ This project demonstrates how **data analysis, SQL, and visualization tools** ca
 
 ## 👤 Author
 
-Adriane Clark Ballesteros
+Adriane Clark Ballesteros  
+Healthcare Data Analyst Trainee
 
 * 🔗 GitHub: https://github.com/acbshields12
 
