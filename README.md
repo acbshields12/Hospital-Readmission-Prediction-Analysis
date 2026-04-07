@@ -110,7 +110,7 @@ Performed multi-level SQL analysis:
 
 ## 📸 Dashboard Preview
 
-![](images/dash.jpg)
+![](dashboard/dash.jpg)
 
 ---
 
