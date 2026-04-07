@@ -110,7 +110,7 @@ Performed multi-level SQL analysis:
 
 ## 📸 Dashboard Preview
 
-*(Insert screenshot here)*
+![](images/dash.jpg)
 
 ---
 
@@ -138,30 +138,20 @@ Performed multi-level SQL analysis:
 * Apply machine learning for **readmission prediction**
 * Add more advanced KPIs (cost, mortality rate)
 
----
-
-## 📂 Project Structure
-
-```
-Healthcare-Readmission-Analysis/
-│
-├── dataset/
-│   └── patient_admissions.csv
-│
-├── sql/
-│   └── analysis_queries.sql
-│
-├── powerbi/
-│   └── dashboard.pbix
-│
-├── images/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
 
 ---
 
 ## 📢 Conclusion
 
 This project demonstrates how **data analysis, SQL, and visualization tools** can be used together to solve real-world healthcare problems. It highlights the importance of **data-driven decision-making in improving patient care and hospital efficiency**.
+
+---
+
+## 👤 Author
+
+Adriane Clark Ballesteros
+
+* 🔗 GitHub: https://github.com/acbshields12
+
+---
+
