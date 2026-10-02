@@ -1,4 +1,11 @@
 # 🏥 Hospital Readmission Risk Analysis Dashboard
+---
+
+## 📸 Dashboard Preview
+
+![](insights/dash.jpg)
+
+---
 
 ## 📌 Project Overview
 
@@ -106,13 +113,6 @@ Performed multi-level SQL analysis:
 * Dynamic KPI updates
 * Conditional formatting for performance analysis
 
----
-
-## 📸 Dashboard Preview
-
-![](dashboard/dash.jpg)
-
----
 
 ## 🧠 Key Insights
 
